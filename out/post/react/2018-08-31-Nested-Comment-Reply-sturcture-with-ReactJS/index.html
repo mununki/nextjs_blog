@@ -1,0 +1,416 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi Blog</title><link rel="preload" href="/_next/ab2fd147-cd90-43fb-ab39-68d9a07c41a3/page/post.js" as="script"/><link rel="preload" href="/_next/ab2fd147-cd90-43fb-ab39-68d9a07c41a3/page/_app.js" as="script"/><link rel="preload" href="/_next/ab2fd147-cd90-43fb-ab39-68d9a07c41a3/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_08_31_Nested_Comment_Reply_sturcture_with_ReactJS_md_850b839f0ab2b756659a1fbe93ccb9c7-744aa88670612c6036ec.js" as="script"/><link rel="preload" href="/_next/static/commons/main-8707b0f06c8d17257a69.js" as="script"/><style id="__jsx-undefined">
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  line-height: 160%;
+}
+#layout {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 3fr;
+  grid-template-areas: "header header" "category content" "footer footer";
+}
+#footer {
+  grid-area: footer;
+  background-color: #7f8c8d;
+}
+#content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: minmax(auto, 100px) 1fr minmax(auto, 100px);
+  grid-template-areas: "left-span container right-span";
+  padding: 50px 0px;
+}
+@media (max-width: 576px) {
+  #layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "content" "footer";
+  }
+  #content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "container";
+    padding: 50px 0px;
+  }
+}
+.container {
+  grid-area: container;
+  padding: 20px 10px 20px 10px;
+}
+</style><meta name="author" content="Moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Moondaddi Blog"/><meta name="theme-color" content="black"/></head><body><div id="__next"><div id="layout"><div id="header"><div id="home"><a href="/">~</a></div><div id="menu"><a href="/about/">About</a><div class="search-container"><span class="icon"><i class="fa fa-search"></i></span><input type="text" id="search" value=""/></div><div id="menu-button"><i class="fas fa-bars"></i></div></div></div><style jsx="true">
+#menu-button {
+  display: none;
+}
+@media (max-width: 576px) {
+  #menu-button {
+    display: inline-block;
+    color: #eee;
+    margin-right: 10px;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  #menu-button:hover {
+    background-color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000;
+  }
+}
+#header {
+  grid-area: header;
+  background-color: #343d46;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 20;
+}
+
+#header a {
+  display: inline-block;
+  text-decoration: none;
+  color: #eee;
+  margin: 0 10px;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#header a:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #000;
+}
+
+.search-container{
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  padding: 10px;
+}
+
+.search-container input#search{
+  width: 20px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 1rem;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #2b303b;
+ 
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.search-container input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.search-container input#search:-moz-placeholder { /* Firefox 18- */
+  color: #65737e;  
+}
+
+.search-container input#search::-moz-placeholder {  /* Firefox 19+ */
+  color: #65737e;  
+}
+
+.search-container input#search:-ms-input-placeholder {  
+  color: #65737e;  
+}
+
+.search-container .icon{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.search-container:hover .icon,
+.search-container input#search:focus .icon,
+.search-container input#search:active .icon{
+  margin-top: 17px;
+  color: #93a2ad;
+ 
+  -webkit-transform:scale(1.5); /* Safari and Chrome */
+  -moz-transform:scale(1.5); /* Firefox */
+  -ms-transform:scale(1.5); /* IE 9 */
+  -o-transform:scale(1.5); /* Opera */
+   transform:scale(1.5);
+  }
+
+.search-container input#search:focus,
+.search-container input#search:active{
+  outline:none;
+  width: 150px;
+  padding-left: 50px;
+  color: white;
+}
+ 
+.search-container:hover input#search{
+  width: 150px;
+  padding-left: 50px;
+  color: white;
+}
+ 
+.search-container:hover .icon{
+  color: #93a2ad;
+}
+</style><div id="category"><div id="menu-close-button"><i class="fas fa-times"></i></div><a id="selected" href="/post/react/"><span>React</span><span>2</span></a><a href="/post/django/"><span>Django</span><span>3</span></a><a href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/devlogs/"><span>dev logs</span><span>3</span></a></div><style jsx="true">
+#category,
+#category__show {
+  grid-area: category;
+  background-color: #eee;
+  padding: 15px 0;
+}
+#menu-close-button {
+  display: none;
+}
+@media (max-width: 576px) {
+  #category {
+    display: none;
+  }
+  #category__show {
+    grid-area: 2/1/3/2;
+    z-index: 10;
+  }
+  #menu-close-button {
+    display: block;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+    text-align: right;
+  }
+}
+#category a,
+#category__show a {
+  display: flex;
+  margin: 0;
+  padding: 15px 30px;
+  color: #555;
+  text-decoration: none;
+  justify-content: space-between;
+}
+#category a:hover,
+#category__show a:hover {
+  background-color: #ddd;
+  transition: 0.5s
+}
+
+#category a#selected,
+#category__show a#selected {
+  color: #000;
+  font-weight: bold;
+}
+</style><div id="content"><div class="container"><div><h1>Nested Comment Reply stucture with ReactJS</h1><p>by Moondaddi 🗓 2018-08-31</p><hr/><h2>Nested Comment Reply structure?</h2><p><img src="/static/images/post_img/2018-08-31_nested-structure.jpg" alt="Nested Comment Structure"/></p><br/><h2>How-to with ReactJS</h2><p>It can be resolve with loop structures with <code>&lt;Comment /&gt;</code> and <code>&lt;Comments&gt;</code></p><pre><code class="hljs language-javascript" metaString=""><span class="hljs-keyword">const</span> Comments = <span class="hljs-function">(<span class="hljs-params">{ items, postId, commentId, level, history }</span>) =&gt;</span> {
+  <span class="hljs-keyword">if</span> (items) {
+    <span class="hljs-keyword">return</span> items.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+      <span class="hljs-keyword">if</span> (!item.parentComment || level !== <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> (
+          <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Comment</span>
+            <span class="hljs-attr">item</span>=<span class="hljs-string">{item}</span>
+            <span class="hljs-attr">postId</span>=<span class="hljs-string">{postId}</span>
+            <span class="hljs-attr">parentCommentId</span>=<span class="hljs-string">{commentId}</span>
+            <span class="hljs-attr">key</span>=<span class="hljs-string">{item.id}</span>
+            <span class="hljs-attr">level</span>=<span class="hljs-string">{level}</span>
+            <span class="hljs-attr">history</span>=<span class="hljs-string">{history}</span>
+          /&gt;</span>
+        );
+      } else {
+        return null;
+      }
+    });
+  } else {
+    return null;
+  }
+};
+
+class Comment extends React.Component {
+  render() {
+    return (
+      <span class="hljs-tag">&lt;&gt;</span>
+        {this.props.item.recomment.length &gt; 0 ? (
+          </span>&lt;Comments
+            items={data.qnaboardcomment}
+            postId={this.props.postId}
+            level={this.props.level + 1}
+            history={this.props.history}
+            commentId={this.props.item.id}
+          /&gt;
+        ) : null}
+      &lt;/&gt;
+    );
+  }
+}</code></pre></div><style>
+blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+</style></div></div><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Moondaddi&#x27;s Blog</div><div>MIT</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer-left-span {
+        width: 70px;
+      }
+      .copyright {
+        color: #fff;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 10px;
+      }
+      .footer-right-span {
+        color: #fff;
+        font-size: 1.5rem;
+      }
+      .footer-right-span a:link,
+      .footer-right-span a:visited,
+      .footer-right-span a:hover,
+      .footer-right-span a:active {
+        color: #fff;
+      }
+      .footer-right-span i {
+        padding-right: 10px;
+      }
+    </style></div></div><div id="__next-error"></div><script>
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"react","filename":"2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS"},"buildId":"ab2fd147-cd90-43fb-ab39-68d9a07c41a3","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_08_31_Nested_Comment_Reply_sturcture_with_ReactJS_md_850b839f0ab2b756659a1fbe93ccb9c7"]}
+          module={}
+          __NEXT_LOADED_PAGES__ = []
+          __NEXT_LOADED_CHUNKS__ = []
+
+          __NEXT_REGISTER_PAGE = function (route, fn) {
+            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+          }
+
+          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+          }
+
+          false
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/ab2fd147-cd90-43fb-ab39-68d9a07c41a3/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/ab2fd147-cd90-43fb-ab39-68d9a07c41a3/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/ab2fd147-cd90-43fb-ab39-68d9a07c41a3/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_08_31_Nested_Comment_Reply_sturcture_with_ReactJS_md_850b839f0ab2b756659a1fbe93ccb9c7-744aa88670612c6036ec.js"></script><script src="/_next/static/commons/main-8707b0f06c8d17257a69.js" async=""></script></body></html>
