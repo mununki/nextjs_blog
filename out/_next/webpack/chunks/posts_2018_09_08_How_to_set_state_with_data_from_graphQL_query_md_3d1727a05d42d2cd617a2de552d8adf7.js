@@ -1562,7 +1562,40 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
       fileName: _jsxFileName,
       lineNumber: 103
     }
-  }, "div"), ">")), ";\n  }\n}")));
+  }, "div"), ">")), ";\n  }\n}\n\n", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "span",
+    components: components,
+    parentName: "code",
+    props: {
+      "className": "hljs-comment"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    }
+  }, "// using HOC"), "\n", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "span",
+    components: components,
+    parentName: "code",
+    props: {
+      "className": "hljs-keyword"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    }
+  }, "export"), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "span",
+    components: components,
+    parentName: "code",
+    props: {
+      "className": "hljs-keyword"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    }
+  }, "default"), " withApollo(Example);")));
 });
 
 /***/ })
