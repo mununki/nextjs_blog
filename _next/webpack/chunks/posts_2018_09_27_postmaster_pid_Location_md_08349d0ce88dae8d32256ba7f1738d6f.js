@@ -1,5 +1,5 @@
 
-        __NEXT_REGISTER_CHUNK('posts_2018_09_27_postmaster_pid_Location_md_c0cc609baac7c609d8559a118985fd9a', function() {
+        __NEXT_REGISTER_CHUNK('posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f', function() {
       webpackJsonp([0],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
@@ -437,7 +437,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ "./posts/2018-09-27-postmaster.pid-Location.md":
+/***/ "./posts/2018-09-27-postmaster-pid-Location.md":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -446,7 +446,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__ = __webpack_require__("./node_modules/@mdx-js/tag/dist/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdx_js_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__);
-var _jsxFileName = "/Users/arnold/Documents/git/github/mattdamon108.blog/posts/2018-09-27-postmaster.pid-Location.md";
+var _jsxFileName = "/Users/arnold/Documents/git/github/mattdamon108.blog/posts/2018-09-27-postmaster-pid-Location.md";
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -477,7 +477,7 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, "by Moondaddi \uD83D\uDDD3 2018-09-27"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "by Moondaddi on 2018-09-27"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "hr",
     components: components,
     __source: {
@@ -522,18 +522,19 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
     components: components,
     parentName: "pre",
     props: {
-      "metaString": null
+      "className": "hljs language-shell",
+      "metaString": ""
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, "/Users/user_name/Library/Application Support/Postgres/var-10\n")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "/Users/user_name/Library/Application Support/Postgres/var-10")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "blockquote",
     components: components,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "p",
@@ -541,7 +542,7 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
     parentName: "blockquote",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     }
   }, "Note: PostgreSQL ver. 10, it can be changed depends on what version of postgres you use.")));
 });
@@ -551,4 +552,4 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 })
         })
       ;
-//# sourceMappingURL=posts_2018_09_27_postmaster_pid_Location_md_c0cc609baac7c609d8559a118985fd9a.js.map
+//# sourceMappingURL=posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f.js.map

@@ -477,7 +477,7 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, "by Moondaddi \uD83D\uDDD3 2018-08-28"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "by Moondaddi on 2018-08-28"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "hr",
     components: components,
     __source: {

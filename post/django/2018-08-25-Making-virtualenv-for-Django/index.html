@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi Blog</title><link rel="preload" href="/_next/eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db/page/post.js" as="script"/><link rel="preload" href="/_next/eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db/page/_app.js" as="script"/><link rel="preload" href="/_next/eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216-620cb0287bc5d5a7dd76.js" as="script"/><link rel="preload" href="/_next/static/commons/main-b94e4df3950850d398f6.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/6103531e-7bfb-4671-92c1-a6ab3f8bba1c/page/post.js" as="script"/><link rel="preload" href="/_next/6103531e-7bfb-4671-92c1-a6ab3f8bba1c/page/_app.js" as="script"/><link rel="preload" href="/_next/6103531e-7bfb-4671-92c1-a6ab3f8bba1c/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216-12d17b5c7f4d051bdae7.js" as="script"/><link rel="preload" href="/_next/static/commons/main-881b3b049e5fcaaa478d.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -15,7 +15,7 @@ body {
 }
 #footer {
   grid-area: footer;
-  background-color: #7f8c8d;
+  background-color: #eee;
 }
 #content {
   grid-area: content;
@@ -42,7 +42,7 @@ body {
   grid-area: container;
   padding: 20px 10px 20px 10px;
 }
-</style><meta name="author" content="Moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Moondaddi Blog"/><meta name="theme-color" content="black"/></head><body><div id="__next"><div id="layout"><div id="header"><div id="home"><a href="/">~</a></div><div id="menu"><a href="/about/">About</a><div class="search-container"><span class="icon"><i class="fa fa-search"></i></span><input type="text" id="search" value=""/></div><div id="menu-button"><i class="fas fa-bars"></i></div></div></div><style jsx="true">
+</style><meta name="author" content="Moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Build my dreams with codes"/><meta name="theme-color" content="black"/></head><body><div id="__next"><div id="layout"><div id="header"><div id="home"><a href="/">~</a></div><div id="menu"><a href="/about/">About</a><div class="search-container"><span class="icon"><i class="fa fa-search"></i></span><input type="text" id="search" value=""/></div><div id="menu-button"><i class="fas fa-bars"></i></div></div></div><style jsx="true">
 #menu-button {
   display: none;
 }
@@ -222,7 +222,7 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div><h1>Making virtualenv for staring Django project on MacOS</h1><p>by Moondaddi 🗓 2018-08-25</p><hr/><h3>Commands examples to make a virtualenv and prerequisites for Django project start on MacOS</h3><br/><blockquote><p>The below commands are working only for MacOS</p></blockquote><br/><h2>1. Make the project foler</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> mkdir some_project</span>
+</style><div id="content"><div class="container"><div><h1>Making virtualenv for staring Django project on MacOS</h1><p>by Moondaddi on 2018-08-25</p><hr/><h3>Commands examples to make a virtualenv and prerequisites for Django project start on MacOS</h3><br/><blockquote><p>The below commands are working only for MacOS</p></blockquote><br/><h2>1. Make the project foler</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> mkdir some_project</span>
 <span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> some_project</span></code></pre><br/><h2>2. Set up Virtualenv</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> python -m venv env_some_project</span></code></pre><blockquote><p>I&#x27;m using pyenv for version control of python</p></blockquote><br/><h2>3. Activate the virtualenv</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">source</span> ./env_some_project/bin/activate</span></code></pre><blockquote><p>Note: prefix (env_some_project) will appear when virtual env is activated successfully</p></blockquote><br/><h2>4. Install Django</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> pip3 install django</span></code></pre><br/><h2>5. Start project</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> django-admin startproject some_project</span></code></pre><br/><h2>6. Start app</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> python manage.py startapp some_app</span></code></pre><br/><h2>7. settings.py</h2><br/><h3>7-1. Add app in <!-- -->[INSTALLED_APPS]</h3><pre><code class="hljs language-python" metaString="">INSTALLED_APPS = [
     <span class="hljs-string">&#x27;django.contrib.admin&#x27;</span>,
     <span class="hljs-string">&#x27;django.contrib.auth&#x27;</span>,
@@ -259,6 +259,12 @@ blockquote {
   padding: 0 1em;
   color: #6a737d;
   border-left: 0.25em solid #dfe2e5;
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
 }
 
 /* a11y-dark theme */
@@ -362,7 +368,13 @@ blockquote {
         font-weight: bold;
     }
 }
-</style></div></div><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Moondaddi&#x27;s Blog</div><div>MIT</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
+
+@media (max-width: 576px) {
+  pre {
+    width: calc(100vw - 20px);
+  }
+}
+</style></div></div><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Copyright © 2018 Moondaddi&#x27;s Blog</div><div>The source code is under MIT License</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
       .footer-container {
         display: flex;
         justify-content: space-between;
@@ -372,7 +384,7 @@ blockquote {
         width: 70px;
       }
       .copyright {
-        color: #fff;
+        color: #999;
         font-size: 0.8rem;
         text-align: center;
         padding: 10px;
@@ -380,6 +392,7 @@ blockquote {
       .footer-right-span {
         color: #fff;
         font-size: 1.5rem;
+        text-align: right;
       }
       .footer-right-span a:link,
       .footer-right-span a:visited,
@@ -391,7 +404,7 @@ blockquote {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"django","filename":"2018-08-25-Making-virtualenv-for-Django"},"buildId":"eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216"]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"django","filename":"2018-08-25-Making-virtualenv-for-Django"},"buildId":"6103531e-7bfb-4671-92c1-a6ab3f8bba1c","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216"]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -405,4 +418,4 @@ blockquote {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/eed4dfad-48b2-49b6-80b8-8fb2f6c4f3db/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216-620cb0287bc5d5a7dd76.js"></script><script src="/_next/static/commons/main-b94e4df3950850d398f6.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/6103531e-7bfb-4671-92c1-a6ab3f8bba1c/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/6103531e-7bfb-4671-92c1-a6ab3f8bba1c/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/6103531e-7bfb-4671-92c1-a6ab3f8bba1c/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216-12d17b5c7f4d051bdae7.js"></script><script src="/_next/static/commons/main-881b3b049e5fcaaa478d.js" async=""></script></body></html>
