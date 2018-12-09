@@ -2,9 +2,9 @@
 
 ## Features
 
-[x] Next.js Static html app
-[x] Post list per categories
-[ ] About page
+- [x] Next.js Static html app
+- [x] Post list per categories
+- [ ] About page
 
 ## Result page
 
