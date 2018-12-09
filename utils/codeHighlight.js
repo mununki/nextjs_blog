@@ -36,7 +36,7 @@ pre {
   overflow: auto;
   word-wrap: normal;
   white-space: pre;
-  // width: calc(100vw - 320px);
+  // width: calc(100vw - 360px);
 }
 
 /* a11y-dark theme */
@@ -143,7 +143,7 @@ pre {
 
 @media (max-width: 576px) {
   pre {
-    width: calc(100vw - 20px);
+    width: calc(100vw - 60px);
   }
 }
 `;
