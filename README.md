@@ -1,6 +1,6 @@
 # Blog made with Next.js exporting to static html app
 
-## Features
+## To-Dos
 
 - [x] Build Next.js Static html app
 - [x] Post list per categories
