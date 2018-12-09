@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/post.js" as="script"/><link rel="preload" href="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_app.js" as="script"/><link rel="preload" href="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_08_28_File_upload_with_GraphQL_Apollo_Client_Django_Graphene_md_3c2d1280e6e24e9e33c5fb09df3ee21f-4535603c036f28ec81b3.js" as="script"/><link rel="preload" href="/_next/static/commons/main-643a61e0da3e73957d86.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/post.js" as="script"/><link rel="preload" href="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_app.js" as="script"/><link rel="preload" href="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_08_28_File_upload_with_GraphQL_Apollo_Client_Django_Graphene_md_3c2d1280e6e24e9e33c5fb09df3ee21f-772daec87c637a86a956.js" as="script"/><link rel="preload" href="/_next/static/commons/main-5b30188a30f2a3df3116.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -6,7 +6,7 @@ body {
   border: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 160%;
 }
 #layout {
@@ -24,6 +24,13 @@ body {
   grid-template-columns: minmax(auto, 100px) 1fr minmax(auto, 100px);
   grid-template-areas: "left-span container right-span";
   padding: 50px 0px;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
 }
 @media (max-width: 576px) {
   #layout {
@@ -301,7 +308,7 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div><h1>File upload with GraphQL Apollo client &amp; Django + Graphene</h1><p>by Moondaddi on 2018-08-28</p><hr/><h2>Requirements</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> pip install django</span>
+</style><div id="content"><div class="container"><div class="post-card"><div><h1>File upload with GraphQL Apollo client &amp; Django + Graphene</h1><p>by Moondaddi on 2018-08-28</p><hr/><h2>Requirements</h2><pre><code class="hljs language-code" metaString=""><span class="hljs-meta">$</span><span class="bash"> pip install django</span>
 <span class="hljs-meta">$</span><span class="bash"> pip install graphene_django</span>
 <span class="hljs-meta">$</span><span class="bash"> pip install graphene-file-upload</span>
 <span class="hljs-meta">$</span><span class="bash"> pip install python-resize-image</span></code></pre><ul><li>Django==2.0.7</li><li>graphene==2.1.2</li><li>graphene-django==2.0.0</li><li>graphene-file-upload==1.0.0</li><li>graphql-core==2.0</li><li>graphql-relay==0.4.5</li><li>python-resize-image==1.1.11</li></ul><br/><h2>Backend</h2><blockquote><p>Mutation part</p></blockquote><pre><code class="hljs language-python" metaString=""><span class="hljs-keyword">import</span> graphene
@@ -419,7 +426,33 @@ mutation postNew($files: Upload, ...) {
       <span class="hljs-attr">images</span>: [...prevState.images, file];
     })
   }
-/&gt;</code></pre><br/><h2>References</h2></div><style>
+/&gt;</code></pre><br/><h2>References</h2></div></div><style>
+.index-h2-title {
+  display: inline-block;
+  border: 5px solid #2c3e50;
+  border-radius: 35px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.pinned {
+  border: 5px solid #e74c3c;
+}
+#latest {
+  color: #f39c12;
+}
+#pinned {
+  color: #e74c3c;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 blockquote {
   margin: 0;
   padding: 0 1em;
@@ -571,7 +604,7 @@ pre {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"django","filename":"2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene"},"buildId":"b7edad6d-1d08-424a-a053-a0400961541b","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_08_28_File_upload_with_GraphQL_Apollo_Client_Django_Graphene_md_3c2d1280e6e24e9e33c5fb09df3ee21f"]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"django","filename":"2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene"},"buildId":"3b572452-b539-471e-ad1f-9a1d92caf219","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_08_28_File_upload_with_GraphQL_Apollo_Client_Django_Graphene_md_3c2d1280e6e24e9e33c5fb09df3ee21f"]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -585,4 +618,4 @@ pre {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_08_28_File_upload_with_GraphQL_Apollo_Client_Django_Graphene_md_3c2d1280e6e24e9e33c5fb09df3ee21f-4535603c036f28ec81b3.js"></script><script src="/_next/static/commons/main-643a61e0da3e73957d86.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_08_28_File_upload_with_GraphQL_Apollo_Client_Django_Graphene_md_3c2d1280e6e24e9e33c5fb09df3ee21f-772daec87c637a86a956.js"></script><script src="/_next/static/commons/main-5b30188a30f2a3df3116.js" async=""></script></body></html>
