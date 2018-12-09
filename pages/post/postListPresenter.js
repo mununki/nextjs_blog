@@ -7,23 +7,25 @@ const postList = props => {
     <>
       <div id="content">
         <div className="container">
-          {posts.length > 0 ? (
-            posts.map((post, key) => (
-              <div key={key} className="post">
-                <Link href={`/post/${category}/${post.filename}`}>
-                  <a>
-                    <span className="post-title">{post.title}</span>
-                    <span className="post-createdAt">
-                      <i className="far fa-calendar-alt" />
-                      {" " + post.createdAt}
-                    </span>
-                  </a>
-                </Link>
-              </div>
-            ))
-          ) : (
-            <div>no post yet...🤔</div>
-          )}
+          <div className="post-list">
+            {posts.length > 0 ? (
+              posts.map((post, key) => (
+                <div key={key} className="post">
+                  <Link href={`/post/${category}/${post.filename}`}>
+                    <a>
+                      <span className="post-title">{post.title}</span>
+                      <span className="post-createdAt">
+                        <i className="far fa-calendar-alt" />
+                        {" " + post.createdAt}
+                      </span>
+                    </a>
+                  </Link>
+                </div>
+              ))
+            ) : (
+              <div>no post yet...🤔</div>
+            )}
+          </div>
         </div>
       </div>
       <style jsx="true">{cssPostList}</style>

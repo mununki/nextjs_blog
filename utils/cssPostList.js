@@ -2,6 +2,14 @@ const cssPostList = `
 .container {
   height: calc(100vh - 282px)
 }
+.post-list {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .post{
   padding: 10px;
 }
@@ -13,8 +21,10 @@ const cssPostList = `
 }
 .post a .post-title {
   font-size: 1.2rem;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
+}
+.post a .post-title:hover {
+  font-size: 1.2rem;
+  text-decoration: underline;
 }
 .post a .post-createdAt {
   width: 150px;
@@ -22,12 +32,6 @@ const cssPostList = `
   font-size: 0.8rem;
   vertical-align: baseline;
   text-align: right;
-}
-#latest {
-  color: #2c3e50;
-}
-#pinned {
-  color: #e74c3c;
 }
 `;
 

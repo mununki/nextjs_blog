@@ -1,4 +1,30 @@
 const codeHighlighting = `
+.index-h2-title {
+  display: inline-block;
+  border: 5px solid #2c3e50;
+  border-radius: 35px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.pinned {
+  border: 5px solid #e74c3c;
+}
+#latest {
+  color: #f39c12;
+}
+#pinned {
+  color: #e74c3c;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 blockquote {
   margin: 0;
   padding: 0 1em;

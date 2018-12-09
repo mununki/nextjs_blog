@@ -7,7 +7,9 @@ export default props => {
   return (
     <div id="content">
       <div className="container">
-        <MD />
+        <div className="post-card">
+          <MD />
+        </div>
         <style>{codeHighlighting}</style>
       </div>
     </div>
