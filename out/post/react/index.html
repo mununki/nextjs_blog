@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/post.js" as="script"/><link rel="preload" href="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_app.js" as="script"/><link rel="preload" href="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-643a61e0da3e73957d86.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/post.js" as="script"/><link rel="preload" href="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_app.js" as="script"/><link rel="preload" href="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-5b30188a30f2a3df3116.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -6,7 +6,7 @@ body {
   border: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 160%;
 }
 #layout {
@@ -24,6 +24,13 @@ body {
   grid-template-columns: minmax(auto, 100px) 1fr minmax(auto, 100px);
   grid-template-areas: "left-span container right-span";
   padding: 50px 0px;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
 }
 @media (max-width: 576px) {
   #layout {
@@ -301,9 +308,17 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div class="post"><a href="/post/react/2018-09-08-How-to-set-state-with-data-from-graphQL-query/"><span class="post-title">How to set state with data from apollo grapqhQL query</span><span class="post-createdAt"><i class="far fa-calendar-alt"></i> 2018-09-08</span></a></div><div class="post"><a href="/post/react/2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS/"><span class="post-title">Nested Comment Reply stucture with ReactJS</span><span class="post-createdAt"><i class="far fa-calendar-alt"></i> 2018-08-31</span></a></div></div></div><style jsx="true">
+</style><div id="content"><div class="container"><div class="post-list"><div class="post"><a href="/post/react/2018-09-08-How-to-set-state-with-data-from-graphQL-query/"><span class="post-title">How to set state with data from apollo grapqhQL query</span><span class="post-createdAt"><i class="far fa-calendar-alt"></i> 2018-09-08</span></a></div><div class="post"><a href="/post/react/2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS/"><span class="post-title">Nested Comment Reply stucture with ReactJS</span><span class="post-createdAt"><i class="far fa-calendar-alt"></i> 2018-08-31</span></a></div></div></div></div><style jsx="true">
 .container {
   height: calc(100vh - 282px)
+}
+.post-list {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .post{
   padding: 10px;
@@ -316,8 +331,10 @@ body {
 }
 .post a .post-title {
   font-size: 1.2rem;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
+}
+.post a .post-title:hover {
+  font-size: 1.2rem;
+  text-decoration: underline;
 }
 .post a .post-createdAt {
   width: 150px;
@@ -325,12 +342,6 @@ body {
   font-size: 0.8rem;
   vertical-align: baseline;
   text-align: right;
-}
-#latest {
-  color: #2c3e50;
-}
-#pinned {
-  color: #e74c3c;
 }
 </style><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Copyright © 2018 Moondaddi&#x27;s Blog</div><div>The source code is under MIT License</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
       .footer-container {
@@ -362,7 +373,7 @@ body {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"react"},"buildId":"b7edad6d-1d08-424a-a053-a0400961541b","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"react"},"buildId":"3b572452-b539-471e-ad1f-9a1d92caf219","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -376,4 +387,4 @@ body {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/b7edad6d-1d08-424a-a053-a0400961541b/page/_error.js"></script><script src="/_next/static/commons/main-643a61e0da3e73957d86.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/3b572452-b539-471e-ad1f-9a1d92caf219/page/_error.js"></script><script src="/_next/static/commons/main-5b30188a30f2a3df3116.js" async=""></script></body></html>
