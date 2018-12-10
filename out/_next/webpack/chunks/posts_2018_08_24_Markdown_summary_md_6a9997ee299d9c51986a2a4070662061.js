@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_08_24_Markdown_summary_md_6a9997ee299d9c51986a2a4070662061', function() {
-      webpackJsonp([7],{
+      webpackJsonp([8],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {
