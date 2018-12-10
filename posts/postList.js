@@ -1,5 +1,13 @@
 const postList = [
   {
+    title: "How to connect to wireless WPA2 with Netplan",
+    createdAt: "2018-12-10",
+    filename: "2018-12-10-Netplan-how-to-connect-wpa2-linux",
+    category: ["devlogs"],
+    keyword: ["netplan", "linux", "wireless"],
+    md: import("./2018-12-10-Netplan-how-to-connect-wpa2-linux.md")
+  },
+  {
     title: "postmaster-pid File Location",
     createdAt: "2018-09-27",
     filename: "2018-09-27-postmaster-pid-Location",
