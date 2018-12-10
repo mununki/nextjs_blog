@@ -33,7 +33,6 @@ class MyApp extends App {
         containerCategory.classList.remove("make-fixed-category");
       }
     });
-    console.log(container.offsetWidth);
   }
   componentWillUnmount() {
     window.removeEventListener("scroll");

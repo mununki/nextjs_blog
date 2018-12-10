@@ -16,7 +16,7 @@ export default props => {
               latestPosts.map((post, key) => {
                 const MD = dynamic(post.md);
                 return (
-                  <div className="post-card">
+                  <div key={key} className="post-card">
                     <MD />
                   </div>
                 );
