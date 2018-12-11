@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Router from "next/router";
-import cssHeader from "../utils/cssHeader";
+import cssHeader from "../style/cssHeader";
 
 class Header extends React.Component {
   state = {
@@ -57,7 +57,7 @@ class Header extends React.Component {
   _handlePress = event => {
     if (event.key === "Enter") {
       event.preventDefault();
-      Router.push(`/search?keyword=${event.target.value}`);
+      Router.push(`/search/${event.target.value}`);
     }
   };
 }
