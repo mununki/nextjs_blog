@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/df3073f8-b73c-4e98-a9d0-81e388508f8e/page/post.js" as="script"/><link rel="preload" href="/_next/df3073f8-b73c-4e98-a9d0-81e388508f8e/page/_app.js" as="script"/><link rel="preload" href="/_next/df3073f8-b73c-4e98-a9d0-81e388508f8e/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-ace76503b2d77ae076dd.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/605e1264-e5d7-4e4a-a445-794082bd3458/page/post.js" as="script"/><link rel="preload" href="/_next/605e1264-e5d7-4e4a-a445-794082bd3458/page/_app.js" as="script"/><link rel="preload" href="/_next/605e1264-e5d7-4e4a-a445-794082bd3458/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-d78c82f5e348e4777e92.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -58,7 +58,7 @@ body {
 .add-padding-for-fixed-header {
   padding: 90px 10px 20px 10px;
 }
-</style><meta name="author" content="Moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Build my dreams with codes"/><meta name="theme-color" content="black"/></head><body><div id="__next"><div id="layout"><div id="header"><div id="home"><div id="home-title"><a href="/">Build my Dreams with Codes</a></div><div id="home-title-sm"><a href="/">BDC</a></div></div><div id="menu"><a id="menu-about" href="/about/">About</a><div class="search-container"><span class="icon"><i class="fa fa-search"></i></span><input type="text" id="search" value=""/></div><div id="menu-button"><i class="fas fa-bars"></i></div></div></div><style jsx="true">
+</style><meta name="author" content="Moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Build my dreams with codes"/><meta name="theme-color" content="black"/></head><body><div id="__next"><div id="layout"><div id="header"><div id="header-top"><div id="home"><div id="home-title"><a href="/">Build my Dreams with Codes</a></div><div id="home-title-sm"><a href="/">BDC</a></div></div><div id="menu"><a id="menu-about" href="/about/">About</a><i id="search-button-sm" class="fa fa-search"></i><div id="search-container-id" class="search-container"><span class="icon"><i class="fa fa-search"></i></span><input type="text" id="search" value=""/></div><div id="menu-button"><i class="fas fa-bars"></i></div></div></div></div><style jsx="true">
 #menu-button {
   display: none;
 }
@@ -68,37 +68,18 @@ body {
 #header #home-title-sm {
   display: none;
 }
-@media (max-width: 576px) {
-  #menu-button {
-    display: inline-block;
-    color: #eee;
-    margin-right: 10px;
-    padding: 15px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-  }
-  #menu-button:hover {
-    background-color: white;
-    transition: 0.2s;
-    cursor: pointer;
-    color: #000;
-  }
-  #header #home-title {
-    display: none;
-  }
-  #header #home-title-sm {
-    display: inline-block;
-  }
-}
 #header {
   grid-area: header;
   background-color: #343d46;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 20;
+}
+
+#header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 20;
+  height: 72px;
 }
 
 .make-fixed {
@@ -140,7 +121,6 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #eee;
-  margin: 0 10px;
   padding: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -153,6 +133,25 @@ body {
   cursor: pointer;
   color: #000;
   border-bottom: 4px solid #aaa;
+  padding: 15px 15px 11px 15px;
+}
+
+#search-button-sm {
+  color: #4f5b66;
+  margin: 0px 10px;
+  padding: 20px 15px 19px 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#search-button-sm:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #000;
+  border-bottom: 4px solid #aaa;
+  padding: 20px 15px 15px 15px;
 }
 
 #header a#home-title:hover {
@@ -243,6 +242,64 @@ body {
  
 .search-container:hover .icon{
   color: #93a2ad;
+}
+#header-bottom,
+#search-button-sm {
+  display: none;
+}
+@media (max-width: 576px) {
+  #menu-button {
+    display: inline-block;
+    color: #eee;
+    margin-right: 10px;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  #menu-button:hover {
+    background-color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000;
+    border-bottom: 4px solid #aaa;
+    padding: 15px 15px 11px 15px;
+  }
+  #header #home-title {
+    display: none;
+  }
+  #header #home-title-sm {
+    display: inline-block;
+  }
+  #search-container-id {
+    display: none;
+  }
+  #search-button-sm {
+    display: inline-block;
+  }
+  #header-bottom {
+    display: block;
+  }
+  .search-container {
+    padding-top: 0px;
+  }
+  .search-container input#search{
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+  }
+  .search-container:hover input#search{
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+  }
+  .search-container input#search:focus,
+  .search-container input#search:active{
+    outline:none;
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+  }
 }
 </style><div id="category"><div id="container-category"><div id="container-category-fixed"><div id="menu-close-button"><i class="fas fa-times"></i></div><a href="/post/react/"><span>React</span><span>2</span></a><a href="/post/django/"><span>Django</span><span>3</span></a><a id="selected" href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/devlogs/"><span>dev logs</span><span>4</span></a></div></div></div><style jsx="true">
 #category,
@@ -373,7 +430,7 @@ body {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"javascript"},"buildId":"df3073f8-b73c-4e98-a9d0-81e388508f8e","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"javascript"},"buildId":"605e1264-e5d7-4e4a-a445-794082bd3458","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -387,4 +444,4 @@ body {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/df3073f8-b73c-4e98-a9d0-81e388508f8e/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/df3073f8-b73c-4e98-a9d0-81e388508f8e/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/df3073f8-b73c-4e98-a9d0-81e388508f8e/page/_error.js"></script><script src="/_next/static/commons/main-ace76503b2d77ae076dd.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/605e1264-e5d7-4e4a-a445-794082bd3458/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/605e1264-e5d7-4e4a-a445-794082bd3458/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/605e1264-e5d7-4e4a-a445-794082bd3458/page/_error.js"></script><script src="/_next/static/commons/main-d78c82f5e348e4777e92.js" async=""></script></body></html>
