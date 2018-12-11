@@ -1,5 +1,5 @@
 import Link from "next/link";
-import cssCategory from "../utils/cssCategory";
+import cssCategory from "../style/cssCategory";
 import postCounter from "../utils/postCounter";
 
 const _checkCategory = (path, link) => {

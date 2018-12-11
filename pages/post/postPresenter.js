@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import codeHighlighting from "../../utils/codeHighlight";
+import codeHighlighting from "../../style/codeHighlight";
 
 export default props => {
   const MD = dynamic(props.post[0].md);

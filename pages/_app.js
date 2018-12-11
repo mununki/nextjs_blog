@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import Category from "../components/Category";
 import Footer from "../components/Footer";
-import cssGlobal from "../utils/cssGlobal";
+import cssGlobal from "../style/cssGlobal";
 import Head from "next/head";
 
 class MyApp extends App {

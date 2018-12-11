@@ -1,5 +1,5 @@
 import Link from "next/link";
-import cssPostList from "../../utils/cssPostList";
+import cssPostList from "../../style/cssPostList";
 
 const postList = props => {
   const { category, posts } = props;

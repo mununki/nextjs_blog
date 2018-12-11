@@ -1,6 +1,6 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import codeHighlighting from "../../utils/codeHighlight";
+import codeHighlighting from "../../style/codeHighlight";
 
 export default props => {
   const { latestPosts, pinnedPosts } = props;
