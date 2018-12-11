@@ -8,7 +8,7 @@ export default props => {
       <div id="content">
         <div className="container">
           <div className="post-list">
-            {posts ? (
+            {posts.length > 0 ? (
               posts.map((post, key) => (
                 <div key={key} className="post">
                   <Link

@@ -57,7 +57,7 @@ class Header extends React.Component {
   _handlePress = event => {
     if (event.key === "Enter") {
       event.preventDefault();
-      Router.push(`/search/${event.target.value}`);
+      Router.push(`/search?keyword=${event.target.value}`);
     }
   };
 }

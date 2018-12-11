@@ -2,7 +2,8 @@ const postList = require("../posts/postList");
 
 const exportPathMap = {
   "/": { page: "/" },
-  "/about": { page: "/about" }
+  "/about": { page: "/about" },
+  "/search": { page: "/search" }
 };
 
 const getUniqueCategory = () => {

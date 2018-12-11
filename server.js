@@ -10,14 +10,6 @@ app
   .then(() => {
     const server = express();
 
-    server.get("/search/:keyword", (req, res) => {
-      const actualPage = "/search";
-      const queryParams = {
-        keyword: req.params.keyword
-      };
-      app.render(req, res, actualPage, queryParams);
-    });
-
     server.get("/post/:category/:filename", (req, res) => {
       const actualPage = "/post";
       const queryParams = {
