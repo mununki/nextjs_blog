@@ -2,8 +2,7 @@ import { withRouter } from "next/router";
 import PostPresenter from "./postPresenter";
 import PostListPresenter from "./postListPresenter";
 import postList from "../../posts/postList";
-import moment from "moment";
-import { postsPerPage, getPagination } from "../../utils/pagination";
+import { getPagination } from "../../utils/pagination";
 
 const PostContainer = props => {
   const { category, filename, page } = props.router.query;

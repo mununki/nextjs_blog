@@ -1,6 +1,6 @@
 const moment = require("moment");
 
-const postsPerPage = 2;
+const postsPerPage = 10;
 
 const getPagination = posts => {
   posts.sort((a, b) => moment(b.createdAt) - moment(a.createdAt));

@@ -72,7 +72,6 @@ const assertFilenamesPath = () => {
 const generateExportPath = () => {
   assertCategoryPath();
   assertFilenamesPath();
-  console.log(exportPathMap);
   return exportPathMap;
 };
 

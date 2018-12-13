@@ -5,12 +5,24 @@ ul {
   text-align: center;
   margin-bottom: 0;
 }
-li {
+ul li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 2px 10px;
+  margin: 0px 5px;
+}
+ul li a {
+  color: #aaa;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #000;
+}
+.current-page {
+  color: #000;
+  border-bottom: 3px solid #343d46;
 }
 .container {
-  height: calc(100vh - 282px)
+  height: calc(100vh - 282px);
 }
 .post-list {
   background-color: #fff;

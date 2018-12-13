@@ -40,17 +40,19 @@ const postList = props => {
             )}
             <div>
               <ul>
-                {pageArray.map((p, key) => (
-                  <li key={key}>
-                    {parseInt(p, 10) === parseInt(page, 10) ? (
-                      p
-                    ) : (
+                {pageArray.map((p, key) =>
+                  parseInt(p, 10) === parseInt(page, 10) ? (
+                    <li key={key} className="current-page">
+                      {p}
+                    </li>
+                  ) : (
+                    <li key={key}>
                       <Link href={`/post/${category}/${p}`}>
                         <a>{p}</a>
                       </Link>
-                    )}
-                  </li>
-                ))}
+                    </li>
+                  )
+                )}
               </ul>
             </div>
           </div>
