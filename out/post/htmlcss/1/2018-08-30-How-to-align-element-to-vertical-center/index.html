@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/post.js" as="script"/><link rel="preload" href="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_app.js" as="script"/><link rel="preload" href="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-d0636dcb74d7e07a71d4.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/post.js" as="script"/><link rel="preload" href="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_app.js" as="script"/><link rel="preload" href="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_08_30_How_to_align_element_to_vertical_center_md_16407fd3bc50200b5ad5ab9c17ecb507-6ae30918e2a9062126b1.js" as="script"/><link rel="preload" href="/_next/static/commons/main-d0636dcb74d7e07a71d4.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -365,21 +365,38 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div class="post-list"><div class="post"><a href="/post/htmlcss/1/2018-08-30-How-to-align-element-to-vertical-center/"><span class="post-title">Some different ways to align element to vertical center</span><span class="post-createdAt"><i class="far fa-calendar-alt"></i> 2018-08-30</span></a></div><div><ul><li>1</li></ul></div></div></div></div><style jsx="true">
-ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 0;
-}
-li {
+</style><div id="content"><div class="container"><div class="post-card"><div><h1>Some different ways to align element to vertical center</h1><p>by Moondaddi on 2018-08-30</p><hr/><h3>Alignment to vertical center against wrapping parent element using CSS transform</h3><br/><h2>Why is it special?</h2><p>Generally, there are some tools and how-to to align element against parent element. But, in this case parent element has flexible width and height with fixed aspect ratio(1:1).</p><pre><code class="hljs language-html" metaString=""><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;card&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;max-width:100%; padding-top:100%;&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span>
+      <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;/some/thing.jpg&quot;</span>
+      <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;something&quot;</span>
+      <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;
+        position:absolute
+        top:50%;
+        left:0;
+        max-width:100%;
+        transform:translateY(-50%);&quot;</span>
+    /&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><br/><h2>Lesson &amp; Learn</h2><p>Use Flexbox! 👍</p></div></div><style>
+.index-h2-title {
   display: inline-block;
-  padding: 0 10px;
+  border: 5px solid #2c3e50;
+  border-radius: 35px;
+  padding: 10px 20px;
+  background-color: #fff;
 }
-.container {
-  height: calc(100vh - 282px)
+.pinned {
+  border: 5px solid #e74c3c;
 }
-.post-list {
+#latest {
+  color: #f39c12;
+}
+#pinned {
+  color: #e74c3c;
+}
+
+.post-card {
   background-color: #fff;
   border: 1px solid #eee;
   padding: 20px;
@@ -387,30 +404,129 @@ li {
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.post{
-  padding: 10px;
+
+blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
 }
-.post a {
-  display: flex;
-  color: black;
-  justify-content: space-between;
-  text-decoration: none;
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  // width: calc(100vw - 360px);
 }
-.post a .post-title {
-  font-size: 1.2rem;
+
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
 }
-.post a .post-title:hover {
-  font-size: 1.2rem;
-  text-decoration: underline;
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
 }
-.post a .post-createdAt {
-  width: 150px;
-  color: #999;
-  font-size: 0.8rem;
-  vertical-align: baseline;
-  text-align: right;
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
 }
-</style><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Copyright © 2018 Moondaddi&#x27;s Blog</div><div>The source code is under MIT License</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 576px) {
+  pre {
+    width: calc(100vw - 60px);
+  }
+}
+</style></div></div><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Copyright © 2018 Moondaddi&#x27;s Blog</div><div>The source code is under MIT License</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
       .footer-container {
         display: flex;
         justify-content: space-between;
@@ -440,7 +556,7 @@ li {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"htmlcss"},"buildId":"5468351d-3abb-4886-a7e2-89829cf742f8","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"htmlcss","filename":"2018-08-30-How-to-align-element-to-vertical-center"},"buildId":"5468351d-3abb-4886-a7e2-89829cf742f8","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_08_30_How_to_align_element_to_vertical_center_md_16407fd3bc50200b5ad5ab9c17ecb507"]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -454,4 +570,4 @@ li {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_error.js"></script><script src="/_next/static/commons/main-d0636dcb74d7e07a71d4.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/5468351d-3abb-4886-a7e2-89829cf742f8/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_08_30_How_to_align_element_to_vertical_center_md_16407fd3bc50200b5ad5ab9c17ecb507-6ae30918e2a9062126b1.js"></script><script src="/_next/static/commons/main-d0636dcb74d7e07a71d4.js" async=""></script></body></html>
