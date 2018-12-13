@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56/page/post.js" as="script"/><link rel="preload" href="/_next/d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56/page/_app.js" as="script"/><link rel="preload" href="/_next/d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2-8a4c9aa42491323f8e83.js" as="script"/><link rel="preload" href="/_next/static/commons/main-d0636dcb74d7e07a71d4.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/post.js" as="script"/><link rel="preload" href="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_app.js" as="script"/><link rel="preload" href="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_09_01_How_to_highlight_code_in_jekyll_md_c5a6c4ffd28351d0b737ad242d8eae65-e922df5621c88c83f23b.js" as="script"/><link rel="preload" href="/_next/static/commons/main-00e9686375c349b2c5e0.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -365,24 +365,9 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div class="post-card"><div><h1>[Linux]<!-- --> How to connect to wireless WPA2 with Netplan</h1><p>by moondaddi on 2018-12-10</p><hr/><h2>Netplan?</h2><p>Netplan is the utility for easily configuring networking on a linux system. Ubuntu 17.10 starts including the netplan by default instead of deprecated ifupdown.</p><h2>How to connect</h2><h3>Configure <!-- -->*<!-- -->.yaml</h3><p>Make new file with any name <!-- -->*<!-- -->.yaml in <code>/etc/netplan</code>
-You can make as many configuration files as you want. In that case, <!-- -->*<!-- -->.yaml files will be applied by alphbetically.</p><pre><code class="hljs language-shell" metaString="">network:
-  version: 2
-    renderer: networkd
-    ethernets:  # this is for lan
-      enp2s0:
-        addresses: []
-        dhcp4: true
-    wifis:  # this is for wlan
-      wlp3s0:  # wlan interface
-        access-points: &quot;SSID&quot;:  # your SSID
-          password: &quot;PASWORD&quot;  # your PASSWORD
-        dhcp4: no
-        dhcp6: true
-        addresses: [192.168.0.200/24]  # set the static IP
-        gateway4: 192.168.0.1  # gateway
-        nameservers:
-          addresses: [192.168.0.1,8.8.8.8,8.8.4.4]</code></pre><blockquote><p>How to check wlan interface</p></blockquote><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> iwconfig</span></code></pre><h3>Generate conf</h3><p>The configuration files <code>/etc/netplan/*.yaml</code> needs to be generated before applying to system. The <em>.conf files will be generated in `/run/netplan/</em>.conf` which shadow completely YAML files.</p><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> sudo netplan --debug generate</span></code></pre><h3>Apply the generated conf</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> sudo netplan apply</span></code></pre><h3>References</h3><p>Netplan reference page (<a href="https://netplan.io/reference">https://netplan.io/reference</a>)</p></div></div><style>
+</style><div id="content"><div class="container"><div class="post-card"><div><h1>How to highlight code in jekyll post</h1><p>by Moondaddi on 2018-09-01</p><hr/><h2>Check <code>_config.yml</code></h2><p>highlighter: rouge</p><br/><h2>Usage - <code>Liquid templating</code></h2><pre><code class="hljs language-jekyll" metaString=""><span class="xml"></span><span class="hljs-template-tag">{% <span class="hljs-name">highlight</span> some-language %}</span><span class="xml">
+...
+</span><span class="hljs-template-tag">{% <span class="hljs-name">endhighlight</span> %}</span><span class="xml"></span></code></pre></div></div><style>
 .index-h2-title {
   display: inline-block;
   border: 5px solid #2c3e50;
@@ -560,7 +545,7 @@ pre {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"devlogs","page":"2","filename":"2018-12-10-Netplan-how-to-connect-wpa2-linux"},"buildId":"d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2"]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"devlogs","page":"1","filename":"2018-09-01-How-to-highlight-code-in-jekyll"},"buildId":"9916d5c3-2e4c-4de0-9502-d36a96bc2c47","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_09_01_How_to_highlight_code_in_jekyll_md_c5a6c4ffd28351d0b737ad242d8eae65"]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -574,4 +559,4 @@ pre {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/d0a96bbe-36e3-4f4a-9833-b9e1a35c7b56/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2-8a4c9aa42491323f8e83.js"></script><script src="/_next/static/commons/main-d0636dcb74d7e07a71d4.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_09_01_How_to_highlight_code_in_jekyll_md_c5a6c4ffd28351d0b737ad242d8eae65-e922df5621c88c83f23b.js"></script><script src="/_next/static/commons/main-00e9686375c349b2c5e0.js" async=""></script></body></html>
