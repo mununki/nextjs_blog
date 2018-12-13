@@ -1,4 +1,7 @@
 const postList = require("../posts/postList");
+const pagination = require("../utils/pagination");
+
+// pagination = { postsPerPage, getPagination }
 
 const exportPathMap = {
   "/": { page: "/" },
@@ -38,19 +41,38 @@ const assertCategoryPath = () => {
 };
 
 const assertFilenamesPath = () => {
-  const filenames = getAllFilenamesWithCategory();
-  filenames.map(
-    post =>
-      (exportPathMap[`/post/${post.category}/${post.filename}`] = {
+  const filenames = getAllFilenamesWithCategory(); // [ { category: 'react', filename: '2018-01-01-post' }, ... ]
+  getUniqueCategory().map(category => {
+    posts = postList.filter(
+      post => post.category.filter(item => item === category).length > 0
+    );
+    const paginatedPosts = pagination.getPagination(posts);
+    Object.keys(paginatedPosts).map(pageNo => {
+      exportPathMap[`/post/${category}/${pageNo}`] = {
         page: "/post",
-        query: { category: `${post.category}`, filename: `${post.filename}` }
-      })
-  );
+        query: {
+          category: `${category}`,
+          page: `${pageNo}`
+        }
+      };
+      paginatedPosts[pageNo].map(post => {
+        exportPathMap[`/post/${post.category}/${pageNo}/${post.filename}`] = {
+          page: "/post",
+          query: {
+            category: `${post.category}`,
+            page: `${pageNo}`,
+            filename: `${post.filename}`
+          }
+        };
+      });
+    });
+  });
 };
 
 const generateExportPath = () => {
   assertCategoryPath();
   assertFilenamesPath();
+  console.log(exportPathMap);
   return exportPathMap;
 };
 

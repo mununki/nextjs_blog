@@ -1,17 +1,30 @@
 import Link from "next/link";
 import cssPostList from "../../style/cssPostList";
 
+const getPageNoArray = posts => {
+  const pageArray = Object.keys(posts);
+  return pageArray.reverse();
+};
+
 const postList = props => {
   const { category, posts } = props;
+  let { page } = props;
+  const pageArray = getPageNoArray(posts); // ["2", "1"]
+  if (!page) {
+    page = Math.max(...pageArray); // if URL doesn't have a page
+  } else if (Math.max(...Object.keys(posts)) < page) {
+    // if URL page is bigger than actual pages
+    page = Math.max(...Object.keys(posts)); // then set page with max page no.
+  }
   return (
     <>
       <div id="content">
         <div className="container">
           <div className="post-list">
-            {posts.length > 0 ? (
-              posts.map((post, key) => (
+            {Object.keys(posts).length > 0 ? ( // check if posts objects is empty
+              posts[page].map((post, key) => (
                 <div key={key} className="post">
-                  <Link href={`/post/${category}/${post.filename}`}>
+                  <Link href={`/post/${category}/${page}/${post.filename}`}>
                     <a>
                       <span className="post-title">{post.title}</span>
                       <span className="post-createdAt">
@@ -25,6 +38,21 @@ const postList = props => {
             ) : (
               <div>no post yet...🤔</div>
             )}
+            <div>
+              <ul>
+                {pageArray.map((p, key) => (
+                  <li key={key}>
+                    {parseInt(p, 10) === parseInt(page, 10) ? (
+                      p
+                    ) : (
+                      <Link href={`/post/${category}/${p}`}>
+                        <a>{p}</a>
+                      </Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

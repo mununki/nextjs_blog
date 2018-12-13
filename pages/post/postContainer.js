@@ -3,9 +3,10 @@ import PostPresenter from "./postPresenter";
 import PostListPresenter from "./postListPresenter";
 import postList from "../../posts/postList";
 import moment from "moment";
+import { postsPerPage, getPagination } from "../../utils/pagination";
 
 const PostContainer = props => {
-  const { category, filename } = props.router.query;
+  const { category, filename, page } = props.router.query;
   let posts = postList;
   if (category) {
     posts = postList.filter(
@@ -16,8 +17,14 @@ const PostContainer = props => {
     const post = posts.filter(post => post.filename === filename);
     return <PostPresenter category={category} post={post} />;
   } else {
-    posts.sort((a, b) => moment(b.createdAt) - moment(a.createdAt));
-    return <PostListPresenter category={category} posts={posts} />;
+    const paginatedPosts = getPagination(posts);
+    return (
+      <PostListPresenter
+        category={category}
+        posts={paginatedPosts}
+        page={page}
+      />
+    );
   }
 };
 

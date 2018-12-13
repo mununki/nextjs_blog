@@ -1,4 +1,14 @@
 const cssPostList = `
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
 .container {
   height: calc(100vh - 282px)
 }
