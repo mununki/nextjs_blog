@@ -14,7 +14,7 @@ Elastic Load balancer is listening the port 80 as default. And you can set 443 p
 
 ## Redirect to HTTPS
 
-Once everything set up. You can access your applicatino in Elastic Beanstalk through HTTP and also HTTPS.
+Once everything sets up, You can access your application in Elastic Beanstalk through HTTP and also HTTPS.
 
 If you want all requests to port 80 to redirect to port 443, HTTPS, you can make ssl_redirect.config file in .ebextensions in your application root directory.
 
@@ -33,6 +33,6 @@ files:
 
 ## How it works
 
-During deployment of Elastic Beanstalk, it will check .ebextendsion directory if any \*.config files there. If config file is found, Elastic Beanstalk will proceed it before apply the deployment of your application.
+During deployment of Elastic Beanstalk, it will check `.ebextendsion` directory if any `*.config` files there. If config file is found, Elastic Beanstalk will proceed it before applying the deployment of your application.
 
-ssl_redirect.config file will be generated in path `/etc/httpd/conf.d/` and this will works for apache server to check any none https request and redirect it to https.
+`ssl_redirect.config` file will be generated in path `/etc/httpd/conf.d/` and this will works for apache server to check any none https request and redirect it to https.
