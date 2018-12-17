@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/index.js" as="script"/><link rel="preload" href="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_app.js" as="script"/><link rel="preload" href="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2-8a4c9aa42491323f8e83.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f-6583daf067f3538bb5d8.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_09_08_How_to_set_state_with_data_from_graphQL_query_md_3d1727a05d42d2cd617a2de552d8adf7-40fae55470c68e9f04ed.js" as="script"/><link rel="preload" href="/_next/static/commons/main-00e9686375c349b2c5e0.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/2f5015d0-7014-4f34-a46f-a9280606b0f5/page/index.js" as="script"/><link rel="preload" href="/_next/2f5015d0-7014-4f34-a46f-a9280606b0f5/page/_app.js" as="script"/><link rel="preload" href="/_next/2f5015d0-7014-4f34-a46f-a9280606b0f5/page/_error.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_12_18_AWS_EB_Load_Balancer_redirect_to_https_md_bc57af74c3d789fe74cd79be76fa4f43-54ef9b4dd06c039c331b.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2-016fa3a3dca9d87adeb5.js" as="script"/><link rel="preload" href="/_next/webpack/chunks/posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f-886ebe14850aba3bb201.js" as="script"/><link rel="preload" href="/_next/static/commons/main-b8de96995e7958a5cacb.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -301,7 +301,7 @@ body {
     color: white;
   }
 }
-</style><div id="category"><div id="container-category"><div id="container-category-fixed"><div id="menu-close-button"><i class="fas fa-times"></i></div><a href="/post/react/"><span>React</span><span>2</span></a><a href="/post/django/"><span>Django</span><span>3</span></a><a href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/devlogs/"><span>dev logs</span><span>4</span></a></div></div></div><style jsx="true">
+</style><div id="category"><div id="container-category"><div id="container-category-fixed"><div id="menu-close-button"><i class="fas fa-times"></i></div><a href="/post/react/"><span>React</span><span>2</span></a><a href="/post/django/"><span>Django</span><span>3</span></a><a href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/backend/"><span>Backend</span><span>1</span></a><a href="/post/devlogs/"><span>dev logs</span><span>4</span></a></div></div></div><style jsx="true">
 #category,
 #category__show {
   grid-area: category;
@@ -365,7 +365,16 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div><h2 class="index-h2-title">Latest Posts <i id="latest" class="fas fa-comment"></i></h2><div class="post-card"><div><h1>[Linux]<!-- --> How to connect to wireless WPA2 with Netplan</h1><p>by moondaddi on 2018-12-10</p><hr/><h2>Netplan?</h2><p>Netplan is the utility for easily configuring networking on a linux system. Ubuntu 17.10 starts including the netplan by default instead of deprecated ifupdown.</p><h2>How to connect</h2><h3>Configure <!-- -->*<!-- -->.yaml</h3><p>Make new file with any name <!-- -->*<!-- -->.yaml in <code>/etc/netplan</code>
+</style><div id="content"><div class="container"><div><h2 class="index-h2-title">Latest Posts <i id="latest" class="fas fa-comment"></i></h2><div class="post-card"><div><h1>AWS Elastic Beanstalk makes redirect to HTTPS</h1><p>by moondaddi on 2018-12-18</p><hr/><h2>Elastic Load balancer and Elastic Beanstalk</h2><p>AWS Elastic Load balancer automatically distributes incoming application traffic across multiple AWS EC2. It enables your application&#x27;s falut tolerance level higher and seamlessly providing the required amount of load balancing capacity needed to distribute application traffics.</p><p>When you deploy your application whatever it&#x27;s built with any language to Elastic Beanstalk, Elastic Beanstalk automatically performs all required process in deployment for your application. One of requirements is Elastic Load balancer in front of EC2 which is generated by Elastic Beanstalk.</p><p>Elastic Load balancer is listening the port 80 as default. And you can set 443 port for HTTPS.</p><h2>Redirect to HTTPS</h2><p>Once everything set up. You can access your applicatino in Elastic Beanstalk through HTTP and also HTTPS.</p><p>If you want all requests to port 80 to redirect to port 443, HTTPS, you can make ssl_redirect.config file in .ebextensions in your application root directory.</p><pre><code class="hljs language-apache" metaString=""><span class="hljs-attribute">files</span>:
+    &quot;/<span class="hljs-attribute">etc</span>/httpd/conf.d/ssl_redirect.conf<span class="hljs-string">&quot;:
+        mode: &quot;</span>000644<span class="hljs-string">&quot;
+        owner: root
+        group: root
+        content: |
+            RewriteEngine On
+            &lt;If &quot;</span>-n &#x27;<span class="hljs-variable">%{HTTP:X-Forwarded-Proto}</span>&#x27; &amp;&amp; <span class="hljs-variable">%{HTTP:X-Forwarded-Proto}</span> != &#x27;https&#x27;<span class="hljs-string">&quot;&gt;
+            RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+            &lt;/If&gt;</span></code></pre><h2>How it works</h2><p>During deployment of Elastic Beanstalk, it will check .ebextendsion directory if any <!-- -->*<!-- -->.config files there. If config file is found, Elastic Beanstalk will proceed it before apply the deployment of your application.</p><p>ssl_redirect.config file will be generated in path <code>/etc/httpd/conf.d/</code> and this will works for apache server to check any none https request and redirect it to https.</p></div></div><div class="post-card"><div><h1>[Linux]<!-- --> How to connect to wireless WPA2 with Netplan</h1><p>by moondaddi on 2018-12-10</p><hr/><h2>Netplan?</h2><p>Netplan is the utility for easily configuring networking on a linux system. Ubuntu 17.10 starts including the netplan by default instead of deprecated ifupdown.</p><h2>How to connect</h2><h3>Configure <!-- -->*<!-- -->.yaml</h3><p>Make new file with any name <!-- -->*<!-- -->.yaml in <code>/etc/netplan</code>
 You can make as many configuration files as you want. In that case, <!-- -->*<!-- -->.yaml files will be applied by alphbetically.</p><pre><code class="hljs language-shell" metaString="">network:
   version: 2
     renderer: networkd
@@ -382,92 +391,7 @@ You can make as many configuration files as you want. In that case, <!-- -->*<!-
         addresses: [192.168.0.200/24]  # set the static IP
         gateway4: 192.168.0.1  # gateway
         nameservers:
-          addresses: [192.168.0.1,8.8.8.8,8.8.4.4]</code></pre><blockquote><p>How to check wlan interface</p></blockquote><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> iwconfig</span></code></pre><h3>Generate conf</h3><p>The configuration files <code>/etc/netplan/*.yaml</code> needs to be generated before applying to system. The <em>.conf files will be generated in `/run/netplan/</em>.conf` which shadow completely YAML files.</p><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> sudo netplan --debug generate</span></code></pre><h3>Apply the generated conf</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> sudo netplan apply</span></code></pre><h3>References</h3><p>Netplan reference page (<a href="https://netplan.io/reference">https://netplan.io/reference</a>)</p></div></div><div class="post-card"><div><h1>&#x27;postmaster.pid&#x27; File Location</h1><p>by Moondaddi on 2018-09-27</p><hr/><h2>Where is the &#x27;postmaster.pid&#x27;?</h2><p>Time to time, I encounter the error when I try to start PostgreSQL DB again. Especially, right after cold power-off, it comes a lot to me. If you use GUI interface of PostgreSQL, it gives you a long instruction failed to start properly. But, simply, you can start again after delete this &#x27;postmaster.pid&#x27; file in your macOS system.</p><br/><h2>Location of &#x27;postmaster.pid&#x27;</h2><pre><code class="hljs language-shell" metaString="">/Users/user_name/Library/Application Support/Postgres/var-10</code></pre><blockquote><p>Note: PostgreSQL ver. 10, it can be changed depends on what version of postgres you use.</p></blockquote></div></div><div class="post-card"><div><h1>How to set state with data from apollo grapqhQL query</h1><p>by Moondaddi on 2018-09-08</p><hr/><h2>Prefill the form with query data</h2><ul><li>prefill values into form or render data into DOM after query</li><li>modify data after query</li></ul><br/><h2>Solution 1</h2><h3>in componentDidMount()</h3><pre><code class="hljs language-javascript" metaString=""><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;react&quot;</span>;
-<span class="hljs-keyword">import</span> { Query } <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;react-apollo&quot;</span>;
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
-  state = {
-    <span class="hljs-attr">some</span>: <span class="hljs-literal">null</span>
-  };
-
-  componentDidMount() {
-    <span class="hljs-keyword">this</span>._queryMe
-      .query({
-        <span class="hljs-attr">query</span>: other - query,
-        <span class="hljs-attr">variables</span>: { <span class="hljs-attr">some</span>: thing }
-      })
-      .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
-        <span class="hljs-keyword">this</span>.setState({
-          <span class="hljs-attr">some</span>: data.me.nickname
-        });
-      })
-      .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(error));
-  }
-
-  render() {
-    <span class="hljs-keyword">return</span> (
-      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Query</span> <span class="hljs-attr">query</span>=<span class="hljs-string">{some</span> <span class="hljs-attr">-</span> <span class="hljs-attr">query</span>}&gt;</span>
-        {({ client }) =&gt; {
-          this._queryMe = client;
-
-          return null;
-        }}
-      <span class="hljs-tag">&lt;/<span class="hljs-name">Query</span>&gt;</span></span>
-    );
-  }
-}</code></pre><h3>props function : onCompleted</h3><pre><code class="hljs language-javascript" metaString=""><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react&#x27;</span>
-<span class="hljs-keyword">import</span> { Query } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;react-apollo&#x27;</span>
-
-<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
-  state = {
-    <span class="hljs-attr">some</span>: <span class="hljs-literal">null</span>
-  }
-
-  _queryMe = <span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
-    <span class="hljs-keyword">this</span>.setState({
-      <span class="hljs-attr">some</span>: data
-    })
-  }
-
-  render() {
-    <span class="hljs-keyword">return</span> (
-      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Query</span>
-        <span class="hljs-attr">query</span>=<span class="hljs-string">{some-query}</span>
-        <span class="hljs-attr">onCompleted</span>=<span class="hljs-string">{data</span> =&gt;</span> this._queryMe(data)}
-      &gt;
-        {() =&gt; {
-          return null;
-        }}
-      <span class="hljs-tag">&lt;/<span class="hljs-name">Query</span>&gt;</span></span>
-    )
-  }
-}</code></pre><br/><h2>Solution 2 (The BEST 👍)</h2><p>Using HOC withApollo</p><pre><code class="hljs language-javascript" metaString=""><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Example</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
-  state = {
-    <span class="hljs-attr">some</span>: <span class="hljs-literal">null</span>
-  };
-
-  componentDidMount() {
-    <span class="hljs-keyword">this</span>.props.client
-      .query({
-        <span class="hljs-attr">query</span>: some_query,
-        <span class="hljs-attr">variables</span>: {
-          <span class="hljs-attr">id</span>: <span class="hljs-number">1</span>
-        }
-      })
-      .then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span>
-        <span class="hljs-keyword">this</span>.setState({
-          <span class="hljs-attr">some</span>: res
-        })
-      );
-  }
-
-  render() {
-    <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>;
-  }
-}
-
-<span class="hljs-comment">// using HOC</span>
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> withApollo(Example);</code></pre></div></div></div><div><h2 class="index-h2-title pinned">Pinned Posts <i id="pinned" class="fas fa-thumbtack"></i></h2><div class="post">...</div></div></div></div><style jsx="true">
+          addresses: [192.168.0.1,8.8.8.8,8.8.4.4]</code></pre><blockquote><p>How to check wlan interface</p></blockquote><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> iwconfig</span></code></pre><h3>Generate conf</h3><p>The configuration files <code>/etc/netplan/*.yaml</code> needs to be generated before applying to system. The <em>.conf files will be generated in `/run/netplan/</em>.conf` which shadow completely YAML files.</p><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> sudo netplan --debug generate</span></code></pre><h3>Apply the generated conf</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> sudo netplan apply</span></code></pre><h3>References</h3><p>Netplan reference page (<a href="https://netplan.io/reference">https://netplan.io/reference</a>)</p></div></div><div class="post-card"><div><h1>&#x27;postmaster.pid&#x27; File Location</h1><p>by Moondaddi on 2018-09-27</p><hr/><h2>Where is the &#x27;postmaster.pid&#x27;?</h2><p>Time to time, I encounter the error when I try to start PostgreSQL DB again. Especially, right after cold power-off, it comes a lot to me. If you use GUI interface of PostgreSQL, it gives you a long instruction failed to start properly. But, simply, you can start again after delete this &#x27;postmaster.pid&#x27; file in your macOS system.</p><br/><h2>Location of &#x27;postmaster.pid&#x27;</h2><pre><code class="hljs language-shell" metaString="">/Users/user_name/Library/Application Support/Postgres/var-10</code></pre><blockquote><p>Note: PostgreSQL ver. 10, it can be changed depends on what version of postgres you use.</p></blockquote></div></div></div><div><h2 class="index-h2-title pinned">Pinned Posts <i id="pinned" class="fas fa-thumbtack"></i></h2><div class="post">...</div></div></div></div><style jsx="true">
 .index-h2-title {
   display: inline-block;
   border: 5px solid #2c3e50;
@@ -645,7 +569,7 @@ pre {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/","pathname":"/","query":{},"buildId":"9916d5c3-2e4c-4de0-9502-d36a96bc2c47","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2","posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f","posts_2018_09_08_How_to_set_state_with_data_from_graphQL_query_md_3d1727a05d42d2cd617a2de552d8adf7"]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/","pathname":"/","query":{},"buildId":"2f5015d0-7014-4f34-a46f-a9280606b0f5","assetPrefix":"","nextExport":true,"err":null,"chunks":["posts_2018_12_18_AWS_EB_Load_Balancer_redirect_to_https_md_bc57af74c3d789fe74cd79be76fa4f43","posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2","posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f"]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -659,4 +583,4 @@ pre {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/" src="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/index.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/9916d5c3-2e4c-4de0-9502-d36a96bc2c47/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2-8a4c9aa42491323f8e83.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f-6583daf067f3538bb5d8.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_09_08_How_to_set_state_with_data_from_graphQL_query_md_3d1727a05d42d2cd617a2de552d8adf7-40fae55470c68e9f04ed.js"></script><script src="/_next/static/commons/main-00e9686375c349b2c5e0.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/" src="/_next/2f5015d0-7014-4f34-a46f-a9280606b0f5/page/index.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/2f5015d0-7014-4f34-a46f-a9280606b0f5/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/2f5015d0-7014-4f34-a46f-a9280606b0f5/page/_error.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_12_18_AWS_EB_Load_Balancer_redirect_to_https_md_bc57af74c3d789fe74cd79be76fa4f43-54ef9b4dd06c039c331b.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2-016fa3a3dca9d87adeb5.js"></script><script async="" src="/_next/webpack/chunks/posts_2018_09_27_postmaster_pid_Location_md_08349d0ce88dae8d32256ba7f1738d6f-886ebe14850aba3bb201.js"></script><script src="/_next/static/commons/main-b8de96995e7958a5cacb.js" async=""></script></body></html>
