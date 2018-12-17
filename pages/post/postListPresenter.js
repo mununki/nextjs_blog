@@ -24,7 +24,9 @@ const postList = props => {
             {Object.keys(posts).length > 0 ? ( // check if posts objects is empty
               posts[page].map((post, key) => (
                 <div key={key} className="post">
-                  <Link href={`/post/${category}/${page}/${post.filename}`}>
+                  <Link
+                    href={`/post/${post.category}/${page}/${post.filename}`}
+                  >
                     <a>
                       <span className="post-title">{post.title}</span>
                       <span className="post-createdAt">
