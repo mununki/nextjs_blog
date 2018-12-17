@@ -1,5 +1,22 @@
 const postList = [
   {
+    title: "AWS Elastic Beanstalk makes redirect HTTP to HTTPS",
+    createdAt: "2018-12-18",
+    filename: "2018-12-18-AWS-EB-Load-Balancer-redirect-to-https",
+    category: ["backend"],
+    keyword: [
+      "aws",
+      "eb",
+      "elastic",
+      "beanstalk",
+      "load",
+      "balancer",
+      "redirect",
+      "https"
+    ],
+    md: import("./2018-12-18-AWS-EB-Load-Balancer-redirect-to-https.md")
+  },
+  {
     title: "How to connect to wireless WPA2 with Netplan",
     createdAt: "2018-12-10",
     filename: "2018-12-10-Netplan-how-to-connect-wpa2-linux",
