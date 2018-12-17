@@ -16,6 +16,7 @@ const getUniqueCategory = () => {
     "javascript",
     "python",
     "htmlcss",
+    "backend",
     "devlogs"
   ];
   return categories;

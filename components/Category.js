@@ -66,6 +66,15 @@ const Category = props => {
                 <span>{postCounter("htmlcss")}</span>
               </a>
             </Link>
+            <Link href="/post/backend">
+              <a
+                onClick={() => props._setShowing(null)}
+                id={_checkCategory(category, "backend") ? "selected" : null}
+              >
+                <span>Backend</span>
+                <span>{postCounter("backend")}</span>
+              </a>
+            </Link>
             <Link href="/post/devlogs">
               <a
                 onClick={() => props._setShowing(null)}
