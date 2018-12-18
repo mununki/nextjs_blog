@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_08_30_How_to_align_element_to_vertical_center_md_16407fd3bc50200b5ad5ab9c17ecb507', function() {
-      webpackJsonp([5],{
+      webpackJsonp([6],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {
