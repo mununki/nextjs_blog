@@ -32,7 +32,14 @@ blockquote {
   border-left: 0.25em solid #dfe2e5;
 }
 
-pre {
+code {
+  color: #c0392b;
+  padding: 2px 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+pre code {
   overflow: auto;
   word-wrap: normal;
   white-space: pre;
