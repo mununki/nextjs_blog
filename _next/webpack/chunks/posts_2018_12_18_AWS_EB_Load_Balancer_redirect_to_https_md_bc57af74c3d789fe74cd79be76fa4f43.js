@@ -1,6 +1,6 @@
 
-        __NEXT_REGISTER_CHUNK('posts_2018_09_01_How_to_highlight_code_in_jekyll_md_c5a6c4ffd28351d0b737ad242d8eae65', function() {
-      webpackJsonp([4],{
+        __NEXT_REGISTER_CHUNK('posts_2018_12_18_AWS_EB_Load_Balancer_redirect_to_https_md_bc57af74c3d789fe74cd79be76fa4f43', function() {
+      webpackJsonp([0],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -437,7 +437,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ "./posts/2018-09-01-How-to-highlight-code-in-jekyll.md":
+/***/ "./posts/2018-12-18-AWS-EB-Load-Balancer-redirect-to-https.md":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -446,7 +446,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__ = __webpack_require__("./node_modules/@mdx-js/tag/dist/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdx_js_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__);
-var _jsxFileName = "/Users/arnold/Documents/git/github/mattdamon108.blog/posts/2018-09-01-How-to-highlight-code-in-jekyll.md";
+var _jsxFileName = "/Users/arnold/Documents/git/github/mattdamon108.blog/posts/2018-12-18-AWS-EB-Load-Balancer-redirect-to-https.md";
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -470,14 +470,14 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, "How to highlight code in jekyll post"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "AWS Elastic Beanstalk makes redirect to HTTPS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "p",
     components: components,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, "by Moondaddi on 2018-09-01"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "by moondaddi on 2018-12-18"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "hr",
     components: components,
     __source: {
@@ -491,138 +491,198 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
       fileName: _jsxFileName,
       lineNumber: 9
     }
-  }, "Check ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
-    name: "inlineCode",
-    components: components,
-    parentName: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, "_config.yml")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "Elastic Load balancer and Elastic Beanstalk"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "p",
     components: components,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     }
-  }, "highlighter: rouge"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+  }, "AWS Elastic Load balancer automatically distributes incoming application traffic across multiple AWS EC2. It enables your application's falut tolerance level higher and seamlessly providing the required amount of load balancing capacity needed to distribute application traffics."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "p",
+    components: components,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "When you deploy your application whatever it's built with any language to Elastic Beanstalk, Elastic Beanstalk automatically performs all required process in deployment for your application. One of requirements is Elastic Load balancer in front of EC2 which is generated by Elastic Beanstalk."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "p",
+    components: components,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, "Elastic Load balancer is listening the port 80 as default. And you can set 443 port for HTTPS."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "h2",
     components: components,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     }
-  }, "Usage - ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
-    name: "inlineCode",
+  }, "Redirect to HTTPS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "p",
     components: components,
-    parentName: "h2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     }
-  }, "Liquid templating")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "Once everything sets up, You can access your application in Elastic Beanstalk through HTTP and also HTTPS."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "p",
+    components: components,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, "If you want all requests to port 80 to redirect to port 443, HTTPS, you can make ssl_redirect.config file in .ebextensions in your application root directory."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "pre",
     components: components,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "code",
     components: components,
     parentName: "pre",
     props: {
-      "className": "hljs language-jekyll",
+      "className": "hljs language-apache",
       "metaString": ""
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "span",
     components: components,
     parentName: "code",
     props: {
-      "className": "xml"
+      "className": "hljs-attribute"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "files"), ":\n    \"/", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "span",
     components: components,
     parentName: "code",
     props: {
-      "className": "hljs-template-tag"
+      "className": "hljs-attribute"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     }
-  }, "{% ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
-    name: "span",
-    components: components,
-    parentName: "span",
-    props: {
-      "className": "hljs-name"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, "highlight"), " some-language %}"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "etc"), "/httpd/conf.d/ssl_redirect.conf", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "span",
     components: components,
     parentName: "code",
     props: {
-      "className": "xml"
+      "className": "hljs-string"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     }
-  }, "\n...\n"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "\":\n        mode: \""), "000644", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "span",
     components: components,
     parentName: "code",
     props: {
-      "className": "hljs-template-tag"
+      "className": "hljs-string"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 18
     }
-  }, "{% ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
-    name: "span",
-    components: components,
-    parentName: "span",
-    props: {
-      "className": "hljs-name"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, "endhighlight"), " %}"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+  }, "\"\n        owner: root\n        group: root\n        content: |\n            RewriteEngine On\n            <If \""), "-n '", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
     name: "span",
     components: components,
     parentName: "code",
     props: {
-      "className": "xml"
+      "className": "hljs-variable"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 23
     }
-  }))));
+  }, "%{HTTP:X-Forwarded-Proto}"), "' && ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "span",
+    components: components,
+    parentName: "code",
+    props: {
+      "className": "hljs-variable"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }, "%{HTTP:X-Forwarded-Proto}"), " != 'https'", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "span",
+    components: components,
+    parentName: "code",
+    props: {
+      "className": "hljs-string"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }, "\">\n            RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]\n            </If>"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "h2",
+    components: components,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    }
+  }, "How it works"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "p",
+    components: components,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    }
+  }, "During deployment of Elastic Beanstalk, it will check ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "inlineCode",
+    components: components,
+    parentName: "p",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    }
+  }, ".ebextendsion"), " directory if any ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "inlineCode",
+    components: components,
+    parentName: "p",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    }
+  }, "*.config"), " files there. If config file is found, Elastic Beanstalk will proceed it before applying the deployment of your application."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "p",
+    components: components,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "inlineCode",
+    components: components,
+    parentName: "p",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    }
+  }, "ssl_redirect.config"), " file will be generated in path ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__mdx_js_tag__["MDXTag"], {
+    name: "inlineCode",
+    components: components,
+    parentName: "p",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    }
+  }, "/etc/httpd/conf.d/"), " and this will works for apache server to check any none https request and redirect it to https."));
 });
 
 /***/ })
@@ -630,4 +690,4 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 })
         })
       ;
-//# sourceMappingURL=posts_2018_09_01_How_to_highlight_code_in_jekyll_md_c5a6c4ffd28351d0b737ad242d8eae65.js.map
+//# sourceMappingURL=posts_2018_12_18_AWS_EB_Load_Balancer_redirect_to_https_md_bc57af74c3d789fe74cd79be76fa4f43.js.map
