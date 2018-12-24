@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_12_10_Netplan_how_to_connect_wpa2_linux_md_4216ba678dddddf03087f97200a22ec2', function() {
-      webpackJsonp([1],{
+      webpackJsonp([2],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {

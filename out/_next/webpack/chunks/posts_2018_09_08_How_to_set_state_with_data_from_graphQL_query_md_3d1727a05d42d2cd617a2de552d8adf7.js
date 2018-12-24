@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_09_08_How_to_set_state_with_data_from_graphQL_query_md_3d1727a05d42d2cd617a2de552d8adf7', function() {
-      webpackJsonp([3],{
+      webpackJsonp([4],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {
