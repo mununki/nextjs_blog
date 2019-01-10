@@ -1,8 +1,9 @@
 # How to deploy the Next.js to AWS Lambda
 
-by moondaddi on 2018-12-24
+by moondaddi on 2019-01-11
 
 ---
+
 This is a tiny example to show how to deploy the Next.js app on AWS Lambda using [Apex Up](https://up.docs.apex.sh/#introduction).
 
 ## Next.js app with custom server
