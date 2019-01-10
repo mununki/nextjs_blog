@@ -180,7 +180,7 @@ $ yarn build
 
 The Up will inspect your files to compose and deploy to lambda. Firstly The up will read `.gitignore` and ignore files written in `.gitignore`. And after that, `.upignore` will be read. The Up, by default, ignores dotfiles, so needs to negate `.next` directory in `.upignore` in order for the Up will build the package with it.
 
-```
+```shell
 # .upignore
 
 !.next
