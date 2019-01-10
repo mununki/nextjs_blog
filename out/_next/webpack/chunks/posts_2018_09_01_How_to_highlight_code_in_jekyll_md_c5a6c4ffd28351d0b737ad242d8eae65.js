@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_09_01_How_to_highlight_code_in_jekyll_md_c5a6c4ffd28351d0b737ad242d8eae65', function() {
-      webpackJsonp([5],{
+      webpackJsonp([6],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {

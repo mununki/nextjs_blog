@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_08_31_Nested_Comment_Reply_sturcture_with_ReactJS_md_850b839f0ab2b756659a1fbe93ccb9c7', function() {
-      webpackJsonp([6],{
+      webpackJsonp([7],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {
