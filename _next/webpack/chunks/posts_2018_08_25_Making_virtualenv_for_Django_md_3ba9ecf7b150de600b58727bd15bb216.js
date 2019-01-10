@@ -1,6 +1,6 @@
 
         __NEXT_REGISTER_CHUNK('posts_2018_08_25_Making_virtualenv_for_Django_md_3ba9ecf7b150de600b58727bd15bb216', function() {
-      webpackJsonp([9],{
+      webpackJsonp([10],{
 
 /***/ "./node_modules/@mdx-js/tag/dist/index.js":
 /***/ (function(module, exports, __webpack_require__) {
