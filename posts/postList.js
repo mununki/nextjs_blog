@@ -1,5 +1,13 @@
 const postList = [
   {
+    title: "How to Deploy the Next.js app to AWS Lambda",
+    createdAt: "2019-01-11",
+    filename: "2019-01-11-Deploy-Next.js-app-to-AWS-Lambda",
+    category: ["react"],
+    keyword: ["next", "aws", "lambda"],
+    md: import("./2019-01-11-Deploy-Next.js-app-to-AWS-Lambda.md")
+  },
+  {
     title: "Deploy the Prisma Server to AWS ECS and EC2 with Docker",
     createdAt: "2018-12-24",
     filename: "2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker",
