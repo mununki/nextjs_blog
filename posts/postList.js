@@ -4,16 +4,14 @@ const postList = [
     createdAt: "2019-01-11",
     filename: "2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda",
     category: ["react"],
-    keyword: ["next", "aws", "lambda"],
-    md: import("./2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda.md")
+    keyword: ["next", "aws", "lambda"]
   },
   {
     title: "Deploy the Prisma Server to AWS ECS and EC2 with Docker",
     createdAt: "2018-12-24",
     filename: "2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker",
     category: ["backend"],
-    keyword: ["aws", "graphql", "prisma", "ecs"],
-    md: import("./2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker.md")
+    keyword: ["aws", "graphql", "prisma", "ecs"]
   },
   {
     title: "AWS Elastic Beanstalk makes redirect HTTP to HTTPS",
@@ -29,56 +27,49 @@ const postList = [
       "balancer",
       "redirect",
       "https"
-    ],
-    md: import("./2018-12-18-AWS-EB-Load-Balancer-redirect-to-https.md")
+    ]
   },
   {
     title: "How to connect to wireless WPA2 with Netplan",
     createdAt: "2018-12-10",
     filename: "2018-12-10-Netplan-how-to-connect-wpa2-linux",
     category: ["devlogs"],
-    keyword: ["netplan", "linux", "wireless"],
-    md: import("./2018-12-10-Netplan-how-to-connect-wpa2-linux.md")
+    keyword: ["netplan", "linux", "wireless"]
   },
   {
     title: "postmaster-pid File Location",
     createdAt: "2018-09-27",
     filename: "2018-09-27-postmaster-pid-Location",
     category: ["django"],
-    keyword: ["postgres", "postmaster", "db"],
-    md: import("./2018-09-27-postmaster-pid-Location.md")
+    keyword: ["postgres", "postmaster", "db"]
   },
   {
     title: "How to set state with data from apollo grapqhQL query",
     createdAt: "2018-09-08",
     filename: "2018-09-08-How-to-set-state-with-data-from-graphQL-query",
     category: ["react"],
-    keyword: ["react", "apollo", "graphQL"],
-    md: import("./2018-09-08-How-to-set-state-with-data-from-graphQL-query.md")
+    keyword: ["react", "apollo", "graphQL"]
   },
   {
     title: "How to highlight code in jekyll post",
     createdAt: "2018-09-01",
     filename: "2018-09-01-How-to-highlight-code-in-jekyll",
     category: ["devlogs"],
-    keyword: ["jekyll", "blog"],
-    md: import("./2018-09-01-How-to-highlight-code-in-jekyll.md")
+    keyword: ["jekyll", "blog"]
   },
   {
     title: "Nested Comment Reply stucture with ReactJS",
     createdAt: "2018-08-31",
     filename: "2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS",
     category: ["react"],
-    keyword: ["react", "comment"],
-    md: import("./2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS.md")
+    keyword: ["react", "comment"]
   },
   {
     title: "Some different ways to align element to vertical center",
     createdAt: "2018-08-30",
     filename: "2018-08-30-How-to-align-element-to-vertical-center",
     category: ["htmlcss"],
-    keyword: ["vertical", "align"],
-    md: import("./2018-08-30-How-to-align-element-to-vertical-center.md")
+    keyword: ["vertical", "align"]
   },
   {
     title: "File upload with GraphQL Apollo client & Django + Graphene",
@@ -86,32 +77,28 @@ const postList = [
     filename:
       "2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene",
     category: ["django"],
-    keyword: ["django", "graphql", "graphene", "apollo"],
-    md: import("./2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene.md")
+    keyword: ["django", "graphql", "graphene", "apollo"]
   },
   {
     title: "Making virtualenv for staring Django project on MacOS",
     createdAt: "2018-08-25",
     filename: "2018-08-25-Making-virtualenv-for-Django",
     category: ["django"],
-    keyword: ["django", "venv", "virtualenv"],
-    md: import("./2018-08-25-Making-virtualenv-for-Django.md")
+    keyword: ["django", "venv", "virtualenv"]
   },
   {
     title: "Markdown summary",
     createdAt: "2018-08-24",
     filename: "2018-08-24-Markdown-summary",
     category: ["devlogs"],
-    keyword: ["markdown", "summary"],
-    md: import("./2018-08-24-Markdown-summary.md")
+    keyword: ["markdown", "summary"]
   },
   {
     title: "First post",
     createdAt: "2018-08-24",
     filename: "2018-08-24-First-post",
     category: ["devlogs"],
-    keyword: ["first", "post"],
-    md: import("./2018-08-24-First-Post.md")
+    keyword: ["first", "post"]
   }
 ];
 

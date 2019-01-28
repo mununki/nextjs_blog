@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import codeHighlighting from "../../style/codeHighlight";
 
 export default props => {
-  const MD = dynamic(props.post[0].md);
+  const MD = require(`../../posts/${props.post[0].filename}.md`).default;
 
   return (
     <div id="content">
