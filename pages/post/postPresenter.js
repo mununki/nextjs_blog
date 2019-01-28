@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import codeHighlighting from "../../style/codeHighlight";
 
 export default props => {

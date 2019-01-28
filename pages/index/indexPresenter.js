@@ -1,5 +1,4 @@
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import codeHighlighting from "../../style/codeHighlight";
 
 export default props => {
@@ -14,7 +13,7 @@ export default props => {
             </h2>
             {latestPosts &&
               latestPosts.map((post, key) => {
-                const MD = dynamic(post.md);
+                const MD = require(`../../posts/${post.filename}.md`).default;
                 return (
                   <div key={key} className="post-card">
                     <MD />
