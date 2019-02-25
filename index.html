@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/ee115e6f-63a1-44ef-ab19-61616af30fd9/page/index.js" as="script"/><link rel="preload" href="/_next/ee115e6f-63a1-44ef-ab19-61616af30fd9/page/_app.js" as="script"/><link rel="preload" href="/_next/ee115e6f-63a1-44ef-ab19-61616af30fd9/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-6cf35be489146a60b61e.js" as="script"/><style id="__jsx-undefined">
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/ff2872b1-13ab-448b-8005-663504aa047b/page/index.js" as="script"/><link rel="preload" href="/_next/ff2872b1-13ab-448b-8005-663504aa047b/page/_app.js" as="script"/><link rel="preload" href="/_next/ff2872b1-13ab-448b-8005-663504aa047b/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-284119b0c1788e61fd13.js" as="script"/><style id="__jsx-undefined">
 html,
 body {
   margin: 0;
@@ -301,7 +301,7 @@ body {
     color: white;
   }
 }
-</style><div id="category"><div id="container-category"><div id="container-category-fixed"><div id="menu-close-button"><i class="fas fa-times"></i></div><a href="/post/react/"><span>React</span><span>4</span></a><a href="/post/django/"><span>Django</span><span>3</span></a><a href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/backend/"><span>Backend</span><span>2</span></a><a href="/post/devlogs/"><span>dev logs</span><span>4</span></a></div></div></div><style jsx="true">
+</style><div id="category"><div id="container-category"><div id="container-category-fixed"><div id="menu-close-button"><i class="fas fa-times"></i></div><a href="/post/react/"><span>React</span><span>4</span></a><a href="/post/django/"><span>Django</span><span>3</span></a><a href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/backend/"><span>Backend</span><span>3</span></a><a href="/post/devlogs/"><span>dev logs</span><span>4</span></a></div></div></div><style jsx="true">
 #category,
 #category__show {
   grid-area: category;
@@ -365,7 +365,7 @@ body {
   color: #000;
   font-weight: bold;
 }
-</style><div id="content"><div class="container"><div><h2 class="index-h2-title">Latest Posts <i id="latest" class="fas fa-comment"></i></h2><div class="post-card"><div><h1>How to replace the Redux with React Hooks</h1><p>by moondaddi on 2019-02-11</p><hr/><h2>React Hooks release</h2><p>The React team released the React Hooks on version 16.8.0. (<a href="https://reactjs.org/docs/hooks-intro.html">https://reactjs.org/docs/hooks-intro.html</a>)</p><p>The Hooks are the new feature which can lead you not to use <code>class</code> anymore in your React app. There are, mainly, three basic hooks, <code>useState</code>, <code>useEffect</code> and <code>useContext</code>. Literally, <code>useState</code> is the state hook which allows you to use state in functional component. And <code>useEffect</code> is the effect hook which is working like lifecycle API, such as <code>componentDidMount()</code>, <code>componentWillUnmount()</code> and <code>componentDidUpdate()</code>. Lastly, <code>useContext</code> is the hook of <code>Context</code> created by <code>React.createContext()</code>.</p><p>Additionally, there are more hooks <code>useReducer</code>, <code>useCallback</code>, <code>useMemo</code>, <code>useRef</code>, etc.</p><h2><a href="https://react-redux.js.org/introduction/quick-start">React Redux</a></h2><p>The React Redux is the tool which let you manage the global state in centralized store and use the global state in any component inside the app. It enables you(especially, team size) to control the global state in encapsulated way.</p><h2>React Hooks instead of React Redux</h2><p>It is possible to replace the React Redux with React Hooks successfully without losing any good purpose of using React Redux with less code and more maintainability.</p><h3>Create the store (initValue + reducer)</h3><pre><code class="hljs language-javascript" metaString=""><span class="hljs-comment">// HooduxStore.js</span>
+</style><div id="content"><div class="container"><div><h2 class="index-h2-title">Latest Posts <i id="latest" class="fas fa-comment"></i></h2><div class="post-card"><div><h1>Commands for Postgres DB initial setup</h1><p>by Moondaddi on 2019-02-25</p><hr/><h2>TL;DR;</h2><h2>Create DB</h2><pre><code class="hljs language-shell" metaString="">postgres=# CREATE DATABASE [db_name];</code></pre><h2>Create User with Password</h2><pre><code class="hljs language-shell" metaString="">postgres=# CREATE USER [myuser] WITH ENCRYPTED PASSWORD &#x27;[password]&#x27;;</code></pre><h2>Grant the privileges</h2><pre><code class="hljs language-shell" metaString="">postgres=# GRANT ALL PRIVILEGES ON DATABASE [db_name] TO [myuser];</code></pre><h2>Grant a permission to create DB to user</h2><pre><code class="hljs language-shell" metaString="">postgres=# ALTER USER [myuser] WITH CREATEDB;</code></pre></div></div><div class="post-card"><div><h1>How to replace the Redux with React Hooks</h1><p>by moondaddi on 2019-02-11</p><hr/><h2>React Hooks release</h2><p>The React team released the React Hooks on version 16.8.0. (<a href="https://reactjs.org/docs/hooks-intro.html">https://reactjs.org/docs/hooks-intro.html</a>)</p><p>The Hooks are the new feature which can lead you not to use <code>class</code> anymore in your React app. There are, mainly, three basic hooks, <code>useState</code>, <code>useEffect</code> and <code>useContext</code>. Literally, <code>useState</code> is the state hook which allows you to use state in functional component. And <code>useEffect</code> is the effect hook which is working like lifecycle API, such as <code>componentDidMount()</code>, <code>componentWillUnmount()</code> and <code>componentDidUpdate()</code>. Lastly, <code>useContext</code> is the hook of <code>Context</code> created by <code>React.createContext()</code>.</p><p>Additionally, there are more hooks <code>useReducer</code>, <code>useCallback</code>, <code>useMemo</code>, <code>useRef</code>, etc.</p><h2><a href="https://react-redux.js.org/introduction/quick-start">React Redux</a></h2><p>The React Redux is the tool which let you manage the global state in centralized store and use the global state in any component inside the app. It enables you(especially, team size) to control the global state in encapsulated way.</p><h2>React Hooks instead of React Redux</h2><p>It is possible to replace the React Redux with React Hooks successfully without losing any good purpose of using React Redux with less code and more maintainability.</p><h3>Create the store (initValue + reducer)</h3><pre><code class="hljs language-javascript" metaString=""><span class="hljs-comment">// HooduxStore.js</span>
 
 <span class="hljs-keyword">const</span> initValue = {
   <span class="hljs-attr">isLogin</span>: <span class="hljs-literal">false</span>,
@@ -538,66 +538,7 @@ aws_secret_access_key = xxxxxxxxxxxxxxxxxxxx</code></pre><h2>IAM policy for Up C
   }
 }</code></pre><h2>Build the Next.js app before deploy</h2><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> yarn build</span></code></pre><h2>Create <code>.upignore</code> file</h2><p>The Up will inspect your files to compose and deploy to lambda. Firstly The up will read <code>.gitignore</code> and ignore files written in <code>.gitignore</code>. And after that, <code>.upignore</code> will be read. The Up, by default, ignores dotfiles, so needs to negate <code>.next</code> directory in <code>.upignore</code> in order for the Up will build the package with it.</p><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">#</span><span class="bash"> .upignore</span>
 
-!.next</code></pre><h2>Deploy</h2><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> up</span></code></pre></div></div><div class="post-card"><div><h1>Deploy the Prisma Server to the AWS EC2 with Docker</h1><p>by moondaddi on 2018-12-24</p><hr/><h2>Prisma?</h2><p>Simply, the <a href="https://www.prisma.io/">Prisma</a> is the new ORM(<a href="https://en.wikipedia.org/wiki/Object-relational_mapping">Object Relational Mapping</a>) based on GraphQL query language. The Prisma can make your whole workflow to set up the graphQL API a lot easier. All you need is only graphQL schema in order to set up the graphQL API.</p><blockquote><p>ex. GraphQL schema</p></blockquote><pre><code class="hljs language-graphql" metaString=""><span class="hljs-selector-tag">type</span> <span class="hljs-selector-tag">Tweet</span> {
-  <span class="hljs-attribute">id</span>: ID! <span class="hljs-variable">@unique</span>
-  <span class="hljs-attribute">createdAt</span>: DateTime!
-  <span class="hljs-attribute">text</span>: String!
-  <span class="hljs-attribute">owner</span>: User!
-  <span class="hljs-attribute">location</span>: Location!
-}
-
-<span class="hljs-selector-tag">type</span> <span class="hljs-selector-tag">User</span> {
-  <span class="hljs-attribute">id</span>: ID! <span class="hljs-variable">@unique</span>
-  <span class="hljs-attribute">createdAt</span>: DateTime!
-  <span class="hljs-attribute">updatedAt</span>: DateTime!
-  <span class="hljs-attribute">handle</span>: String! <span class="hljs-variable">@unique</span>
-  <span class="hljs-attribute">name</span>: String
-  <span class="hljs-attribute">tweets</span>: [Tweet!]!
-}
-
-<span class="hljs-selector-tag">type</span> <span class="hljs-selector-tag">Location</span> {
-  <span class="hljs-attribute">latitude</span>: Float!
-  <span class="hljs-attribute">longitude</span>: Float!
-}</code></pre><p>If you make your graphQL schema to <code>datamodel.prisma</code> file. It&#x27;s all set. Prisma will deploy your schema to the connected DB(Prisma Cloud or your Remote DB/Local DB) and generate all kind of graphQL schema (types and resolvers) for you automatically. Fantastic, isn&#x27;t it?</p><h2>Structure</h2><p><img src="/static/images/post_img/prisma_structure.jpg" alt="Prisma structure"/></p><blockquote><p>GraphQL API Server = GraphQL API + Prisma Server</p></blockquote><p>Prisma API Server consists of two parts, <code>GraphQL API</code> + <code>Prisma Server</code>. GraphQL API is the backend layer which contains your business logic, such as querying users, sign up, log in, locations, and so on. You can set it up with Express or GraphQL Yoga, etc. Otherwise, Prisma Server means the backend server which contains all the graphQL schema as per your data model and is connected to database. Prisma suggests the Docker in order to set up Prisma Server.</p><p>This post will explain how to deploy this Prisma Server to AWS ECS and ECR service.</p><h2>Deploy the Prisma Server</h2><h2>Requirements</h2><ul><li><p>Docker</p><blockquote><p>(for mac) <a href="https://hub.docker.com/editions/community/docker-ce-desktop-mac">https://hub.docker.com/editions/community/docker-ce-desktop-mac</a></p></blockquote></li><li><p>Prisma Cli</p></li></ul><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> npm i -g prisma</span>
-<span class="hljs-meta">#</span><span class="bash"> or</span>
-<span class="hljs-meta">$</span><span class="bash"> yarn global add prisma</span></code></pre><h2>(Option 1) Using Docker machine</h2><p>This is using docker-machine in cli. The docker-machine will create a docker machine on AWS EC2 directly. and docker-compose will compose the prisma server along with <code>docker-compse.yml</code> in docker-machine.</p><h3>Create the docker machine on AWS EC2</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> docker-machine create --driver amazonec2 --amazonec2-region ap-northeast-2 --amazonec2-vpc-id __SPECIFIC_VPC__ prisma-server-example</span></code></pre><ul><li>If creating EC2 instance is failed, check your AWS credentials and IAM policy.</li></ul><h3>Activate new machine as active host</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> docker-machine prisma-server-example</span>
-<span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">eval</span> $(docker-machine env prisma-server-example)</span>
-<span class="hljs-meta">
-#</span><span class="bash"> check docker-machine</span>
-<span class="hljs-meta">$</span><span class="bash"> docker-machine ls</span></code></pre><h3><code>docker-compose.yml</code> file</h3><pre><code class="hljs language-yml" metaString=""><span class="hljs-attr">version:</span> <span class="hljs-string">&quot;3&quot;</span>
-<span class="hljs-attr">services:</span>
-<span class="hljs-attr">  prisma:</span>
-<span class="hljs-attr">    image:</span> <span class="hljs-string">prismagraphql/prisma:1.23</span>
-<span class="hljs-attr">    restart:</span> <span class="hljs-string">always</span>
-<span class="hljs-attr">    ports:</span>
-<span class="hljs-bullet">      -</span> <span class="hljs-string">&quot;4466:4466&quot;</span>
-    <span class="hljs-comment"># logging available in AWS CloudWatch</span>
-<span class="hljs-attr">    logging:</span>
-<span class="hljs-attr">      driver:</span> <span class="hljs-string">awslogs</span>
-<span class="hljs-attr">      options:</span>
-<span class="hljs-attr">        awslogs-group:</span> <span class="hljs-string">__AWSLOG_GROUP__</span>
-<span class="hljs-attr">        awslogs-region:</span> <span class="hljs-string">ap-northeast-2</span>
-<span class="hljs-attr">        awslogs-stream-prefix:</span> <span class="hljs-string">__AWSLOG_STREAM_PREFIX__</span>
-<span class="hljs-attr">    environment:</span>
-<span class="hljs-attr">      PRISMA_CONFIG:</span> <span class="hljs-string">|
-</span><span class="hljs-attr">        port:</span> <span class="hljs-number">4466</span>
-        <span class="hljs-comment"># managementApiSecret: __SECRET_KEY__</span>
-<span class="hljs-attr">        databases:</span>
-<span class="hljs-attr">          default:</span>
-<span class="hljs-attr">            connector:</span> <span class="hljs-string">postgres</span> <span class="hljs-comment"># PostgreSQL</span>
-<span class="hljs-attr">            host:</span> <span class="hljs-string">__AWS_RDS_HOST__</span>
-<span class="hljs-attr">            database:</span> <span class="hljs-string">__DB_NAME__</span>
-<span class="hljs-attr">            schema:</span> <span class="hljs-string">__DB_SCHEMA__</span>
-<span class="hljs-attr">            user:</span> <span class="hljs-string">__DB_USERNAME__</span>
-<span class="hljs-attr">            password:</span> <span class="hljs-string">__DB_PASSWORD__</span>
-<span class="hljs-attr">            rawAccess:</span> <span class="hljs-literal">true</span>
-<span class="hljs-attr">            port:</span> <span class="hljs-number">5432</span>
-<span class="hljs-attr">            migrations:</span> <span class="hljs-literal">false</span></code></pre><h3>Compose Prisma Server in new docker machine</h3><pre><code class="hljs language-shell" metaString="">docker compose up -d</code></pre><h3>Assign security group and check inbound rules</h3><ul><li>Basically, EC2 is assigned new security group as defalut. You need to check its inbound rule and open 4466 port.</li></ul><h3>Set the elastic load balancer (optional)</h3><h3>Modify prisma.yml</h3><pre><code class="hljs language-yml" metaString=""><span class="hljs-attr">endpoint:</span> <span class="hljs-attr">http://__AWS_EC2_ADDRESS__:4466</span>
-<span class="hljs-attr">datamodel:</span> <span class="hljs-string">datamodel.prisma</span>
-
-<span class="hljs-attr">generate:</span>
-<span class="hljs-attr">  - generator:</span> <span class="hljs-string">javascript-client</span>
-<span class="hljs-attr">    output:</span> <span class="hljs-string">./generated/prisma-client/</span></code></pre><h3>Deploy datamodel.prisma to Prisma Server in AWS EC2</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> PRISMA_MANAGEMENT_API_SECRET=__SECRET_KEY__ prisma deploy</span></code></pre><h3>Generate prisma client for GraphQL API</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> prisma generate</span></code></pre><p>References</p><blockquote><p><a href="https://docs.docker.com/machine/drivers/aws/">https://docs.docker.com/machine/drivers/aws/</a> <a href="https://docs.docker.com/machine/examples/aws/#step-2-use-machine-to-create-the-instance">https://docs.docker.com/machine/examples/aws/#step-2-use-machine-to-create-the-instance</a></p></blockquote><hr/><h2>(Option 2) Using AWS ECS Cli</h2><h3>Create EC2 and ECS cluster</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> ecs-cli up --keypair __AWS_KEYPAIR_NAME__ --capability-iam --vpc __SPECIFIC_VPC__ --subnets __SUBNET_1__,__SUBNET_2__ --size 1 --instance-type t2.micro --cluster-config prisma-server-ecs</span></code></pre><ul><li>It will generate the cloudformation which will proceed the whole process to generate EC2 instance and ECS cluster.</li></ul><h3>Compose the Prisma Server to ECS container</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> ecs-cli compose up --create-log-groups --cluster-config prisma-server-ecs</span></code></pre><ul><li>It will generate the new Task definition. You can check the new Task definition is runnig.</li></ul><h3>Check if the new Task definition is running</h3><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> esc-cli ps</span></code></pre><ul><li>If your new Task definition is working well, you might want to make new service in ECS cluster in order to manage the task.</li></ul><p>References</p><blockquote><p><a href="https://docs.aws.amazon.com/ko_kr/AmazonECR/latest/userguide/ECR_AWSCLI.html">https://docs.aws.amazon.com/ko_kr/AmazonECR/latest/userguide/ECR_AWSCLI.html</a> &gt; <a href="https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/ECS_CLI_tutorial_EC2.html">https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/ECS_CLI_tutorial_EC2.html</a></p></blockquote></div></div></div><div><h2 class="index-h2-title pinned">Pinned Posts <i id="pinned" class="fas fa-thumbtack"></i></h2><div class="post">...</div></div></div></div><style jsx="true">
+!.next</code></pre><h2>Deploy</h2><pre><code class="hljs language-shell" metaString=""><span class="hljs-meta">$</span><span class="bash"> up</span></code></pre></div></div></div><div><h2 class="index-h2-title pinned">Pinned Posts <i id="pinned" class="fas fa-thumbtack"></i></h2><div class="post">...</div></div></div></div><style jsx="true">
 .index-h2-title {
   display: inline-block;
   border: 5px solid #2c3e50;
@@ -782,7 +723,7 @@ pre code {
         padding-right: 10px;
       }
     </style></div></div><div id="__next-error"></div><script>
-          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/","pathname":"/","query":{},"buildId":"ee115e6f-63a1-44ef-ab19-61616af30fd9","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/","pathname":"/","query":{},"buildId":"ff2872b1-13ab-448b-8005-663504aa047b","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
           module={}
           __NEXT_LOADED_PAGES__ = []
           __NEXT_LOADED_CHUNKS__ = []
@@ -796,4 +737,4 @@ pre code {
           }
 
           false
-        </script><script async="" id="__NEXT_PAGE__/" src="/_next/ee115e6f-63a1-44ef-ab19-61616af30fd9/page/index.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/ee115e6f-63a1-44ef-ab19-61616af30fd9/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/ee115e6f-63a1-44ef-ab19-61616af30fd9/page/_error.js"></script><script src="/_next/static/commons/main-6cf35be489146a60b61e.js" async=""></script></body></html>
+        </script><script async="" id="__NEXT_PAGE__/" src="/_next/ff2872b1-13ab-448b-8005-663504aa047b/page/index.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/ff2872b1-13ab-448b-8005-663504aa047b/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/ff2872b1-13ab-448b-8005-663504aa047b/page/_error.js"></script><script src="/_next/static/commons/main-284119b0c1788e61fd13.js" async=""></script></body></html>
