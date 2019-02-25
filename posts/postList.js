@@ -1,5 +1,19 @@
 const postList = [
   {
+    title: "Commands for Postgres DB initial Setup",
+    createdAt: "2019-02-25",
+    filename: "2019-02-25-Commands-for-Postgres-DB-setup",
+    category: ["backend"],
+    keyword: ["postgres", "db"]
+  },
+  {
+    title: "How to replace the React Redux with Hooks",
+    createdAt: "2019-02-11",
+    filename: "2019-02-11-How-to-Replace-Redux-with-Hooks",
+    category: ["react"],
+    keyword: ["hooks", "redux"]
+  },
+  {
     title: "How to Deploy the Next.js app to AWS Lambda",
     createdAt: "2019-01-11",
     filename: "2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda",
@@ -100,6 +114,6 @@ const postList = [
     category: ["devlogs"],
     keyword: ["first", "post"]
   }
-];
+]
 
-module.exports = postList;
+module.exports = postList
