@@ -1,5 +1,12 @@
 const postList = [
   {
+    title: "Kill the process using port",
+    createdAt: "2019-03-05",
+    filename: "2019-03-05-Kill-Process-Using-Port",
+    category: ["devlogs"],
+    keyword: ["macos", "kill", "port"]
+  },
+  {
     title: "Commands for Postgres DB initial Setup",
     createdAt: "2019-02-25",
     filename: "2019-02-25-Commands-for-Postgres-DB-setup",
