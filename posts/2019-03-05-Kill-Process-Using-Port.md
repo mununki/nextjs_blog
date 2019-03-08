@@ -1,4 +1,4 @@
-# Kill the process using port
+# Kill the process occupying a specific port
 
 by Moondaddi on 2019-03-05
 

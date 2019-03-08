@@ -30,6 +30,7 @@ blockquote {
   padding: 0 1em;
   color: #6a737d;
   border-left: 0.25em solid #dfe2e5;
+	word-break: break-word;
 }
 
 code {
@@ -153,6 +154,6 @@ pre code {
     width: calc(100vw - 60px);
   }
 }
-`;
+`
 
-export default codeHighlighting;
+export default codeHighlighting
