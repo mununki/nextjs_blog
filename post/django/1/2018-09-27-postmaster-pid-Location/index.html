@@ -1,0 +1,573 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8" class="next-head next-head"/><title class="next-head">Moondaddi&#x27;s Blog</title><link rel="preload" href="/_next/69bcd007-5224-40f4-9156-9a4492260a0f/page/post.js" as="script"/><link rel="preload" href="/_next/69bcd007-5224-40f4-9156-9a4492260a0f/page/_app.js" as="script"/><link rel="preload" href="/_next/69bcd007-5224-40f4-9156-9a4492260a0f/page/_error.js" as="script"/><link rel="preload" href="/_next/static/commons/main-2de357aa9fa036210cfc.js" as="script"/><style id="__jsx-undefined">
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 160%;
+}
+#layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas: "header header" "category content" "footer footer";
+}
+#footer {
+  grid-area: footer;
+  background-color: #eee;
+}
+#content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: minmax(auto, 100px) 1fr minmax(auto, 100px);
+  grid-template-areas: "left-span container right-span";
+  padding: 50px 0px;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+@media (max-width: 576px) {
+  #layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "content" "footer";
+  }
+  #content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "container";
+    padding: 50px 0px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.container {
+  grid-area: container;
+  padding: 20px 10px 20px 10px;
+  min-width: 0;
+}
+
+.add-padding-for-fixed-header {
+  padding: 90px 10px 20px 10px;
+}
+</style><meta name="author" content="Moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Build my dreams with codes"/><meta name="theme-color" content="black"/></head><body><div id="__next"><div id="layout"><div id="header"><div id="header-top"><div id="home"><div id="home-title"><a href="/">Build my Dreams with Codes</a></div><div id="home-title-sm"><a href="/">BDC</a></div></div><div id="menu"><a id="menu-about" href="/about/">About</a><i id="search-button-sm" class="fa fa-search"></i><div id="search-container-id" class="search-container"><span class="icon"><i class="fa fa-search"></i></span><input type="text" id="search" value=""/></div><div id="menu-button"><i class="fas fa-bars"></i></div></div></div></div><style jsx="true">
+#menu-button {
+  display: none;
+}
+#header #home-title {
+  display: inline-block;
+}
+#header #home-title-sm {
+  display: none;
+}
+#header {
+  grid-area: header;
+  background-color: #343d46;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 20;
+}
+
+#header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.make-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+#header #home-title a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #eee;
+  margin: 0 10px;
+  padding: 15px;
+}
+
+#header #home-title:hover a {
+  cursor: pointer;
+  color: #fff;
+}
+
+#header #home-title-sm a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #eee;
+  margin: 0 10px;
+  padding: 15px;
+}
+
+#header #home-title-sm:hover a {
+  cursor: pointer;
+  color: #fff;
+}
+
+#header a#menu-about {
+  display: inline-block;
+  text-decoration: none;
+  color: #eee;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#header a#menu-about:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #000;
+  border-bottom: 4px solid #aaa;
+  padding: 15px 15px 11px 15px;
+}
+
+#search-button-sm {
+  color: #4f5b66;
+  margin: 0px 10px;
+  padding: 20px 15px 19px 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#search-button-sm:hover {
+  background-color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #000;
+  border-bottom: 4px solid #aaa;
+  padding: 20px 15px 15px 15px;
+}
+
+#header a#home-title:hover {
+  background-color: unset;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.search-container{
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  padding: 10px;
+}
+
+.search-container input#search{
+  width: 20px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 1rem;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #2b303b;
+ 
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.search-container input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.search-container input#search:-moz-placeholder { /* Firefox 18- */
+  color: #65737e;  
+}
+
+.search-container input#search::-moz-placeholder {  /* Firefox 19+ */
+  color: #65737e;  
+}
+
+.search-container input#search:-ms-input-placeholder {  
+  color: #65737e;  
+}
+
+.search-container .icon{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 15px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.search-container:hover .icon,
+.search-container input#search:focus .icon,
+.search-container input#search:active .icon{
+  margin-top: 17px;
+  color: #93a2ad;
+ 
+  -webkit-transform:scale(1.5); /* Safari and Chrome */
+  -moz-transform:scale(1.5); /* Firefox */
+  -ms-transform:scale(1.5); /* IE 9 */
+  -o-transform:scale(1.5); /* Opera */
+   transform:scale(1.5);
+  }
+
+.search-container input#search:focus,
+.search-container input#search:active{
+  outline:none;
+  width: 150px;
+  padding-left: 50px;
+  color: white;
+}
+ 
+.search-container:hover input#search{
+  width: 150px;
+  padding-left: 50px;
+  color: white;
+}
+ 
+.search-container:hover .icon{
+  color: #93a2ad;
+}
+#header-bottom,
+#search-button-sm {
+  display: none;
+}
+@media (max-width: 576px) {
+  #menu-button {
+    display: inline-block;
+    color: #eee;
+    margin-right: 10px;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  #menu-button:hover {
+    background-color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000;
+    border-bottom: 4px solid #aaa;
+    padding: 15px 15px 11px 15px;
+  }
+  #header #home-title {
+    display: none;
+  }
+  #header #home-title-sm {
+    display: inline-block;
+  }
+  #search-container-id {
+    display: none;
+  }
+  #search-button-sm {
+    display: inline-block;
+  }
+  #header-bottom {
+    display: block;
+  }
+  .search-container {
+    padding-top: 0px;
+  }
+  .search-container input#search{
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+  }
+  .search-container:hover input#search{
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+  }
+  .search-container input#search:focus,
+  .search-container input#search:active{
+    outline:none;
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+  }
+}
+</style><div id="category"><div id="container-category"><div id="container-category-fixed"><div id="menu-close-button"><i class="fas fa-times"></i></div><a href="/post/react/"><span>React</span><span>4</span></a><a id="selected" href="/post/django/"><span>Django</span><span>3</span></a><a href="/post/javascript/"><span>Javascript</span><span>0</span></a><a href="/post/python/"><span>Python</span><span>0</span></a><a href="/post/htmlcss/"><span>Html CSS</span><span>1</span></a><a href="/post/backend/"><span>Backend</span><span>3</span></a><a href="/post/devlogs/"><span>dev logs</span><span>5</span></a></div></div></div><style jsx="true">
+#category,
+#category__show {
+  grid-area: category;
+  background-color: #eee;
+  padding: 15px 0;
+}
+.make-fixed-category {
+  position: fixed;
+  top: 87px;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas: &quot;category-fixed content-fixed&quot;;
+}
+#container-category-fixed {
+  grid-area: category-fixed;
+}
+#menu-close-button {
+  display: none;
+}
+@media (max-width: 576px) {
+  #category {
+    display: none;
+  }
+  #category__show {
+    grid-area: 2/1/3/2;
+    z-index: 10;
+    background-color: rgba(238, 238, 238, 0.97)
+  }
+  #menu-close-button {
+    display: block;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+    text-align: right;
+  }
+  .make-fixed-category {
+    display: block;
+  }
+}
+#category a,
+#category__show a {
+  display: flex;
+  margin: 0;
+  padding: 15px 30px;
+  color: #555;
+  text-decoration: none;
+  justify-content: space-between;
+}
+#category a:hover,
+#category__show a:hover {
+  background-color: #ddd;
+  transition: 0.5s
+}
+
+#category a#selected,
+#category__show a#selected {
+  color: #000;
+  font-weight: bold;
+}
+</style><div id="content"><div class="container"><div class="post-card"><div><h1>&#x27;postmaster.pid&#x27; File Location</h1><p>by Moondaddi on 2018-09-27</p><hr/><h2>Where is the &#x27;postmaster.pid&#x27;?</h2><p>Time to time, I encounter the error when I try to start PostgreSQL DB again. Especially, right after cold power-off, it comes a lot to me. If you use GUI interface of PostgreSQL, it gives you a long instruction failed to start properly. But, simply, you can start again after delete this &#x27;postmaster.pid&#x27; file in your macOS system.</p><br/><h2>Location of &#x27;postmaster.pid&#x27;</h2><pre><code class="hljs language-shell" metaString="">/Users/user_name/Library/Application Support/Postgres/var-10</code></pre><blockquote><p>Note: PostgreSQL ver. 10, it can be changed depends on what version of postgres you use.</p></blockquote></div></div><style>
+.index-h2-title {
+  display: inline-block;
+  border: 5px solid #2c3e50;
+  border-radius: 35px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.pinned {
+  border: 5px solid #e74c3c;
+}
+#latest {
+  color: #f39c12;
+}
+#pinned {
+  color: #e74c3c;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+	width: 100%;
+	max-width: fit-content;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+	word-break: break-word;
+}
+
+code {
+  color: #c0392b;
+  padding: 2px 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+pre code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  // width: calc(100vw - 360px);
+}
+
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 576px) {
+  pre {
+    width: calc(100vw - 60px);
+  }
+}
+</style></div></div><div id="footer"><div class="footer-container"><div class="footer-left-span"></div><div class="copyright"><div>Copyright © 2018 Moondaddi&#x27;s Blog</div><div>The source code is under MIT License</div></div><div class="footer-right-span"><a href="mailto:woonki.moon@gmail.com"><i class="fas fa-envelope"></i></a><a href="https://github.com/mattdamon108" target="_blank"><i class="fab fa-github"></i></a></div></div></div><style jsx="true">
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer-left-span {
+        width: 70px;
+      }
+      .copyright {
+        color: #999;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 10px;
+      }
+      .footer-right-span {
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: right;
+      }
+      .footer-right-span a:link,
+      .footer-right-span a:visited,
+      .footer-right-span a:hover,
+      .footer-right-span a:active {
+        color: #fff;
+      }
+      .footer-right-span i {
+        padding-right: 10px;
+      }
+    </style></div></div><div id="__next-error"></div><script>
+          __NEXT_DATA__ = {"props":{"pageProps":{}},"page":"/post","pathname":"/post","query":{"category":"django","page":"1","filename":"2018-09-27-postmaster-pid-Location"},"buildId":"69bcd007-5224-40f4-9156-9a4492260a0f","assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+          module={}
+          __NEXT_LOADED_PAGES__ = []
+          __NEXT_LOADED_CHUNKS__ = []
+
+          __NEXT_REGISTER_PAGE = function (route, fn) {
+            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+          }
+
+          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+          }
+
+          false
+        </script><script async="" id="__NEXT_PAGE__/post" src="/_next/69bcd007-5224-40f4-9156-9a4492260a0f/page/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/69bcd007-5224-40f4-9156-9a4492260a0f/page/_app.js"></script><script async="" id="__NEXT_PAGE__/_error" src="/_next/69bcd007-5224-40f4-9156-9a4492260a0f/page/_error.js"></script><script src="/_next/static/commons/main-2de357aa9fa036210cfc.js" async=""></script></body></html>
