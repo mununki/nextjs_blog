@@ -29383,8 +29383,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _style_cssPostList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../style/cssPostList */ "./style/cssPostList.js");
-
 
 
 
@@ -29413,48 +29411,48 @@ var postList = function postList(props) {
 
   return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_4___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     id: "content",
-    className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+    className: "jsx-2467930861"
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "container"
+    className: "jsx-2467930861" + " " + "container"
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "post-list"
+    className: "jsx-2467930861" + " " + "post-list"
   }, _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(posts).length > 0 ? // check if posts objects is empty
   posts[page].map(function (post, key) {
     return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
       key: key,
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "post"
+      className: "jsx-2467930861" + " " + "post"
     }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
       href: "/post/".concat(post.category, "/").concat(page, "/").concat(post.filename)
     }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+      className: "jsx-2467930861"
     }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "post-title"
+      className: "jsx-2467930861" + " " + "post-title"
     }, post.title), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "post-createdAt"
+      className: "jsx-2467930861" + " " + "post-createdAt"
     }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("i", {
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "far fa-calendar-alt"
+      className: "jsx-2467930861" + " " + "far fa-calendar-alt"
     }), " " + post.createdAt))));
   }) : react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+    className: "jsx-2467930861"
   }, "no post yet...\uD83E\uDD14"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+    className: "jsx-2467930861"
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
-    className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+    className: "jsx-2467930861"
   }, pageArray.map(function (p, key) {
     return _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(p, 10) === _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(page, 10) ? react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
       key: key,
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash) + " " + "current-page"
+      className: "jsx-2467930861" + " " + "current-page"
     }, p) : react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
       key: key,
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+      className: "jsx-2467930861"
     }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
       href: "/post/".concat(category, "/").concat(p)
     }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("a", {
-      className: "jsx-".concat(_style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash)
+      className: "jsx-2467930861"
     }, p)));
   })))))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    id: _style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"].__hash
-  }, _style_cssPostList__WEBPACK_IMPORTED_MODULE_6__["default"]));
+    id: "2467930861"
+  }, "ul.jsx-2467930861{list-style-type:none;padding:0;text-align:center;margin-bottom:0;}ul.jsx-2467930861 li.jsx-2467930861{display:inline-block;padding:2px 10px;margin:0px 5px;}ul.jsx-2467930861 li.jsx-2467930861 a.jsx-2467930861{color:#aaa;-webkit-text-decoration:none;text-decoration:none;}ul.jsx-2467930861 li.jsx-2467930861 a.jsx-2467930861:hover{color:#000;}.current-page.jsx-2467930861{color:#000;border-bottom:3px solid #343d46;}.container.jsx-2467930861{height:calc(100vh - 282px);}.post-list.jsx-2467930861{background-color:#fff;border:1px solid #eee;padding:20px;margin-bottom:50px;border-radius:5px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}.post.jsx-2467930861{padding:10px;}.post.jsx-2467930861 a.jsx-2467930861{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;color:black;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-text-decoration:none;text-decoration:none;}.post.jsx-2467930861 a.jsx-2467930861 .post-title.jsx-2467930861{font-size:1.2rem;}.post.jsx-2467930861 a.jsx-2467930861 .post-title.jsx-2467930861:hover{font-size:1.2rem;-webkit-text-decoration:underline;text-decoration:underline;}.post.jsx-2467930861 a.jsx-2467930861 .post-createdAt.jsx-2467930861{width:150px;color:#999;font-size:0.8rem;vertical-align:baseline;text-align:right;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvcGFnZXMvcG9zdC9wb3N0TGlzdFByZXNlbnRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2RHlCLEFBR2dDLEFBTUEsQUFLVixBQUlBLEFBR0EsQUFJZ0IsQUFHTCxBQVNULEFBR0EsQUFNSSxBQUdBLEFBSUwsV0F0Q1MsQUFJdkIsQUFHa0MsQ0FnQ3JCLENBaEJiLElBU0EsQUFHNEIsSUE5Q2hCLEFBTU8sQ0FtQkssQ0EwQkwsSUE3Qm5CLElBckJvQixPQU1ILEVBNkNTLEdBakMxQixDQU9lLEtBeEJHLElBTWxCLElBbUJxQixJQWZyQixHQXlDbUIsQ0FsRG5CLFNBa0NjLEVBVE0sQ0FtQnBCLElBT0EsS0FoQmdDLFFBUkksc0VBQ3BDLHFDQVF1QixrREFDdkIiLCJmaWxlIjoiL1VzZXJzL2Fybm9sZC9Eb2N1bWVudHMvZ2l0L2dpdGh1Yi9tYXR0ZGFtb24xMDguYmxvZy9wYWdlcy9wb3N0L3Bvc3RMaXN0UHJlc2VudGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuXG5jb25zdCBnZXRQYWdlTm9BcnJheSA9IHBvc3RzID0+IHtcbiAgY29uc3QgcGFnZUFycmF5ID0gT2JqZWN0LmtleXMocG9zdHMpO1xuICByZXR1cm4gcGFnZUFycmF5LnJldmVyc2UoKTtcbn07XG5cbmNvbnN0IHBvc3RMaXN0ID0gcHJvcHMgPT4ge1xuICBjb25zdCB7IGNhdGVnb3J5LCBwb3N0cyB9ID0gcHJvcHM7XG4gIGxldCB7IHBhZ2UgfSA9IHByb3BzO1xuICBjb25zdCBwYWdlQXJyYXkgPSBnZXRQYWdlTm9BcnJheShwb3N0cyk7IC8vIFtcIjJcIiwgXCIxXCJdXG4gIGlmICghcGFnZSkge1xuICAgIHBhZ2UgPSBNYXRoLm1heCguLi5wYWdlQXJyYXkpOyAvLyBpZiBVUkwgZG9lc24ndCBoYXZlIGEgcGFnZVxuICB9IGVsc2UgaWYgKE1hdGgubWF4KC4uLk9iamVjdC5rZXlzKHBvc3RzKSkgPCBwYWdlKSB7XG4gICAgLy8gaWYgVVJMIHBhZ2UgaXMgYmlnZ2VyIHRoYW4gYWN0dWFsIHBhZ2VzXG4gICAgcGFnZSA9IE1hdGgubWF4KC4uLk9iamVjdC5rZXlzKHBvc3RzKSk7IC8vIHRoZW4gc2V0IHBhZ2Ugd2l0aCBtYXggcGFnZSBuby5cbiAgfVxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8ZGl2IGlkPVwiY29udGVudFwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicG9zdC1saXN0XCI+XG4gICAgICAgICAgICB7T2JqZWN0LmtleXMocG9zdHMpLmxlbmd0aCA+IDAgPyAoIC8vIGNoZWNrIGlmIHBvc3RzIG9iamVjdHMgaXMgZW1wdHlcbiAgICAgICAgICAgICAgcG9zdHNbcGFnZV0ubWFwKChwb3N0LCBrZXkpID0+IChcbiAgICAgICAgICAgICAgICA8ZGl2IGtleT17a2V5fSBjbGFzc05hbWU9XCJwb3N0XCI+XG4gICAgICAgICAgICAgICAgICA8TGlua1xuICAgICAgICAgICAgICAgICAgICBocmVmPXtgL3Bvc3QvJHtwb3N0LmNhdGVnb3J5fS8ke3BhZ2V9LyR7cG9zdC5maWxlbmFtZX1gfVxuICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICA8YT5cbiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJwb3N0LXRpdGxlXCI+e3Bvc3QudGl0bGV9PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInBvc3QtY3JlYXRlZEF0XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJmYXIgZmEtY2FsZW5kYXItYWx0XCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIHtcIiBcIiArIHBvc3QuY3JlYXRlZEF0fVxuICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICApKVxuICAgICAgICAgICAgKSA6IChcbiAgICAgICAgICAgICAgPGRpdj5ubyBwb3N0IHlldC4uLvCfpJQ8L2Rpdj5cbiAgICAgICAgICAgICl9XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8dWw+XG4gICAgICAgICAgICAgICAge3BhZ2VBcnJheS5tYXAoKHAsIGtleSkgPT5cbiAgICAgICAgICAgICAgICAgIHBhcnNlSW50KHAsIDEwKSA9PT0gcGFyc2VJbnQocGFnZSwgMTApID8gKFxuICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXtrZXl9IGNsYXNzTmFtZT1cImN1cnJlbnQtcGFnZVwiPlxuICAgICAgICAgICAgICAgICAgICAgIHtwfVxuICAgICAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICAgICAgICAgKSA6IChcbiAgICAgICAgICAgICAgICAgICAgPGxpIGtleT17a2V5fT5cbiAgICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL3Bvc3QvJHtjYXRlZ29yeX0vJHtwfWB9PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGE+e3B9PC9hPlxuICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz5cbiAgICAgICAgICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICApfVxuICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8c3R5bGUganN4PVwidHJ1ZVwiPntgXG4gICAgICAgIHVsIHtcbiAgICAgICAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gICAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgICAgfVxuICAgICAgICB1bCBsaSB7XG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICAgIHBhZGRpbmc6IDJweCAxMHB4O1xuICAgICAgICAgIG1hcmdpbjogMHB4IDVweDtcbiAgICAgICAgfVxuICAgICAgICB1bCBsaSBhIHtcbiAgICAgICAgICBjb2xvcjogI2FhYTtcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgIH1cbiAgICAgICAgdWwgbGkgYTpob3ZlciB7XG4gICAgICAgICAgY29sb3I6ICMwMDA7XG4gICAgICAgIH1cbiAgICAgICAgLmN1cnJlbnQtcGFnZSB7XG4gICAgICAgICAgY29sb3I6ICMwMDA7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICMzNDNkNDY7XG4gICAgICAgIH1cbiAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gMjgycHgpO1xuICAgICAgICB9XG4gICAgICAgIC5wb3N0LWxpc3Qge1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2VlZTtcbiAgICAgICAgICBwYWRkaW5nOiAyMHB4O1xuICAgICAgICAgIG1hcmdpbi1ib3R0b206IDUwcHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgICAgICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKSxcbiAgICAgICAgICAgIDAgNnB4IDIwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTkpO1xuICAgICAgICB9XG4gICAgICAgIC5wb3N0IHtcbiAgICAgICAgICBwYWRkaW5nOiAxMHB4O1xuICAgICAgICB9XG4gICAgICAgIC5wb3N0IGEge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgY29sb3I6IGJsYWNrO1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgIH1cbiAgICAgICAgLnBvc3QgYSAucG9zdC10aXRsZSB7XG4gICAgICAgICAgZm9udC1zaXplOiAxLjJyZW07XG4gICAgICAgIH1cbiAgICAgICAgLnBvc3QgYSAucG9zdC10aXRsZTpob3ZlciB7XG4gICAgICAgICAgZm9udC1zaXplOiAxLjJyZW07XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG4gICAgICAgIH1cbiAgICAgICAgLnBvc3QgYSAucG9zdC1jcmVhdGVkQXQge1xuICAgICAgICAgIHdpZHRoOiAxNTBweDtcbiAgICAgICAgICBjb2xvcjogIzk5OTtcbiAgICAgICAgICBmb250LXNpemU6IDAuOHJlbTtcbiAgICAgICAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgICAgICAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8Lz5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHBvc3RMaXN0O1xuIl19 */\n/*@ sourceURL=/Users/arnold/Documents/git/github/mattdamon108.blog/pages/post/postListPresenter.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (postList);
@@ -29472,8 +29470,6 @@ var postList = function postList(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_codeHighlight__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../style/codeHighlight */ "./style/codeHighlight.js");
-
 
 
 var PostPresenter = function PostPresenter(props) {
@@ -29485,7 +29481,7 @@ var PostPresenter = function PostPresenter(props) {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "post-card"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MD.default, null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", null, _style_codeHighlight__WEBPACK_IMPORTED_MODULE_1__["default"])));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MD.default, null))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PostPresenter);
@@ -36397,12 +36393,16 @@ MDXContent.isMDXComponent = true;
 /*!*****************************************************!*\
   !*** ./posts/2019-03-05-Kill-Process-Using-Port.md ***!
   \*****************************************************/
-/*! exports provided: title, default */
+/*! exports provided: title, createdAt, filename, category, keyword, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "title", function() { return title; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createdAt", function() { return createdAt; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyword", function() { return keyword; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -36422,9 +36422,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var title = "Kill the process occupying a specific port";
+var title = "Kill the process using port";
+var createdAt = "2019-03-05T00:00:00.000Z";
+var filename = "2019-03-05-Kill-Process-Using-Port";
+var category = "devlogs";
+var keyword = ["macos", "kill", "port"];
 var layoutProps = {
-  title: title
+  title: title,
+  createdAt: createdAt,
+  filename: filename,
+  category: category,
+  keyword: keyword
 };
 
 var MDXContent =
@@ -36669,34 +36677,6 @@ module.exports = postList;
 
 /***/ }),
 
-/***/ "./style/codeHighlight.js":
-/*!********************************!*\
-  !*** ./style/codeHighlight.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var codeHighlighting = "\n.index-h2-title {\n  display: inline-block;\n  border: 5px solid #2c3e50;\n  border-radius: 35px;\n  padding: 10px 20px;\n  background-color: #fff;\n}\n.pinned {\n  border: 5px solid #e74c3c;\n}\n#latest {\n  color: #f39c12;\n}\n#pinned {\n  color: #e74c3c;\n}\n\n.post-card {\n  background-color: #fff;\n  border: 1px solid #eee;\n  padding: 20px;\n  margin-bottom: 50px;\n  border-radius: 5px;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n}\n\nimg {\n\twidth: 100%;\n\tmax-width: fit-content;\n}\n\nblockquote {\n  margin: 0;\n  padding: 0 1em;\n  color: #6a737d;\n  border-left: 0.25em solid #dfe2e5;\n\tword-break: break-word;\n}\n\ncode {\n  color: #c0392b;\n  padding: 2px 3px;\n  border: 1px solid #ccc;\n  border-radius: 3px;\n}\n\npre code {\n  overflow: auto;\n  word-wrap: normal;\n  white-space: pre;\n  // width: calc(100vw - 360px);\n}\n\n/* a11y-dark theme */\n/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */\n/* @author: ericwbailey */\n\n/* Comment */\n.hljs-comment,\n.hljs-quote {\n  color: #d4d0ab;\n}\n\n/* Red */\n.hljs-variable,\n.hljs-template-variable,\n.hljs-tag,\n.hljs-name,\n.hljs-selector-id,\n.hljs-selector-class,\n.hljs-regexp,\n.hljs-deletion {\n  color: #ffa07a;\n}\n\n/* Orange */\n.hljs-number,\n.hljs-built_in,\n.hljs-builtin-name,\n.hljs-literal,\n.hljs-type,\n.hljs-params,\n.hljs-meta,\n.hljs-link {\n  color: #f5ab35;\n}\n\n/* Yellow */\n.hljs-attribute {\n  color: #ffd700;\n}\n\n/* Green */\n.hljs-string,\n.hljs-symbol,\n.hljs-bullet,\n.hljs-addition {\n  color: #abe338;\n}\n\n/* Blue */\n.hljs-title,\n.hljs-section {\n  color: #00e0e0;\n}\n\n/* Purple */\n.hljs-keyword,\n.hljs-selector-tag {\n  color: #dcc6e0;\n}\n\n.hljs {\n  display: block;\n  overflow-x: auto;\n  background: #2b2b2b;\n  color: #f8f8f2;\n  padding: 1rem;\n  font-size: 1rem;\n  border-radius: 5px;\n}\n\n.hljs-emphasis {\n  font-style: italic;\n}\n\n.hljs-strong {\n  font-weight: bold;\n}\n\n@media screen and (-ms-high-contrast: active) {\n  .hljs-addition,\n  .hljs-attribute,\n  .hljs-built_in,\n  .hljs-builtin-name,\n  .hljs-bullet,\n  .hljs-comment,\n  .hljs-link,\n  .hljs-literal,\n  .hljs-meta,\n  .hljs-number,\n  .hljs-params,\n  .hljs-string,\n  .hljs-symbol,\n  .hljs-type,\n  .hljs-quote {\n        color: highlight;\n    }\n\n    .hljs-keyword,\n    .hljs-selector-tag {\n        font-weight: bold;\n    }\n}\n\n@media (max-width: 576px) {\n  pre {\n    width: calc(100vw - 60px);\n  }\n}\n";
-/* harmony default export */ __webpack_exports__["default"] = (codeHighlighting);
-
-/***/ }),
-
-/***/ "./style/cssPostList.js":
-/*!******************************!*\
-  !*** ./style/cssPostList.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var cssPostList = "\nul {\n  list-style-type: none;\n  padding: 0;\n  text-align: center;\n  margin-bottom: 0;\n}\nul li {\n  display: inline-block;\n  padding: 2px 10px;\n  margin: 0px 5px;\n}\nul li a {\n  color: #aaa;\n  text-decoration: none;\n}\nul li a:hover {\n  color: #000;\n}\n.current-page {\n  color: #000;\n  border-bottom: 3px solid #343d46;\n}\n.container {\n  height: calc(100vh - 282px);\n}\n.post-list {\n  background-color: #fff;\n  border: 1px solid #eee;\n  padding: 20px;\n  margin-bottom: 50px;\n  border-radius: 5px;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n}\n.post{\n  padding: 10px;\n}\n.post a {\n  display: flex;\n  color: black;\n  justify-content: space-between;\n  text-decoration: none;\n}\n.post a .post-title {\n  font-size: 1.2rem;\n}\n.post a .post-title:hover {\n  font-size: 1.2rem;\n  text-decoration: underline;\n}\n.post a .post-createdAt {\n  width: 150px;\n  color: #999;\n  font-size: 0.8rem;\n  vertical-align: baseline;\n  text-align: right;\n}\n";
-/* harmony default export */ __webpack_exports__["default"] = (cssPostList);
-
-/***/ }),
-
 /***/ "./utils/pagination.js":
 /*!*****************************!*\
   !*** ./utils/pagination.js ***!
@@ -36780,7 +36760,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=%2FUsers%2Farnold%2FDocuments%2Fgit%2Fgithub%2Fmattdamon108.blog%2Fpages%2Fpost%2Findex.js ***!
   \***************************************************************************************************************************************************************/
@@ -36803,5 +36783,5 @@ module.exports = dll_e42e0f91c9ae4e3e094d;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=post.js.map
