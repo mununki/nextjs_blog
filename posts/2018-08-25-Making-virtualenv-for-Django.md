@@ -14,7 +14,7 @@ by Moondaddi on 2018-08-25
 
 ## 1. Make the project foler
 
-```code
+```shell
 $ mkdir some_project
 $ cd some_project
 ```
@@ -23,7 +23,7 @@ $ cd some_project
 
 ## 2. Set up Virtualenv
 
-```code
+```shell
 $ python -m venv env_some_project
 ```
 
@@ -33,7 +33,7 @@ $ python -m venv env_some_project
 
 ## 3. Activate the virtualenv
 
-```code
+```shell
 $ source ./env_some_project/bin/activate
 ```
 
@@ -43,7 +43,7 @@ $ source ./env_some_project/bin/activate
 
 ## 4. Install Django
 
-```code
+```shell
 $ pip3 install django
 ```
 
@@ -51,7 +51,7 @@ $ pip3 install django
 
 ## 5. Start project
 
-```code
+```shell
 $ django-admin startproject some_project
 ```
 
@@ -59,7 +59,7 @@ $ django-admin startproject some_project
 
 ## 6. Start app
 
-```code
+```shell
 $ python manage.py startapp some_app
 ```
 

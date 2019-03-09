@@ -1,16 +1,15 @@
-import codeHighlighting from "../../style/codeHighlight";
-
-export default props => {
-  const MD = require(`../../posts/${props.post[0].filename}.md`).default;
+const PostPresenter = props => {
+  const MD = require(`../../posts/${props.post[0].filename}.md`);
 
   return (
     <div id="content">
       <div className="container">
         <div className="post-card">
-          <MD />
+          <MD.default />
         </div>
-        <style>{codeHighlighting}</style>
       </div>
     </div>
   );
 };
+
+export default PostPresenter;

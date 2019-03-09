@@ -49,7 +49,6 @@ export default props => {
           </div>
         </div>
       </div>
-      <style jsx="true">{codeHighlighting}</style>
     </>
   );
 };

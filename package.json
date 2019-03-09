@@ -1,10 +1,12 @@
 {
   "dependencies": {
+    "@mdx-js/loader": "^0.20.3",
     "@mdx-js/mdx": "^0.16.5",
     "@zeit/next-mdx": "^1.2.0",
     "express": "^4.16.4",
     "moment": "^2.22.2",
-    "next": "^6.1.2",
+    "next": "^8.0.3",
+    "next-mdx-frontmatter": "^0.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "remark-emoji": "^2.0.2",

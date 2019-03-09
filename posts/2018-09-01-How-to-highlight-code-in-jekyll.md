@@ -12,7 +12,7 @@ highlighter: rouge
 
 ## Usage - `Liquid templating`
 
-```jekyll
+```rb
 {% highlight some-language %}
 ...
 {% endhighlight %}

@@ -3,9 +3,9 @@ const emoji = require("remark-emoji");
 const highlight = require("remark-highlight.js");
 const exportPathMap = require("./export.config");
 
-const withMDX = require("@zeit/next-mdx")({
+const withMDX = require("next-mdx-frontmatter")({
   extension: /\.(md|mdx)?$/,
-  options: {
+  MDXOptions: {
     mdPlugins: [images, emoji, highlight]
   }
 });

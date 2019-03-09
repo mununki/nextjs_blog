@@ -10,7 +10,7 @@ Simply, the [Prisma](https://www.prisma.io/) is the new ORM([Object Relational M
 
 > ex. GraphQL schema
 
-```graphql
+```js
 type Tweet {
   id: ID! @unique
   createdAt: DateTime!

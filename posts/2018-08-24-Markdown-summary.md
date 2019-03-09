@@ -10,12 +10,17 @@ by Moondaddi on 2018-08-24
 
 ## Headers
 
-```code
+```markdown
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 ```
 
@@ -23,7 +28,7 @@ by Moondaddi on 2018-08-24
 
 ## Blockquote
 
-```code
+```markdown
 > This is a blockquote
 ```
 
@@ -37,7 +42,7 @@ by Moondaddi on 2018-08-24
 
 ### 1) Ordered
 
-```code
+```markdown
 1. first
 2. second
 3. third
@@ -51,7 +56,7 @@ by Moondaddi on 2018-08-24
 
 ### 2) UnOrdered
 
-```code
+```markdown
 - Red
   - Green
     - Blue
@@ -69,18 +74,22 @@ or '+', '-', '='
 
 4 space spacing or 1 tab
 
-> linebreak often breaks the code block
+> linebreak often breaks the markdown block
 
 <br />
 
 ## 5. Horizontal Line
 
-```code
-* * *
-***
-*****
-- - -
------------------
+```markdown
+---
+
+---
+
+---
+
+---
+
+---
 ```
 
 <br />
@@ -91,7 +100,7 @@ or '+', '-', '='
 
 ## 6. Link
 
-```code
+```markdown
 <https://www.google.com>
 [Google](https://www.google.com)
 ```
@@ -103,10 +112,10 @@ or '+', '-', '='
 
 ## 7. Text Style
 
-```code
-*italic* or _italic_
-**bold** or __bold__
-***italic bold*** or ___italic bold___
+```markdown
+_italic_ or _italic_
+**bold** or **bold**
+**_italic bold_** or **_italic bold_**
 <u>underline</u>
 ~~canceline~~
 ```
@@ -121,7 +130,7 @@ _italic_<br />
 
 ## 8. Image
 
-```code
+```markdown
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
@@ -132,6 +141,6 @@ _italic_<br />
 
 ## 9. Line break
 
-```code
+```markdown
 <br />
 ```

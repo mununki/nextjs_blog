@@ -6,7 +6,7 @@ by Moondaddi on 2018-08-28
 
 ## Requirements
 
-```code
+```shell
 $ pip install django
 $ pip install graphene_django
 $ pip install graphene-file-upload
