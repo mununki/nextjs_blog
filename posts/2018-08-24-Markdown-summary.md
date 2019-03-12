@@ -1,3 +1,11 @@
+---
+title: Markdown summary
+createdAt: 2018-08-24
+filename: 2018-08-24-Markdown-summary
+category: ["devlogs"]
+keyword: ["markdown", "summary"]
+---
+
 # Markdown Summary for future me
 
 by Moondaddi on 2018-08-24
@@ -82,9 +90,7 @@ or '+', '-', '='
 
 ```markdown
 ---
-
 ---
-
 ---
 
 ---

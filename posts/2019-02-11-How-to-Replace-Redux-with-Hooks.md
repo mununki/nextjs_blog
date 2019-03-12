@@ -1,3 +1,11 @@
+---
+title: How to replace the React Redux with Hooks
+createdAt: 2019-02-11
+filename: 2019-02-11-How-to-Replace-Redux-with-Hooks
+category: ["react"]
+keyword: ["hooks", "redux"]
+---
+
 # How to replace the Redux with React Hooks
 
 by moondaddi on 2019-02-11

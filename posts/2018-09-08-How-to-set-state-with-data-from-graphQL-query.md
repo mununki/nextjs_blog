@@ -1,3 +1,11 @@
+---
+title: How to set state with data from apollo grapqhQL query
+createdAt: 2018-09-08
+filename: 2018-09-08-How-to-set-state-with-data-from-graphQL-query
+category: ["react"]
+keyword: ["react", "apollo", "graphQL"]
+---
+
 # How to set state with data from apollo grapqhQL query
 
 by Moondaddi on 2018-09-08

@@ -1,3 +1,11 @@
+---
+title: Commands for Postgres DB initial Setup
+createdAt: 2019-02-25
+filename: 2019-02-25-Commands-for-Postgres-DB-setup
+category: ["backend"]
+keyword: ["postgres", "db"]
+---
+
 # Commands for Postgres DB initial setup
 
 by Moondaddi on 2019-02-25

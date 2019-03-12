@@ -1,3 +1,11 @@
+---
+title: Some different ways to align element to vertical center
+createdAt: 2018-08-30
+filename: 2018-08-30-How-to-align-element-to-vertical-center
+category: ["htmlcss"]
+keyword: ["vertical", "align"]
+---
+
 # Some different ways to align element to vertical center
 
 by Moondaddi on 2018-08-30

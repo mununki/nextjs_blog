@@ -1,3 +1,11 @@
+---
+title: File upload with GraphQL Apollo client & Django + Graphene
+createdAt: 2018-08-28
+filename: 2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene
+category: ["django"]
+keyword: ["django", "graphql", "graphene", "apollo"]
+---
+
 # File upload with GraphQL Apollo client & Django + Graphene
 
 by Moondaddi on 2018-08-28
