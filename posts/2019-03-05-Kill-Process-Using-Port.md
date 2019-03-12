@@ -2,7 +2,7 @@
 title: Kill the process using port
 createdAt: 2019-03-05
 filename: 2019-03-05-Kill-Process-Using-Port
-category: devlogs
+category: ["devlogs"]
 keyword: ["macos", "kill", "port"]
 ---
 
