@@ -18,8 +18,9 @@
     font-size: 1.7rem;
     margin: 1rem auto;
     font-weight: bold; }
-    #header #header-title #header-title-link {
-      cursor: pointer; }
+    #header #header-title a {
+      color: white;
+      text-decoration: none; }
   #header #avatar-img {
     display: inline-block;
     -webkit-border-radius: 25px;
@@ -82,46 +83,35 @@ a {
     width: 100%;
     margin: 0 auto; } }
 
-.about-container {
-  height: 80vh;
-  text-align: center; }
-  .about-container #under-construction {
-    margin-top: 30%; }
-
-#tag {
-  height: 100vh; }
-
-.input-container {
-  margin-top: 3rem;
-  position: relative; }
-
-#tag-search-icon {
-  position: absolute;
-  top: 1rem;
-  margin-left: 1.5rem;
-  font-size: 2rem;
-  color: #ED4C67; }
-
-.tag-input {
-  margin: 1rem 1rem;
-  font-size: 2rem;
-  width: 100%;
-  border: none;
-  border-bottom: 2px #ED4C67 solid;
-  outline: none;
-  padding-left: 50px; }
-
-.tag-list-container {
+.post-container {
+  display: flex;
   margin: 1rem; }
 
-.tag-title {
-  font-size: 2rem;
-  margin: 1rem 0; }
+.post-img-container {
+  min-width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center; }
 
-.tag-item {
+.post-body {
   display: inline-block;
-  margin: 0.5rem;
-  font-size: 1.2rem; }
+  margin: 0 1rem; }
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0; }
+
+.post-subtitle {
+  color: grey; }
+
+.post-createdAt {
+  margin: 1rem 0 0 0; }
+
+@media (max-width: 576px) {
+  .post-container {
+    display: block;
+    margin: 1rem; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
