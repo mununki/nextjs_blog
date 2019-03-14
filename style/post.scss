@@ -1,33 +1,12 @@
-const codeHighlighting = `
-.index-h2-title {
-  display: inline-block;
-  border: 5px solid #2c3e50;
-  border-radius: 35px;
-  padding: 10px 20px;
-  background-color: #fff;
-}
-.pinned {
-  border: 5px solid #e74c3c;
-}
-#latest {
-  color: #f39c12;
-}
-#pinned {
-  color: #e74c3c;
-}
-
 .post-card {
   background-color: #fff;
-  border: 1px solid #eee;
-  padding: 20px;
+  padding: 1rem;
   margin-bottom: 50px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
-	width: 100%;
-	max-width: fit-content;
+  width: 100%;
+  max-width: fit-content;
 }
 
 blockquote {
@@ -35,7 +14,7 @@ blockquote {
   padding: 0 1em;
   color: #6a737d;
   border-left: 0.25em solid #dfe2e5;
-	word-break: break-word;
+  word-break: break-word;
 }
 
 code {
@@ -52,17 +31,11 @@ pre code {
   // width: calc(100vw - 360px);
 }
 
-/* a11y-dark theme */
-/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
-/* @author: ericwbailey */
-
-/* Comment */
 .hljs-comment,
 .hljs-quote {
   color: #d4d0ab;
 }
 
-/* Red */
 .hljs-variable,
 .hljs-template-variable,
 .hljs-tag,
@@ -145,20 +118,17 @@ pre code {
   .hljs-symbol,
   .hljs-type,
   .hljs-quote {
-        color: highlight;
-    }
+    color: highlight;
+  }
 
-    .hljs-keyword,
-    .hljs-selector-tag {
-        font-weight: bold;
-    }
+  .hljs-keyword,
+  .hljs-selector-tag {
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 576px) {
   pre {
-    width: calc(100vw - 60px);
+    width: 100%;
   }
 }
-`
-
-export default codeHighlighting

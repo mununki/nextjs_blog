@@ -5,74 +5,55 @@ const pagination = require("../utils/pagination");
 
 const exportPathMap = {
   "/": { page: "/" },
-  "/about": { page: "/about" },
-  "/search": { page: "/search" }
+  "/tag": { page: "/tag" },
+  "/post": { page: "/post" },
+  "/about": { page: "/about" }
 };
 
-const getUniqueCategory = () => {
-  let categories = [
-    "react",
-    "django",
-    "javascript",
-    "python",
-    "htmlcss",
-    "backend",
-    "devlogs"
-  ];
-  return categories;
+const getUniqueTags = () => {
+  const tags = postList.reduce((acc, cur) => {
+    return [...new Set([...acc, ...cur.tag])];
+  }, []);
+  return tags;
 };
 
-const getAllFilenamesWithCategory = () => {
+const getAllFilenames = () => {
   let filenames = [];
-  postList.map(post =>
-    filenames.push({ filename: post.filename, category: post.category[0] })
-  );
+  postList.map(post => filenames.push(post.filename));
   return filenames;
 };
 
-const assertCategoryPath = () => {
-  const uniqueCategories = getUniqueCategory();
-  uniqueCategories.map(
-    category =>
-      (exportPathMap[`/post/${category}`] = {
-        page: "/post",
-        query: { category: `${category}` }
-      })
-  );
-};
-
-const assertFilenamesPath = () => {
-  const filenames = getAllFilenamesWithCategory(); // [ { category: 'react', filename: '2018-01-01-post' }, ... ]
-  getUniqueCategory().map(category => {
-    posts = postList.filter(
-      post => post.category.filter(item => item === category).length > 0
-    );
-    const paginatedPosts = pagination.getPagination(posts);
-    Object.keys(paginatedPosts).map(pageNo => {
-      exportPathMap[`/post/${category}/${pageNo}`] = {
-        page: "/post",
-        query: {
-          category: `${category}`,
-          page: `${pageNo}`
-        }
-      };
-      paginatedPosts[pageNo].map(post => {
-        exportPathMap[`/post/${post.category}/${pageNo}/${post.filename}`] = {
+const assertFilenamesAsPath = () => {
+  return new Promise((resolve, reject) => {
+    const filenames = getAllFilenames();
+    const result = filenames.map(
+      filename =>
+        (exportPathMap[`/post/${filename}`] = {
           page: "/post",
-          query: {
-            category: `${post.category}`,
-            page: `${pageNo}`,
-            filename: `${post.filename}`
-          }
-        };
-      });
-    });
+          query: { filename: `${filename}` }
+        })
+    );
+    resolve(result);
   });
 };
 
-const generateExportPath = () => {
-  assertCategoryPath();
-  assertFilenamesPath();
+const assertTagsAsPath = () => {
+  return new Promise((resolve, reject) => {
+    const tags = getUniqueTags();
+    const result = tags.map(
+      tag =>
+        (exportPathMap[`/tag/${tag}`] = {
+          page: "/tag",
+          query: { tag: `${tag}` }
+        })
+    );
+    resolve(result);
+  });
+};
+
+const generateExportPath = async () => {
+  await assertFilenamesAsPath();
+  await assertTagsAsPath();
   return exportPathMap;
 };
 

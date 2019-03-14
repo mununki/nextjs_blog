@@ -1,7 +1,12 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, {
+  Head,
+  Main,
+  NextDocumentContext,
+  NextScript
+} from "next/document";
 
 export default class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(ctx: NextDocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
@@ -9,8 +14,12 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <meta name="author" content={"Moondaddi"} />
+          <meta name="author" content={"moondaddi"} />
           <link rel="manifest" href="/static/manifest.json" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Merriweather"
+            rel="stylesheet"
+          />
           <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"

@@ -3,7 +3,7 @@ title: Deploy the Prisma Server to AWS ECS and EC2 with Docker
 createdAt: 2018-12-24
 filename: 2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker
 category: ["backend"]
-keyword: ["aws", "graphql", "prisma", "ecs"]
+tag: ["aws", "graphql", "prisma", "ecs"]
 ---
 
 # Deploy the Prisma Server to the AWS EC2 with Docker
@@ -46,7 +46,7 @@ If you make your graphQL schema to `datamodel.prisma` file. It's all set. Prisma
 
 ## Structure
 
-![Prisma structure](/static/images/post_img/prisma_structure.jpg)
+![Prisma structure](/static/images/post_img/2018-12-24_prisma_structure.jpg)
 
 > GraphQL API Server = GraphQL API + Prisma Server
 

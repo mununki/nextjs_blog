@@ -3,7 +3,7 @@ title: First post
 createdAt: 2018-08-24
 filename: 2018-08-24-First-Post
 category: ["devlogs"]
-keyword: ["first", "post"]
+tag: ["first", "post"]
 ---
 
 # First Post

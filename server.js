@@ -10,21 +10,18 @@ app
   .then(() => {
     const server = express();
 
-    server.get("/post/:category/:page/:filename", (req, res) => {
+    server.get("/post/:filename", (req, res) => {
       const actualPage = "/post";
       const queryParams = {
-        category: req.params.category,
-        page: req.params.page,
         filename: req.params.filename
       };
       app.render(req, res, actualPage, queryParams);
     });
 
-    server.get("/post/:category/:page", (req, res) => {
-      const actualPage = "/post";
+    server.get("/tag/:tag", (req, res) => {
+      const actualPage = "/tag";
       const queryParams = {
-        category: req.params.category,
-        page: req.params.page
+        tag: req.params.tag
       };
       app.render(req, res, actualPage, queryParams);
     });

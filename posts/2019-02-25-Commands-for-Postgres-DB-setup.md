@@ -3,7 +3,9 @@ title: Commands for Postgres DB initial Setup
 createdAt: 2019-02-25
 filename: 2019-02-25-Commands-for-Postgres-DB-setup
 category: ["backend"]
-keyword: ["postgres", "db"]
+tag: ["postgres", "db"]
+thumb: 2019-02-25_thumb.jpg
+slug: Create DB, TABLE, USER, permission
 ---
 
 # Commands for Postgres DB initial setup

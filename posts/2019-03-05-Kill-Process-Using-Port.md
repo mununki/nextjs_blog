@@ -3,7 +3,9 @@ title: Kill the process using port
 createdAt: 2019-03-05
 filename: 2019-03-05-Kill-Process-Using-Port
 category: ["devlogs"]
-keyword: ["macos", "kill", "port"]
+tag: ["macos", "kill", "port"]
+thumb: 2019-03-05_thumb.jpg
+slug: Kill the process occupying the TCP port in abnormal and unintended way.
 ---
 
 # Kill the process occupying a specific port

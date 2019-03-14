@@ -3,7 +3,7 @@ title: Markdown summary
 createdAt: 2018-08-24
 filename: 2018-08-24-Markdown-summary
 category: ["devlogs"]
-keyword: ["markdown", "summary"]
+tag: ["markdown", "summary"]
 ---
 
 # Markdown Summary for future me

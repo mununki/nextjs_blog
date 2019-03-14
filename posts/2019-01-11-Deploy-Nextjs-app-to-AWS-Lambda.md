@@ -3,7 +3,7 @@ title: How to Deploy the Next.js app to AWS Lambda
 createdAt: 2019-01-11
 filename: 2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda
 category: ["react"]
-keyword: ["next", "aws", "lambda"]
+tag: ["next", "aws", "lambda"]
 ---
 
 # How to deploy the Next.js to AWS Lambda

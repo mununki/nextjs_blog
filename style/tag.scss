@@ -1,0 +1,42 @@
+@import "common";
+
+#tag {
+  height: 100vh;
+}
+.input-container {
+  margin-top: 3rem;
+  position: relative;
+}
+
+#tag-search-icon {
+  position: absolute;
+  top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  color: $text-link-color;
+}
+
+.tag-input {
+  margin: 1rem 1rem;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  border-bottom: 2px $text-link-color solid;
+  outline: none;
+  padding-left: 50px;
+}
+
+.tag-list-container {
+  margin: 1rem;
+}
+
+.tag-title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.tag-item {
+  display: inline-block;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
