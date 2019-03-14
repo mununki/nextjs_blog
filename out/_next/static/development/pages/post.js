@@ -109,55 +109,55 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "header",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3116055885" + " " + "container"
+    className: "jsx-1365585798" + " " + "container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3116055885" + " " + "header-container"
+    className: "jsx-1365585798" + " " + "header-container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "header-title",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, "Build the Codes")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "header-body",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "avatar-img",
     style: {
       backgroundImage: "url(\"/static/images/avatar/moondaddi_avatar.jpg\")"
     },
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "profile",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "name",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/about",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, "moondaddi")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, "My dreams with Codes")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "menu",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "header-tag",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/tag",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, "Tags")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "header-about",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/about",
-    className: "jsx-3116055885"
+    className: "jsx-1365585798"
   }, "About")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3116055885"
-  }, "#header.jsx-3116055885{background-color:var(--background-color);color:white;}.header-container.jsx-3116055885{margin:0 1rem;padding:1rem 0;}#header-title.jsx-3116055885{font-family:var(--text-san-serif);font-size:1.7rem;margin:1rem auto;font-weight:bold;}#header-title.jsx-3116055885 a.jsx-3116055885{color:white;-webkit-text-decoration:none;text-decoration:none;}#avatar-img.jsx-3116055885{display:inline-block;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;width:50px;height:50px;background-size:contain;background-repeat:no-repeat;background-position:center center;vertical-align:middle;}#profile.jsx-3116055885{display:inline-block;vertical-align:middle;padding-left:1rem;font-family:$font-serif;color:$text-normal-color;font-size:0.9rem;}#header-body.jsx-3116055885{position:relative;}#menu.jsx-3116055885{display:inline-block;position:absolute;right:0;font-family:$font-serif;font-size:0.9rem;margin-top:1rem;}#menu.jsx-3116055885 #header-tag.jsx-3116055885{display:inline-block;margin:auto 1rem;}#menu.jsx-3116055885 #header-about.jsx-3116055885{display:inline-block;margin:auto 1rem;}@media (max-width:576px){#menu.jsx-3116055885{display:block;text-align:right;position:relative;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvY29tcG9uZW50cy9IZWFkZXJBdmF0YXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9DUyxBQUdzRCxBQUkzQixBQUlvQixBQU10QixBQUlTLEFBWUEsQUFRSCxBQUdHLEFBUUEsQUFJQSxBQU1MLFlBNUNLLEVBVk4sQUF1REksSUFyQnJCLEdBcEI2QixBQVlMLEFBV0osQUFRRCxBQUlBLFFBaERuQixFQXVEc0IsR0FwREgsSUEwQ25CLEFBSUEsQ0FaVSxFQTFDSSxFQStCTSxJQVlNLENBeEJBLENBMEN4QixFQXBEaUIsRUFSbkIsUUErQjBCLENBakIxQixNQUxtQixHQWtDQSxDQXhCRSxhQVRyQixBQXNCMkIsR0FZVCxHQXhCTCxXQUNDLEVBd0JkLE1BWm1CLElBWE8sYUFZMUIsV0FYOEIsNEJBQ00sa0NBQ1osc0JBQ3hCIiwiZmlsZSI6Ii9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvY29tcG9uZW50cy9IZWFkZXJBdmF0YXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBpZD1cImhlYWRlclwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZWFkZXItY29udGFpbmVyXCI+XG4gICAgICAgICAgPGRpdiBpZD1cImhlYWRlci10aXRsZVwiPlxuICAgICAgICAgICAgPGEgaHJlZj1cIi9cIj5CdWlsZCB0aGUgQ29kZXM8L2E+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBpZD1cImhlYWRlci1ib2R5XCI+XG4gICAgICAgICAgICA8ZGl2XG4gICAgICAgICAgICAgIGlkPVwiYXZhdGFyLWltZ1wiXG4gICAgICAgICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZEltYWdlOiBgdXJsKFwiL3N0YXRpYy9pbWFnZXMvYXZhdGFyL21vb25kYWRkaV9hdmF0YXIuanBnXCIpYFxuICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDxkaXYgaWQ9XCJwcm9maWxlXCI+XG4gICAgICAgICAgICAgIDxkaXYgaWQ9XCJuYW1lXCI+XG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIi9hYm91dFwiPm1vb25kYWRkaTwvYT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDxkaXY+TXkgZHJlYW1zIHdpdGggQ29kZXM8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBpZD1cIm1lbnVcIj5cbiAgICAgICAgICAgICAgPGRpdiBpZD1cImhlYWRlci10YWdcIj5cbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiL3RhZ1wiPlRhZ3M8L2E+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGlkPVwiaGVhZGVyLWFib3V0XCI+XG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIi9hYm91dFwiPkFib3V0PC9hPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAjaGVhZGVyIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWJhY2tncm91bmQtY29sb3IpO1xuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgIH1cbiAgICAgICAgICAuaGVhZGVyLWNvbnRhaW5lciB7XG4gICAgICAgICAgICBtYXJnaW46IDAgMXJlbTtcbiAgICAgICAgICAgIHBhZGRpbmc6IDFyZW0gMDtcbiAgICAgICAgICB9XG4gICAgICAgICAgI2hlYWRlci10aXRsZSB7XG4gICAgICAgICAgICBmb250LWZhbWlseTogdmFyKC0tdGV4dC1zYW4tc2VyaWYpO1xuICAgICAgICAgICAgZm9udC1zaXplOiAxLjdyZW07XG4gICAgICAgICAgICBtYXJnaW46IDFyZW0gYXV0bztcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICAgIH1cbiAgICAgICAgICAjaGVhZGVyLXRpdGxlIGEge1xuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgIH1cbiAgICAgICAgICAjYXZhdGFyLWltZyB7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICAtd2Via2l0LWJvcmRlci1yYWRpdXM6IDI1cHg7XG4gICAgICAgICAgICAtbW96LWJvcmRlci1yYWRpdXM6IDI1cHg7XG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyNXB4O1xuICAgICAgICAgICAgd2lkdGg6IDUwcHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDUwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyIGNlbnRlcjtcbiAgICAgICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgICAgICAgfVxuICAgICAgICAgICNwcm9maWxlIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDFyZW07XG4gICAgICAgICAgICBmb250LWZhbWlseTogJGZvbnQtc2VyaWY7XG4gICAgICAgICAgICBjb2xvcjogJHRleHQtbm9ybWFsLWNvbG9yO1xuICAgICAgICAgICAgZm9udC1zaXplOiAwLjlyZW07XG4gICAgICAgICAgfVxuICAgICAgICAgICNoZWFkZXItYm9keSB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuICAgICAgICAgICNtZW51IHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHJpZ2h0OiAwO1xuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICRmb250LXNlcmlmO1xuICAgICAgICAgICAgZm9udC1zaXplOiAwLjlyZW07XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiAxcmVtO1xuICAgICAgICAgIH1cbiAgICAgICAgICAjbWVudSAjaGVhZGVyLXRhZyB7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICBtYXJnaW46IGF1dG8gMXJlbTtcbiAgICAgICAgICB9XG4gICAgICAgICAgI21lbnUgI2hlYWRlci1hYm91dCB7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICBtYXJnaW46IGF1dG8gMXJlbTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICBAbWVkaWEgKG1heC13aWR0aDogNTc2cHgpIHtcbiAgICAgICAgICAgICNtZW51IHtcbiAgICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgICAgICAgIHRleHQtYWxpZ246IHJpZ2h0O1xuICAgICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgPC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/arnold/Documents/git/github/mattdamon108.blog/components/HeaderAvatar.tsx */"));
+    id: "1365585798"
+  }, "#header.jsx-1365585798{background-color:var(--background-color);color:white;}.header-container.jsx-1365585798{margin:0 1rem;padding:1rem 0;}#header-title.jsx-1365585798{display:block;position:relative;font-family:var(--text-san-serif);font-size:1.7rem;margin:1rem auto;font-weight:bold;}#header-title.jsx-1365585798 a.jsx-1365585798{color:white;-webkit-text-decoration:none;text-decoration:none;}#avatar-img.jsx-1365585798{display:inline-block;-webkit-border-radius:25px;-moz-border-radius:25px;border-radius:25px;width:50px;height:50px;background-size:contain;background-repeat:no-repeat;background-position:center center;vertical-align:middle;}#profile.jsx-1365585798{display:inline-block;vertical-align:middle;padding-left:1rem;font-family:$font-serif;color:$text-normal-color;font-size:0.9rem;}#header-body.jsx-1365585798{position:relative;}#menu.jsx-1365585798{display:inline-block;position:absolute;right:0;font-family:$font-serif;font-size:0.9rem;margin-top:1rem;}#menu.jsx-1365585798 #header-tag.jsx-1365585798{display:inline-block;margin:auto 1rem;}#menu.jsx-1365585798 #header-about.jsx-1365585798{display:inline-block;margin:auto 1rem;}@media (max-width:576px){#menu.jsx-1365585798{display:block;text-align:right;position:relative;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvY29tcG9uZW50cy9IZWFkZXJBdmF0YXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFDUyxBQUdzRCxBQUkzQixBQUlBLEFBUUYsQUFJUyxBQVlBLEFBUUgsQUFHRyxBQVFBLEFBSUEsQUFNTCxZQTVDSyxFQVpOLEFBSUcsQUFxREMsSUFyQnJCLEdBcEI2QixBQVlMLEFBV0osQUFRRCxBQUlBLFFBbERuQixFQXlEc0IsQ0FyRGMsTUEyQ3BDLEFBSUEsQ0FaVSxFQTVDSSxFQWlDTSxJQVlNLENBeEJBLENBMEN4QixJQTlERixRQWlDMEIsQ0FqQjFCLElBUG1CLEtBb0NBLENBeEJFLFdBWEYsRUF3QlEsR0FZVCxHQXhCTCxTQVhNLEVBWUwsRUF3QmQsTUFabUIsSUFYTyxHQVoxQixVQXdCQSxXQVg4Qiw0QkFDTSxrQ0FDWixzQkFDeEIiLCJmaWxlIjoiL1VzZXJzL2Fybm9sZC9Eb2N1bWVudHMvZ2l0L2dpdGh1Yi9tYXR0ZGFtb24xMDguYmxvZy9jb21wb25lbnRzL0hlYWRlckF2YXRhci50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgU3dpdGNoIGZyb20gXCIuL1N3aXRjaFwiO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBpZD1cImhlYWRlclwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZWFkZXItY29udGFpbmVyXCI+XG4gICAgICAgICAgPGRpdiBpZD1cImhlYWRlci10aXRsZVwiPlxuICAgICAgICAgICAgPGEgaHJlZj1cIi9cIj5CdWlsZCB0aGUgQ29kZXM8L2E+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBpZD1cImhlYWRlci1ib2R5XCI+XG4gICAgICAgICAgICA8ZGl2XG4gICAgICAgICAgICAgIGlkPVwiYXZhdGFyLWltZ1wiXG4gICAgICAgICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZEltYWdlOiBgdXJsKFwiL3N0YXRpYy9pbWFnZXMvYXZhdGFyL21vb25kYWRkaV9hdmF0YXIuanBnXCIpYFxuICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDxkaXYgaWQ9XCJwcm9maWxlXCI+XG4gICAgICAgICAgICAgIDxkaXYgaWQ9XCJuYW1lXCI+XG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIi9hYm91dFwiPm1vb25kYWRkaTwvYT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDxkaXY+TXkgZHJlYW1zIHdpdGggQ29kZXM8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBpZD1cIm1lbnVcIj5cbiAgICAgICAgICAgICAgPGRpdiBpZD1cImhlYWRlci10YWdcIj5cbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiL3RhZ1wiPlRhZ3M8L2E+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGlkPVwiaGVhZGVyLWFib3V0XCI+XG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIi9hYm91dFwiPkFib3V0PC9hPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAjaGVhZGVyIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWJhY2tncm91bmQtY29sb3IpO1xuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgIH1cbiAgICAgICAgICAuaGVhZGVyLWNvbnRhaW5lciB7XG4gICAgICAgICAgICBtYXJnaW46IDAgMXJlbTtcbiAgICAgICAgICAgIHBhZGRpbmc6IDFyZW0gMDtcbiAgICAgICAgICB9XG4gICAgICAgICAgI2hlYWRlci10aXRsZSB7XG4gICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS10ZXh0LXNhbi1zZXJpZik7XG4gICAgICAgICAgICBmb250LXNpemU6IDEuN3JlbTtcbiAgICAgICAgICAgIG1hcmdpbjogMXJlbSBhdXRvO1xuICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgICAgfVxuICAgICAgICAgICNoZWFkZXItdGl0bGUgYSB7XG4gICAgICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgfVxuICAgICAgICAgICNhdmF0YXItaW1nIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgIC13ZWJraXQtYm9yZGVyLXJhZGl1czogMjVweDtcbiAgICAgICAgICAgIC1tb3otYm9yZGVyLXJhZGl1czogMjVweDtcbiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDI1cHg7XG4gICAgICAgICAgICB3aWR0aDogNTBweDtcbiAgICAgICAgICAgIGhlaWdodDogNTBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcbiAgICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXIgY2VudGVyO1xuICAgICAgICAgICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgICAgICAgICB9XG4gICAgICAgICAgI3Byb2ZpbGUge1xuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICAgICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgICAgICAgICAgIHBhZGRpbmctbGVmdDogMXJlbTtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAkZm9udC1zZXJpZjtcbiAgICAgICAgICAgIGNvbG9yOiAkdGV4dC1ub3JtYWwtY29sb3I7XG4gICAgICAgICAgICBmb250LXNpemU6IDAuOXJlbTtcbiAgICAgICAgICB9XG4gICAgICAgICAgI2hlYWRlci1ib2R5IHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICB9XG4gICAgICAgICAgI21lbnUge1xuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgICAgICBmb250LWZhbWlseTogJGZvbnQtc2VyaWY7XG4gICAgICAgICAgICBmb250LXNpemU6IDAuOXJlbTtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDFyZW07XG4gICAgICAgICAgfVxuICAgICAgICAgICNtZW51ICNoZWFkZXItdGFnIHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgIG1hcmdpbjogYXV0byAxcmVtO1xuICAgICAgICAgIH1cbiAgICAgICAgICAjbWVudSAjaGVhZGVyLWFib3V0IHtcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgICAgIG1hcmdpbjogYXV0byAxcmVtO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIEBtZWRpYSAobWF4LXdpZHRoOiA1NzZweCkge1xuICAgICAgICAgICAgI21lbnUge1xuICAgICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgICAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICA8L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufTtcbiJdfQ== */\n/*@ sourceURL=/Users/arnold/Documents/git/github/mattdamon108.blog/components/HeaderAvatar.tsx */"));
 });
 
 /***/ }),
@@ -10678,7 +10678,7 @@ webpackContext.id = "./posts sync recursive ^\\.\\/.*\\.md$";
 /*!****************************************!*\
   !*** ./posts/2018-08-24-First-Post.md ***!
   \****************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10688,6 +10688,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -10712,12 +10714,16 @@ var createdAt = "2018-08-24T00:00:00.000Z";
 var filename = "2018-08-24-First-Post";
 var category = ["devlogs"];
 var tag = ["first", "post"];
+var thumb = "2018-08-24_thumb.jpg";
+var slug = "A late start, but a Big step forward";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -10751,7 +10757,7 @@ function (_React$Component) {
       }, "First Post"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-08-24"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-08-24"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -10776,7 +10782,7 @@ MDXContent.isMDXComponent = true;
 /*!**********************************************!*\
   !*** ./posts/2018-08-24-Markdown-summary.md ***!
   \**********************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10786,6 +10792,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -10810,12 +10818,16 @@ var createdAt = "2018-08-24T00:00:00.000Z";
 var filename = "2018-08-24-Markdown-summary";
 var category = ["devlogs"];
 var tag = ["markdown", "summary"];
+var thumb = "2018-08-24_thumb.png";
+var slug = "Hard to remember";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -10849,13 +10861,13 @@ function (_React$Component) {
       }, "Markdown Summary for future me"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-08-24"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-08-24"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h3",
         components: components
-      }, "a Note for future me about Markdown syntax"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "a Note for future me about Markdown syntax"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "Headers"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -10910,7 +10922,7 @@ function (_React$Component) {
         props: {
           "className": "hljs-section"
         }
-      }, "###### H6"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "###### H6"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "Blockquote"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -10937,10 +10949,10 @@ function (_React$Component) {
         name: "p",
         components: components,
         parentName: "blockquote"
-      }, "This is a blockquote")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "This is a blockquote")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
-      }, "List"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "List"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h3",
         components: components
       }, "1) Ordered"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -10989,7 +11001,7 @@ function (_React$Component) {
         name: "li",
         components: components,
         parentName: "ol"
-      }, "thrid")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "thrid")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h3",
         components: components
       }, "2) UnOrdered"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11039,7 +11051,7 @@ function (_React$Component) {
         name: "li",
         components: components,
         parentName: "ul"
-      }, "Blue")))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "Blue")))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "Code"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11052,7 +11064,7 @@ function (_React$Component) {
         name: "p",
         components: components,
         parentName: "blockquote"
-      }, "linebreak often breaks the markdown block")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "linebreak often breaks the markdown block")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "5. Horizontal Line"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11072,10 +11084,10 @@ function (_React$Component) {
         props: {
           "className": "hljs-section"
         }
-      }, "---\n---"), "\n---\n\n---\n\n---")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "---\n---"), "\n---\n\n---\n\n---")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "6. Link"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11147,7 +11159,7 @@ function (_React$Component) {
         props: {
           "href": "https://www.google.com"
         }
-      }, "Google")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "Google")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "7. Text Style"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11274,7 +11286,7 @@ function (_React$Component) {
         name: "del",
         components: components,
         parentName: "p"
-      }, "canceline")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "canceline")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "8. Image"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11322,7 +11334,7 @@ function (_React$Component) {
         name: "p",
         components: components,
         parentName: "blockquote"
-      }, "Note: Size control is not supported.")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "Note: Size control is not supported.")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "h2",
         components: components
       }, "9. Line break"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11372,7 +11384,7 @@ MDXContent.isMDXComponent = true;
 /*!**********************************************************!*\
   !*** ./posts/2018-08-25-Making-virtualenv-for-Django.md ***!
   \**********************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11382,6 +11394,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -11406,12 +11420,16 @@ var createdAt = "2018-08-25T00:00:00.000Z";
 var filename = "2018-08-25-Making-virtualenv-for-Django";
 var category = ["django"];
 var tag = ["django", "venv", "virtualenv"];
+var thumb = "2018-08-25_thumb.jpg";
+var slug = "Hard to remember";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -11445,7 +11463,7 @@ function (_React$Component) {
       }, "Making virtualenv for staring Django project on MacOS"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-08-25"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-08-25"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -11959,7 +11977,7 @@ MDXContent.isMDXComponent = true;
 /*!************************************************************************************!*\
   !*** ./posts/2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene.md ***!
   \************************************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11969,6 +11987,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -11993,12 +12013,16 @@ var createdAt = "2018-08-28T00:00:00.000Z";
 var filename = "2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene";
 var category = ["django"];
 var tag = ["django", "graphql", "graphene", "apollo"];
+var thumb = "2018-08-28_thumb.png";
+var slug = "The Graphene is the pain.";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -12032,7 +12056,7 @@ function (_React$Component) {
       }, "File upload with GraphQL Apollo client & Django + Graphene"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-08-28"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-08-28"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -12563,7 +12587,7 @@ MDXContent.isMDXComponent = true;
 /*!*********************************************************************!*\
   !*** ./posts/2018-08-30-How-to-align-element-to-vertical-center.md ***!
   \*********************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12573,6 +12597,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -12597,12 +12623,16 @@ var createdAt = "2018-08-30T00:00:00.000Z";
 var filename = "2018-08-30-How-to-align-element-to-vertical-center";
 var category = ["htmlcss"];
 var tag = ["vertical", "align"];
+var thumb = "2018-08-30_thumb.jpeg";
+var slug = "A Markup is one of tough task in web dev.";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -12636,7 +12666,7 @@ function (_React$Component) {
       }, "Some different ways to align element to vertical center"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-08-30"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-08-30"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -12820,7 +12850,7 @@ MDXContent.isMDXComponent = true;
 /*!*************************************************************************!*\
   !*** ./posts/2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS.md ***!
   \*************************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12830,6 +12860,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -12854,12 +12886,16 @@ var createdAt = "2018-08-31T00:00:00.000Z";
 var filename = "2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS";
 var category = ["react"];
 var tag = ["react", "comment"];
+var thumb = "2018-08-31_thumb.jpg";
+var slug = "Comment structure implementation";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -12893,7 +12929,7 @@ function (_React$Component) {
       }, "Nested Comment Reply stucture with ReactJS"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-08-31"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-08-31"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -13132,7 +13168,7 @@ MDXContent.isMDXComponent = true;
 /*!*************************************************************!*\
   !*** ./posts/2018-09-01-How-to-highlight-code-in-jekyll.md ***!
   \*************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13142,6 +13178,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -13166,12 +13204,16 @@ var createdAt = "2018-09-01T00:00:00.000Z";
 var filename = "2018-09-01-How-to-highlight-code-in-jekyll";
 var category = ["devlogs"];
 var tag = ["jekyll", "blog"];
+var thumb = "2018-09-01_thumb.jpeg";
+var slug = "The jekyll for Github page, but no more use...";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -13205,7 +13247,7 @@ function (_React$Component) {
       }, "How to highlight code in jekyll post"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-09-01"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-09-01"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -13251,7 +13293,7 @@ MDXContent.isMDXComponent = true;
 /*!***************************************************************************!*\
   !*** ./posts/2018-09-08-How-to-set-state-with-data-from-graphQL-query.md ***!
   \***************************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13261,6 +13303,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -13285,12 +13329,16 @@ var createdAt = "2018-09-08T00:00:00.000Z";
 var filename = "2018-09-08-How-to-set-state-with-data-from-graphQL-query";
 var category = ["react"];
 var tag = ["react", "apollo", "graphQL"];
+var thumb = "2018-09-08_thumb.png";
+var slug = "Prefill the data before component rendered";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -13324,7 +13372,7 @@ function (_React$Component) {
       }, "How to set state with data from apollo grapqhQL query"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "p",
         components: components
-      }, "by Moondaddi on 2018-09-08"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
+      }, "by moondaddi on 2018-09-08"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
         name: "hr",
         components: components
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_mdx_js_tag__WEBPACK_IMPORTED_MODULE_7__["MDXTag"], {
@@ -14025,7 +14073,7 @@ MDXContent.isMDXComponent = true;
 /*!*****************************************************!*\
   !*** ./posts/2018-09-27-postmaster-pid-Location.md ***!
   \*****************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14035,6 +14083,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -14059,12 +14109,16 @@ var createdAt = "2018-09-27T00:00:00.000Z";
 var filename = "2018-09-27-postmaster-pid-Location";
 var category = ["django"];
 var tag = ["postgres", "postmaster", "db"];
+var thumb = "2018-09-27_thumb.png";
+var slug = "What the hell is `postmaster.pid`?";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -14143,7 +14197,7 @@ MDXContent.isMDXComponent = true;
 /*!***************************************************************!*\
   !*** ./posts/2018-12-10-Netplan-how-to-connect-wpa2-linux.md ***!
   \***************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14153,6 +14207,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -14177,12 +14233,16 @@ var createdAt = "2018-12-10T00:00:00.000Z";
 var filename = "2018-12-10-Netplan-how-to-connect-wpa2-linux";
 var category = ["devlogs"];
 var tag = ["netplan", "linux", "wireless"];
+var thumb = "2018-12-10_thumb.png";
+var slug = "Hard to remember";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -14373,7 +14433,7 @@ MDXContent.isMDXComponent = true;
 /*!********************************************************************!*\
   !*** ./posts/2018-12-18-AWS-EB-Load-Balancer-redirect-to-https.md ***!
   \********************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14383,6 +14443,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -14407,12 +14469,16 @@ var createdAt = "2018-12-18T00:00:00.000Z";
 var filename = "2018-12-18-AWS-EB-Load-Balancer-redirect-to-https";
 var category = ["backend"];
 var tag = ["aws", "eb", "elastic", "beanstalk", "redirect", "https"];
+var thumb = "2018-12-18_thumb.jpg";
+var slug = "Sweet beanstalk";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -14570,7 +14636,7 @@ MDXContent.isMDXComponent = true;
 /*!*********************************************************************!*\
   !*** ./posts/2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker.md ***!
   \*********************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14580,6 +14646,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -14604,12 +14672,16 @@ var createdAt = "2018-12-24T00:00:00.000Z";
 var filename = "2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker";
 var category = ["backend"];
 var tag = ["aws", "graphql", "prisma", "ecs"];
+var thumb = "2018-12-24_thumb.png";
+var slug = "Fix the bugs!";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -15667,7 +15739,7 @@ MDXContent.isMDXComponent = true;
 /*!*************************************************************!*\
   !*** ./posts/2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda.md ***!
   \*************************************************************/
-/*! exports provided: title, createdAt, filename, category, tag, default */
+/*! exports provided: title, createdAt, filename, category, tag, thumb, slug, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15677,6 +15749,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filename", function() { return filename; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "category", function() { return category; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tag", function() { return tag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "thumb", function() { return thumb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "slug", function() { return slug; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
@@ -15701,12 +15775,16 @@ var createdAt = "2019-01-11T00:00:00.000Z";
 var filename = "2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda";
 var category = ["react"];
 var tag = ["next", "aws", "lambda"];
+var thumb = "2019-01-11_thumb.png";
+var slug = "with Apex up";
 var layoutProps = {
   title: title,
   createdAt: createdAt,
   filename: filename,
   category: category,
-  tag: tag
+  tag: tag,
+  thumb: thumb,
+  slug: slug
 };
 
 var MDXContent =
@@ -16992,7 +17070,7 @@ var createdAt = "2019-02-11T00:00:00.000Z";
 var filename = "2019-02-11-How-to-Replace-Redux-with-Hooks";
 var category = ["react"];
 var tag = ["hooks", "redux"];
-var thumb = "2019-02-11_thumb.jpg";
+var thumb = "2019-02-11_thumb.png";
 var slug = "React release the game-changer departing from Class programming way.";
 var layoutProps = {
   title: title,
@@ -17999,93 +18077,119 @@ var postList = [{
   createdAt: "2018-08-28",
   filename: "2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene",
   category: ["django"],
-  tag: ["django", "graphql", "graphene", "apollo"]
+  tag: ["django", "graphql", "graphene", "apollo"],
+  thumb: "2018-08-28_thumb.png",
+  slug: "The Graphene is the pain."
 }, {
   title: "Nested Comment Reply stucture with ReactJS",
   createdAt: "2018-08-31",
   filename: "2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS",
   category: ["react"],
-  tag: ["react", "comment"]
+  tag: ["react", "comment"],
+  thumb: "2018-08-31_thumb.jpg",
+  slug: "Comment structure implementation"
 }, {
   title: "Markdown summary",
   createdAt: "2018-08-24",
   filename: "2018-08-24-Markdown-summary",
   category: ["devlogs"],
-  tag: ["markdown", "summary"]
+  tag: ["markdown", "summary"],
+  thumb: "2018-08-24_thumb.png",
+  slug: "Hard to remember"
 }, {
   title: "First post",
   createdAt: "2018-08-24",
   filename: "2018-08-24-First-Post",
   category: ["devlogs"],
-  tag: ["first", "post"]
+  tag: ["first", "post"],
+  thumb: "2018-08-24_thumb.jpg",
+  slug: "A late start, but a Big step forward"
 }, {
   title: "How to set state with data from apollo grapqhQL query",
   createdAt: "2018-09-08",
   filename: "2018-09-08-How-to-set-state-with-data-from-graphQL-query",
   category: ["react"],
-  tag: ["react", "apollo", "graphQL"]
+  tag: ["react", "apollo", "graphQL"],
+  thumb: "2018-09-08_thumb.png",
+  slug: "Prefill the data before component rendered"
 }, {
   title: "How to Deploy the Next.js app to AWS Lambda",
   createdAt: "2019-01-11",
   filename: "2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda",
   category: ["react"],
-  tag: ["next", "aws", "lambda"]
+  tag: ["next", "aws", "lambda"],
+  thumb: "2019-01-11_thumb.png",
+  slug: "with Apex up"
 }, {
   title: "How to replace the React Redux with Hooks",
   createdAt: "2019-02-11",
   filename: "2019-02-11-How-to-Replace-Redux-with-Hooks",
   category: ["react"],
   tag: ["hooks", "redux"],
-  thumb: "2019-02-11_thumb.jpg",
+  thumb: "2019-02-11_thumb.png",
   slug: "React release the game-changer departing from Class programming way."
 }, {
   title: "AWS Elastic Beanstalk makes redirect HTTP to HTTPS",
   createdAt: "2018-12-18",
   filename: "2018-12-18-AWS-EB-Load-Balancer-redirect-to-https",
   category: ["backend"],
-  tag: ["aws", "eb", "elastic", "beanstalk", "redirect", "https"]
+  tag: ["aws", "eb", "elastic", "beanstalk", "redirect", "https"],
+  thumb: "2018-12-18_thumb.jpg",
+  slug: "Sweet beanstalk"
 }, {
   title: "Deploy the Prisma Server to AWS ECS and EC2 with Docker",
   createdAt: "2018-12-24",
   filename: "2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker",
   category: ["backend"],
-  tag: ["aws", "graphql", "prisma", "ecs"]
+  tag: ["aws", "graphql", "prisma", "ecs"],
+  thumb: "2018-12-24_thumb.png",
+  slug: "Fix the bugs!"
 }, {
   title: "Making virtualenv for staring Django project on MacOS",
   createdAt: "2018-08-25",
   filename: "2018-08-25-Making-virtualenv-for-Django",
   category: ["django"],
-  tag: ["django", "venv", "virtualenv"]
+  tag: ["django", "venv", "virtualenv"],
+  thumb: "2018-08-25_thumb.jpg",
+  slug: "Hard to remember #2"
 }, {
   title: "Some different ways to align element to vertical center",
   createdAt: "2018-08-30",
   filename: "2018-08-30-How-to-align-element-to-vertical-center",
   category: ["htmlcss"],
-  tag: ["vertical", "align"]
+  tag: ["vertical", "align"],
+  thumb: "2018-08-30_thumb.jpeg",
+  slug: "A Markup is one of tough task in web dev."
 }, {
   title: "How to highlight code in jekyll post",
   createdAt: "2018-09-01",
   filename: "2018-09-01-How-to-highlight-code-in-jekyll",
   category: ["devlogs"],
-  tag: ["jekyll", "blog"]
+  tag: ["jekyll", "blog"],
+  thumb: "2018-09-01_thumb.jpeg",
+  slug: "The jekyll for Github page, but no more use..."
 }, {
   title: "How to connect to wireless WPA2 with Netplan",
   createdAt: "2018-12-10",
   filename: "2018-12-10-Netplan-how-to-connect-wpa2-linux",
   category: ["devlogs"],
-  tag: ["netplan", "linux", "wireless"]
+  tag: ["netplan", "linux", "wireless"],
+  thumb: "2018-12-10_thumb.png",
+  slug: "Hard to remember #3"
 }, {
   title: "postmaster-pid File Location",
   createdAt: "2018-09-27",
   filename: "2018-09-27-postmaster-pid-Location",
   category: ["django"],
-  tag: ["postgres", "postmaster", "db"]
+  tag: ["postgres", "postmaster", "db"],
+  thumb: "2018-09-27_thumb.png",
+  slug: "What the hell is `postmaster.pid`?"
 }];
 module.exports = postList;
 
 /***/ }),
 
-/***/ 8:
+/***/ 2:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=%2FUsers%2Farnold%2FDocuments%2Fgit%2Fgithub%2Fmattdamon108.blog%2Fpages%2Fpost%2Findex.ts ***!
   \***************************************************************************************************************************************************************/
@@ -18108,5 +18212,5 @@ module.exports = dll_e42e0f91c9ae4e3e094d;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=post.js.map
