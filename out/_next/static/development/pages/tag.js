@@ -18,21 +18,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "footer",
-    className: "jsx-3376242649"
+    className: "jsx-1270403363"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3376242649" + " " + "container"
+    className: "jsx-1270403363" + " " + "container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3376242649" + " " + "footer-container"
+    className: "jsx-1270403363" + " " + "footer-container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "footer-github",
-    className: "jsx-3376242649"
+    className: "jsx-1270403363"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://github.com/mattdamon108",
     target: "_blank",
-    className: "jsx-3376242649"
+    className: "jsx-1270403363"
   }, "Github")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3376242649"
-  }, "#footer.jsx-3376242649{background-color:var(--background-color);}.footer-container.jsx-3376242649{height:5rem;font-family:$font-serif;font-size:0.9rem;}#footer-github.jsx-3376242649{padding-top:2rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvY29tcG9uZW50cy9Gb290ZXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNPLEFBR29ELEFBRzdCLEFBS0ssWUFKTyxLQUsxQixtQkFKbUIsS0FKbkIsWUFLQSIsImZpbGUiOiIvVXNlcnMvYXJub2xkL0RvY3VtZW50cy9naXQvZ2l0aHViL21hdHRkYW1vbjEwOC5ibG9nL2NvbXBvbmVudHMvRm9vdGVyLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxuICA8ZGl2IGlkPVwiZm9vdGVyXCI+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9vdGVyLWNvbnRhaW5lclwiPlxuICAgICAgICA8ZGl2IGlkPVwiZm9vdGVyLWdpdGh1YlwiPlxuICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL2dpdGh1Yi5jb20vbWF0dGRhbW9uMTA4XCIgdGFyZ2V0PVwiX2JsYW5rXCI+XG4gICAgICAgICAgICBHaXRodWJcbiAgICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICAgPHN0eWxlIGpzeD5cbiAgICAgIHtgXG4gICAgICAgICNmb290ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWJhY2tncm91bmQtY29sb3IpO1xuICAgICAgICB9XG4gICAgICAgIC5mb290ZXItY29udGFpbmVyIHtcbiAgICAgICAgICBoZWlnaHQ6IDVyZW07XG4gICAgICAgICAgZm9udC1mYW1pbHk6ICRmb250LXNlcmlmO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMC45cmVtO1xuICAgICAgICB9XG4gICAgICAgICNmb290ZXItZ2l0aHViIHtcbiAgICAgICAgICBwYWRkaW5nLXRvcDogMnJlbTtcbiAgICAgICAgfVxuICAgICAgYH1cbiAgICA8L3N0eWxlPlxuICA8L2Rpdj5cbik7XG4iXX0= */\n/*@ sourceURL=/Users/arnold/Documents/git/github/mattdamon108.blog/components/Footer.tsx */"));
+    id: "1270403363"
+  }, "#footer.jsx-1270403363{background-color:var(--background-color);}.footer-container.jsx-1270403363{height:5rem;font-family:$font-serif;font-size:0.9rem;}#footer-github.jsx-1270403363{padding-top:1rem;margin-left:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvY29tcG9uZW50cy9Gb290ZXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNPLEFBR29ELEFBRzdCLEFBS0ssWUFKTyxLQUtQLGlCQUNuQixFQUxtQixLQUpuQixZQUtBIiwiZmlsZSI6Ii9Vc2Vycy9hcm5vbGQvRG9jdW1lbnRzL2dpdC9naXRodWIvbWF0dGRhbW9uMTA4LmJsb2cvY29tcG9uZW50cy9Gb290ZXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiAoXG4gIDxkaXYgaWQ9XCJmb290ZXJcIj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXItY29udGFpbmVyXCI+XG4gICAgICAgIDxkaXYgaWQ9XCJmb290ZXItZ2l0aHViXCI+XG4gICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vZ2l0aHViLmNvbS9tYXR0ZGFtb24xMDhcIiB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICAgIEdpdGh1YlxuICAgICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgI2Zvb3RlciB7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tYmFja2dyb3VuZC1jb2xvcik7XG4gICAgICAgIH1cbiAgICAgICAgLmZvb3Rlci1jb250YWluZXIge1xuICAgICAgICAgIGhlaWdodDogNXJlbTtcbiAgICAgICAgICBmb250LWZhbWlseTogJGZvbnQtc2VyaWY7XG4gICAgICAgICAgZm9udC1zaXplOiAwLjlyZW07XG4gICAgICAgIH1cbiAgICAgICAgI2Zvb3Rlci1naXRodWIge1xuICAgICAgICAgIHBhZGRpbmctdG9wOiAxcmVtO1xuICAgICAgICAgIG1hcmdpbi1sZWZ0OiAxcmVtO1xuICAgICAgICB9XG4gICAgICBgfVxuICAgIDwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcbiJdfQ== */\n/*@ sourceURL=/Users/arnold/Documents/git/github/mattdamon108.blog/components/Footer.tsx */"));
 });
 
 /***/ }),
