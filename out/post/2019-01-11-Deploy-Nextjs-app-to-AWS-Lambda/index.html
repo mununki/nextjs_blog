@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en"><head><meta name="author" content="moondaddi"/><link rel="manifest" href="/static/manifest.json"/><link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Merriweather" rel="stylesheet"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Build my dreams with codes"/><meta name="theme-color" content="black"/><meta charSet="utf-8" class="next-head"/><title class="next-head">Build the Codes</title><link rel="preload" href="/_next/static/xfhpDKqUyHy6HIgQkDi1L/pages/post.js" as="script"/><link rel="preload" href="/_next/static/xfhpDKqUyHy6HIgQkDi1L/pages/_app.js" as="script"/><link rel="preload" href="/_next/static/runtime/webpack-838b392324e3598684b5.js" as="script"/><link rel="preload" href="/_next/static/chunks/commons.4860be0a2558b214ee9b.js" as="script"/><link rel="preload" href="/_next/static/chunks/styles.a44caf2ce2cc4614b00a.js" as="script"/><link rel="preload" href="/_next/static/runtime/main-e66313a3e9b5d14075c9.js" as="script"/><link rel="stylesheet" href="/_next/static/css/styles.0c6a08f2.chunk.css"/></head><body><div id="__next"><div id="header"><div class="container"><div class="header-container"><div id="header-title"><a href="/">Build the Codes</a></div><div><div id="avatar-img" style="background-image:url(&quot;/static/images/avatar/moondaddi_avatar.jpg&quot;)"></div><div id="profile"><div id="name"><a href="/about/">moondaddi</a></div><div>My dreams with Codes</div></div><div id="menu"><div id="header-tag"><a href="/tag/">Tags</a></div><div id="header-about"><a href="/about/">About</a></div></div></div></div></div></div><div id="content"><div class="container"><div class="post-card"><div><h1>How to deploy the Next.js to AWS Lambda</h1><p>by moondaddi on 2019-01-11</p><hr/><p>This is a tiny example to show how to deploy the Next.js app on AWS Lambda using <a href="https://up.docs.apex.sh/#introduction">Apex Up</a>.</p><h2>Next.js app with custom server</h2><p>The custom server for Next.js app is needed to run your app on AWS Lambda. In this example, <code>express</code> will be used.</p><pre><code class="hljs language-javascript"><span class="hljs-comment">// server.js</span>
+
+<span class="hljs-keyword">const</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&quot;express&quot;</span>);
+<span class="hljs-keyword">const</span> next = <span class="hljs-built_in">require</span>(<span class="hljs-string">&quot;next&quot;</span>);
+
+<span class="hljs-keyword">const</span> port = <span class="hljs-built_in">parseInt</span>(process.env.PORT, <span class="hljs-number">10</span>) || <span class="hljs-number">3000</span>;
+<span class="hljs-keyword">const</span> dev = process.env.NODE_ENV !== <span class="hljs-string">&quot;production&quot;</span>;
+<span class="hljs-keyword">const</span> app = next({ dev });
+<span class="hljs-keyword">const</span> handle = app.getRequestHandler();
+
+app
+  .prepare()
+  .then(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+    <span class="hljs-keyword">const</span> server = express();
+
+    server.get(<span class="hljs-string">&quot;/&quot;</span>, (req, res) =&gt; {
+      <span class="hljs-keyword">return</span> app.render(req, res, <span class="hljs-string">&quot;/&quot;</span>, req.params);
+    });
+
+    server.get(<span class="hljs-string">&quot;/about&quot;</span>, (req, res) =&gt; {
+      <span class="hljs-keyword">return</span> app.render(req, res, <span class="hljs-string">&quot;/about&quot;</span>, req.params);
+    });
+
+    server.get(<span class="hljs-string">&quot;*&quot;</span>, (req, res) =&gt; {
+      <span class="hljs-keyword">return</span> handle(req, res);
+    });
+
+    server.listen(port, err =&gt; {
+      <span class="hljs-keyword">if</span> (err) <span class="hljs-keyword">throw</span> err;
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`&gt; Ready on http://localhost:<span class="hljs-subst">${port}</span>`</span>);
+    });
+  })
+  .catch(<span class="hljs-function"><span class="hljs-params">ex</span> =&gt;</span> {
+    <span class="hljs-built_in">console</span>.log(ex);
+    process.exit(<span class="hljs-number">1</span>);
+  });</code></pre><h2>update <code>package.json</code> with custom <code>server.js</code></h2><pre><code class="hljs language-json">{
+  <span class="hljs-attr">&quot;scripts&quot;</span>: {
+    <span class="hljs-attr">&quot;dev&quot;</span>: <span class="hljs-string">&quot;node server.js&quot;</span>,
+    <span class="hljs-attr">&quot;build&quot;</span>: <span class="hljs-string">&quot;next build&quot;</span>,
+    <span class="hljs-attr">&quot;start&quot;</span>: <span class="hljs-string">&quot;NODE_ENV=production node server.js&quot;</span>
+  }
+}</code></pre><h2>Install Apex Up</h2><pre><code class="hljs language-shell"><span class="hljs-meta">$</span><span class="bash"> curl -sf https://up.apex.sh/install | sh</span>
+<span class="hljs-meta">
+#</span><span class="bash"> verify the installation</span>
+<span class="hljs-meta">$</span><span class="bash"> up version</span></code></pre><h2>AWS credentials</h2><p>You need to have one AWS account and recommend to use IAM with programmaic way for security and convinience. If you have already installed <code>awscli</code> or <code>awsebcli</code>, etc. You are having <code>~/.aws/credentials</code> which is storing AWS credentials. It allows you to use <code>AWS_PROFILE</code> environment. If you don&#x27;t please make one and save it with your account <code>access key</code> and <code>security key</code> in it.</p><pre><code class="hljs language-shell"><span class="hljs-meta">#</span><span class="bash"> ~/.aws/credentials</span>
+
+[my-aws-account-for-lambda]
+aws_access_key = xxxxxxxxxxxxx
+aws_secret_access_key = xxxxxxxxxxxxxxxxxxxx</code></pre><h2>IAM policy for Up CLI</h2><p>IAM policy allows the Up to access your AWS resources in order to deploy your Next.js app on Lambda. Go to <a href="https://aws.amazon.com/iam/">AWS IAM</a> and make the new policy and link it up to your AWS account.</p><pre><code class="hljs language-json">{
+  <span class="hljs-attr">&quot;Version&quot;</span>: <span class="hljs-string">&quot;2012-10-17&quot;</span>,
+  <span class="hljs-attr">&quot;Statement&quot;</span>: [
+    {
+      <span class="hljs-attr">&quot;Effect&quot;</span>: <span class="hljs-string">&quot;Allow&quot;</span>,
+      <span class="hljs-attr">&quot;Action&quot;</span>: [
+        <span class="hljs-string">&quot;acm:*&quot;</span>,
+        <span class="hljs-string">&quot;cloudformation:Create*&quot;</span>,
+        <span class="hljs-string">&quot;cloudformation:Delete*&quot;</span>,
+        <span class="hljs-string">&quot;cloudformation:Describe*&quot;</span>,
+        <span class="hljs-string">&quot;cloudformation:ExecuteChangeSet&quot;</span>,
+        <span class="hljs-string">&quot;cloudformation:Update*&quot;</span>,
+        <span class="hljs-string">&quot;cloudfront:*&quot;</span>,
+        <span class="hljs-string">&quot;cloudwatch:*&quot;</span>,
+        <span class="hljs-string">&quot;ec2:*&quot;</span>,
+        <span class="hljs-string">&quot;ecs:*&quot;</span>,
+        <span class="hljs-string">&quot;events:*&quot;</span>,
+        <span class="hljs-string">&quot;iam:AttachRolePolicy&quot;</span>,
+        <span class="hljs-string">&quot;iam:CreatePolicy&quot;</span>,
+        <span class="hljs-string">&quot;iam:CreateRole&quot;</span>,
+        <span class="hljs-string">&quot;iam:DeleteRole&quot;</span>,
+        <span class="hljs-string">&quot;iam:DeleteRolePolicy&quot;</span>,
+        <span class="hljs-string">&quot;iam:GetRole&quot;</span>,
+        <span class="hljs-string">&quot;iam:PassRole&quot;</span>,
+        <span class="hljs-string">&quot;iam:PutRolePolicy&quot;</span>,
+        <span class="hljs-string">&quot;lambda:AddPermission&quot;</span>,
+        <span class="hljs-string">&quot;lambda:Create*&quot;</span>,
+        <span class="hljs-string">&quot;lambda:Delete*&quot;</span>,
+        <span class="hljs-string">&quot;lambda:Get*&quot;</span>,
+        <span class="hljs-string">&quot;lambda:InvokeFunction&quot;</span>,
+        <span class="hljs-string">&quot;lambda:List*&quot;</span>,
+        <span class="hljs-string">&quot;lambda:RemovePermission&quot;</span>,
+        <span class="hljs-string">&quot;lambda:Update*&quot;</span>,
+        <span class="hljs-string">&quot;logs:Create*&quot;</span>,
+        <span class="hljs-string">&quot;logs:Describe*&quot;</span>,
+        <span class="hljs-string">&quot;logs:FilterLogEvents&quot;</span>,
+        <span class="hljs-string">&quot;logs:Put*&quot;</span>,
+        <span class="hljs-string">&quot;logs:Test*&quot;</span>,
+        <span class="hljs-string">&quot;route53:*&quot;</span>,
+        <span class="hljs-string">&quot;route53domains:*&quot;</span>,
+        <span class="hljs-string">&quot;s3:*&quot;</span>,
+        <span class="hljs-string">&quot;ssm:*&quot;</span>,
+        <span class="hljs-string">&quot;sns:*&quot;</span>
+      ],
+      <span class="hljs-attr">&quot;Resource&quot;</span>: <span class="hljs-string">&quot;*&quot;</span>
+    },
+    {
+      <span class="hljs-attr">&quot;Effect&quot;</span>: <span class="hljs-string">&quot;Allow&quot;</span>,
+      <span class="hljs-attr">&quot;Action&quot;</span>: <span class="hljs-string">&quot;apigateway:*&quot;</span>,
+      <span class="hljs-attr">&quot;Resource&quot;</span>: <span class="hljs-string">&quot;arn:aws:apigateway:*::/*&quot;</span>
+    }
+  ]
+}</code></pre><h2>Create <code>up.json</code> file</h2><pre><code class="hljs language-json">{
+  <span class="hljs-attr">&quot;name&quot;</span>: <span class="hljs-string">&quot;nextjs-example&quot;</span>,
+  # aws account profile in ~/.aws/credentials
+  <span class="hljs-attr">&quot;profile&quot;</span>: <span class="hljs-string">&quot;my-aws-account-for-lambda&quot;</span>,
+  <span class="hljs-attr">&quot;regions&quot;</span>: [<span class="hljs-string">&quot;ap-northeast-2&quot;</span>],
+  <span class="hljs-attr">&quot;lambda&quot;</span>: {
+    # min 128, default 512
+    <span class="hljs-attr">&quot;memory&quot;</span>: <span class="hljs-number">256</span>,
+    # AWS Lambda supports node.js 8.10 latest
+    <span class="hljs-attr">&quot;runtime&quot;</span>: <span class="hljs-string">&quot;nodejs8.10&quot;</span>
+  },
+  <span class="hljs-attr">&quot;proxy&quot;</span>: {
+    <span class="hljs-attr">&quot;command&quot;</span>: <span class="hljs-string">&quot;npm start&quot;</span>,
+    <span class="hljs-attr">&quot;timeout&quot;</span>: <span class="hljs-number">25</span>,
+    <span class="hljs-attr">&quot;listen_timeout&quot;</span>: <span class="hljs-number">15</span>,
+    <span class="hljs-attr">&quot;shutdown_timeout&quot;</span>: <span class="hljs-number">15</span>
+  },
+  <span class="hljs-attr">&quot;stages&quot;</span>: {
+    <span class="hljs-attr">&quot;development&quot;</span>: {
+      <span class="hljs-attr">&quot;proxy&quot;</span>: {
+        <span class="hljs-attr">&quot;command&quot;</span>: <span class="hljs-string">&quot;yarn dev&quot;</span>
+      }
+    }
+  },
+  <span class="hljs-attr">&quot;environment&quot;</span>: {
+    # you can hydrate env variables as you want.
+    <span class="hljs-attr">&quot;NODE_ENV&quot;</span>: <span class="hljs-string">&quot;production&quot;</span>
+  },
+  <span class="hljs-attr">&quot;error_pages&quot;</span>: {
+    <span class="hljs-attr">&quot;variables&quot;</span>: {
+      <span class="hljs-attr">&quot;support_email&quot;</span>: <span class="hljs-string">&quot;admin@my-email.com&quot;</span>,
+      <span class="hljs-attr">&quot;color&quot;</span>: <span class="hljs-string">&quot;#2986e2&quot;</span>
+    }
+  }
+}</code></pre><h2>Build the Next.js app before deploy</h2><pre><code class="hljs language-shell"><span class="hljs-meta">$</span><span class="bash"> yarn build</span></code></pre><h2>Create <code>.upignore</code> file</h2><p>The Up will inspect your files to compose and deploy to lambda. Firstly The up will read <code>.gitignore</code> and ignore files written in <code>.gitignore</code>. And after that, <code>.upignore</code> will be read. The Up, by default, ignores dotfiles, so needs to negate <code>.next</code> directory in <code>.upignore</code> in order for the Up will build the package with it.</p><pre><code class="hljs language-shell"><span class="hljs-meta">#</span><span class="bash"> .upignore</span>
+
+!.next</code></pre><h2>Deploy</h2><pre><code class="hljs language-shell"><span class="hljs-meta">$</span><span class="bash"> up</span></code></pre></div></div></div></div><div id="footer"><div class="container"><div class="footer-container"><div id="footer-github"><a href="https://github.com/mattdamon108" target="_blank">Github</a></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/post","query":{"filename":"2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda"},"buildId":"xfhpDKqUyHy6HIgQkDi1L","nextExport":true}</script><script async="" id="__NEXT_PAGE__/post" src="/_next/static/xfhpDKqUyHy6HIgQkDi1L/pages/post.js"></script><script async="" id="__NEXT_PAGE__/_app" src="/_next/static/xfhpDKqUyHy6HIgQkDi1L/pages/_app.js"></script><script src="/_next/static/runtime/webpack-838b392324e3598684b5.js" async=""></script><script src="/_next/static/chunks/commons.4860be0a2558b214ee9b.js" async=""></script><script src="/_next/static/chunks/styles.a44caf2ce2cc4614b00a.js" async=""></script><script src="/_next/static/runtime/main-e66313a3e9b5d14075c9.js" async=""></script></body></html>
