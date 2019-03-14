@@ -61,7 +61,9 @@ __webpack_require__.r(__webpack_exports__);
     id: "header-title"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/"
-  }, "Build the Codes")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "Build the Codes")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "header-body"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "avatar-img",
     style: {
       backgroundImage: "url(\"/static/images/avatar/moondaddi_avatar.jpg\")"

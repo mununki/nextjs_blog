@@ -39,18 +39,28 @@
     font-family: Merriweather, Courier, serif;
     color: lightgrey;
     font-size: 0.9rem; }
-  #header #menu {
-    float: right;
+  #header #header-body {
+    position: relative; }
+
+#menu {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  font-family: Merriweather, Courier, serif;
+  font-size: 0.9rem;
+  margin-top: 1rem; }
+  #menu #header-tag {
+    display: inline-block;
+    margin: auto 1rem; }
+  #menu #header-about {
+    display: inline-block;
+    margin: auto 1rem; }
+
+@media (max-width: 576px) {
+  #menu {
     display: block;
-    height: 50px;
-    font-family: Merriweather, Courier, serif;
-    font-size: 0.9rem; }
-    #header #menu #header-tag {
-      display: inline-block;
-      margin: auto 1rem; }
-    #header #menu #header-about {
-      display: inline-block;
-      margin: auto 1rem; }
+    text-align: right;
+    position: relative; } }
 
 html,
 body {
