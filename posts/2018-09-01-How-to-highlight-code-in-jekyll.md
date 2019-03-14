@@ -4,11 +4,13 @@ createdAt: 2018-09-01
 filename: 2018-09-01-How-to-highlight-code-in-jekyll
 category: ["devlogs"]
 tag: ["jekyll", "blog"]
+thumb: 2018-09-01_thumb.jpeg
+slug: The jekyll for Github page, but no more use...
 ---
 
 # How to highlight code in jekyll post
 
-by Moondaddi on 2018-09-01
+by moondaddi on 2018-09-01
 
 ---
 

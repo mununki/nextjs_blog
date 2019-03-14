@@ -4,7 +4,7 @@ createdAt: 2019-02-11
 filename: 2019-02-11-How-to-Replace-Redux-with-Hooks
 category: ["react"]
 tag: ["hooks", "redux"]
-thumb: 2019-02-11_thumb.jpg
+thumb: 2019-02-11_thumb.png
 slug: React release the game-changer departing from Class programming way.
 ---
 

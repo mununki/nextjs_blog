@@ -1,7 +1,4 @@
 const postList = require("../posts/postList");
-const pagination = require("../utils/pagination");
-
-// pagination = { postsPerPage, getPagination }
 
 const exportPathMap = {
   "/": { page: "/" },

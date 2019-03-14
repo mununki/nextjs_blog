@@ -4,11 +4,13 @@ createdAt: 2018-08-30
 filename: 2018-08-30-How-to-align-element-to-vertical-center
 category: ["htmlcss"]
 tag: ["vertical", "align"]
+thumb: 2018-08-30_thumb.jpeg
+slug: A Markup is one of tough task in web dev.
 ---
 
 # Some different ways to align element to vertical center
 
-by Moondaddi on 2018-08-30
+by moondaddi on 2018-08-30
 
 ---
 

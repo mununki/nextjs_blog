@@ -4,6 +4,8 @@ createdAt: 2019-01-11
 filename: 2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda
 category: ["react"]
 tag: ["next", "aws", "lambda"]
+thumb: 2019-01-11_thumb.png
+slug: with Apex up
 ---
 
 # How to deploy the Next.js to AWS Lambda

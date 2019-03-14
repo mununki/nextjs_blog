@@ -4,11 +4,13 @@ createdAt: 2018-08-31
 filename: 2018-08-31-Nested-Comment-Reply-sturcture-with-ReactJS
 category: ["react"]
 tag: ["react", "comment"]
+thumb: 2018-08-31_thumb.jpg
+slug: Comment structure implementation
 ---
 
 # Nested Comment Reply stucture with ReactJS
 
-by Moondaddi on 2018-08-31
+by moondaddi on 2018-08-31
 
 ---
 

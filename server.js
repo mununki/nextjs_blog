@@ -26,6 +26,14 @@ app
       app.render(req, res, actualPage, queryParams);
     });
 
+    server.get("/about", (req, res) => {
+      app.render(req, res, "/about");
+    });
+
+    server.get("/", (req, res) => {
+      app.render(req, res, "/");
+    });
+
     server.get("*", (req, res) => {
       return handle(req, res);
     });

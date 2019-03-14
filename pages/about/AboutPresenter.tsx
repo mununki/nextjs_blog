@@ -1,12 +1,31 @@
 import React from "react";
-import "../../style/about.scss";
+import styled from "styled-components";
+import HeaderAbout from "../../components/HeaderAbout";
 
-export default () => (
-  <div id="about">
-    <div className="container">
-      <div className="about-container">
-        <div id="under-construction">🚧working on it...🤔</div>
+export default () => {
+  return (
+    <>
+      <div id="about-container">
+        <HeaderAbout />
+        <div className="about-greeting">
+          <div>Hi!</div>
+          <div>I'm moondaddi</div>
+        </div>
       </div>
-    </div>
-  </div>
-);
+      <style jsx>
+        {`
+          #about-container {
+            height: 100vh;
+          }
+          .about-greeting {
+            background-color: red;
+            font-family: var(--text-san-serif);
+            font-size: 7rem;
+            line-height: 8rem;
+            padding-left: 2rem;
+          }
+        `}
+      </style>
+    </>
+  );
+};

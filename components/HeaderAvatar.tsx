@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Switch from "./Switch";
 
 export default () => {
   return (
@@ -10,6 +11,18 @@ export default () => {
             <a href="/">Build the Codes</a>
           </div>
           <div id="header-body">
+            <div
+              id="avatar-img"
+              style={{
+                backgroundImage: `url("/static/images/avatar/moondaddi_avatar.jpg")`
+              }}
+            />
+            <div id="profile">
+              <div id="name">
+                <a href="/about">moondaddi</a>
+              </div>
+              <div>My dreams with Codes</div>
+            </div>
             <div id="menu">
               <div id="header-tag">
                 <a href="/tag">Tags</a>
@@ -28,13 +41,14 @@ export default () => {
             color: white;
           }
           .header-container {
-            position: relative;
             margin: 0 1rem;
+            padding: 1rem 0;
           }
           #header-title {
-            display: inline-block;
+            display: block;
+            position: relative;
             font-family: var(--text-san-serif);
-            font-size: 1.4rem;
+            font-size: 1.7rem;
             margin: 1rem auto;
             font-weight: bold;
           }
@@ -42,16 +56,36 @@ export default () => {
             color: white;
             text-decoration: none;
           }
-          #header-body {
+          #avatar-img {
             display: inline-block;
-            position: absolute;
-            right: 0;
-            margin: 1rem auto;
-            text-align: right;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            width: 50px;
+            height: 50px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            vertical-align: middle;
+          }
+          #profile {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 1rem;
+            font-family: $font-serif;
+            color: $text-normal-color;
+            font-size: 0.9rem;
+          }
+          #header-body {
+            position: relative;
           }
           #menu {
             display: inline-block;
+            position: absolute;
+            right: 0;
+            font-family: $font-serif;
             font-size: 0.9rem;
+            margin-top: 1rem;
           }
           #menu #header-tag {
             display: inline-block;
@@ -63,14 +97,10 @@ export default () => {
           }
 
           @media (max-width: 576px) {
-            #header-title {
-              margin: 1rem auto 0 auto;
-            }
-            #header-body {
+            #menu {
               display: block;
               text-align: right;
               position: relative;
-              margin: 0 auto;
             }
           }
         `}

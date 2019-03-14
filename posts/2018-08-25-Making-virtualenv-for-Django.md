@@ -4,11 +4,13 @@ createdAt: 2018-08-25
 filename: 2018-08-25-Making-virtualenv-for-Django
 category: ["django"]
 tag: ["django", "venv", "virtualenv"]
+thumb: 2018-08-25_thumb.jpg
+slug: Hard to remember #2
 ---
 
 # Making virtualenv for staring Django project on MacOS
 
-by Moondaddi on 2018-08-25
+by moondaddi on 2018-08-25
 
 ---
 

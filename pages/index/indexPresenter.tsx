@@ -1,5 +1,6 @@
+import Footer from "../../components/Footer";
+import HeaderAvatar from "../../components/HeaderAvatar";
 import PostCard from "../../components/PostCard";
-import "../../style/index.scss";
 import { IPost } from "../../types";
 
 interface IProps {
@@ -7,14 +8,21 @@ interface IProps {
 }
 export default (props: IProps) => {
   const { posts } = props;
+
   return (
-    <div id="content">
-      <div className="container">
-        {posts &&
-          posts.map(post => {
-            return <PostCard key={post.title} post={post} />;
-          })}
+    <>
+      <HeaderAvatar />
+      <div id="content">
+        <div className="container">
+          <div id="content-index">
+            {posts &&
+              posts.map(post => {
+                return <PostCard key={post.title} post={post} />;
+              })}
+          </div>
+        </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 };

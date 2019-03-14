@@ -4,6 +4,8 @@ createdAt: 2018-09-27
 filename: 2018-09-27-postmaster-pid-Location
 category: ["django"]
 tag: ["postgres", "postmaster", "db"]
+thumb: 2018-09-27_thumb.png
+slug: What the hell is `postmaster.pid`?
 ---
 
 # 'postmaster.pid' File Location

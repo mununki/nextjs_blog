@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/footer.scss";
 
 export default () => (
   <div id="footer">
@@ -12,5 +11,21 @@ export default () => (
         </div>
       </div>
     </div>
+    <style jsx>
+      {`
+        #footer {
+          background-color: var(--background-color);
+        }
+        .footer-container {
+          height: 5rem;
+          font-family: $font-serif;
+          font-size: 0.9rem;
+        }
+        #footer-github {
+          padding-top: 1rem;
+          margin-left: 1rem;
+        }
+      `}
+    </style>
   </div>
 );

@@ -4,17 +4,17 @@ createdAt: 2018-08-24
 filename: 2018-08-24-Markdown-summary
 category: ["devlogs"]
 tag: ["markdown", "summary"]
+thumb: 2018-08-24_thumb.png
+slug: Hard to remember
 ---
 
 # Markdown Summary for future me
 
-by Moondaddi on 2018-08-24
+by moondaddi on 2018-08-24
 
 ---
 
 ### a Note for future me about Markdown syntax
-
-<br />
 
 ## Headers
 
@@ -32,8 +32,6 @@ by Moondaddi on 2018-08-24
 ###### H6
 ```
 
-<br/>
-
 ## Blockquote
 
 ```markdown
@@ -42,11 +40,7 @@ by Moondaddi on 2018-08-24
 
 > This is a blockquote
 
-<br/>
-
 ## List
-
-<br/>
 
 ### 1) Ordered
 
@@ -59,8 +53,6 @@ by Moondaddi on 2018-08-24
 1. first
 2. second
 3. thrid
-
-<br/>
 
 ### 2) UnOrdered
 
@@ -76,15 +68,11 @@ or '+', '-', '='
   - Green
     - Blue
 
-<br/>
-
 ## Code
 
 4 space spacing or 1 tab
 
 > linebreak often breaks the markdown block
-
-<br />
 
 ## 5. Horizontal Line
 
@@ -98,11 +86,7 @@ or '+', '-', '='
 ---
 ```
 
-<br />
-
 ---
-
-<br />
 
 ## 6. Link
 
@@ -113,8 +97,6 @@ or '+', '-', '='
 
 <https://www.google.com><br />
 [Google](https://www.google.com)
-
-<br />
 
 ## 7. Text Style
 
@@ -132,8 +114,6 @@ _italic_<br />
 <u>underline</u><br />
 ~~canceline~~
 
-<br />
-
 ## 8. Image
 
 ```markdown
@@ -142,8 +122,6 @@ _italic_<br />
 ```
 
 > Note: Size control is not supported.
-
-<br />
 
 ## 9. Line break
 

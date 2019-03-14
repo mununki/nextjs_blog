@@ -4,6 +4,8 @@ createdAt: 2018-12-24
 filename: 2018-12-24-Deploy-Prisma-Server-to-AWS-with-Docker
 category: ["backend"]
 tag: ["aws", "graphql", "prisma", "ecs"]
+thumb: 2018-12-24_thumb.png
+slug: Fix the bugs!
 ---
 
 # Deploy the Prisma Server to the AWS EC2 with Docker

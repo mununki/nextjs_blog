@@ -4,11 +4,13 @@ createdAt: 2018-08-28
 filename: 2018-08-28-File-upload-with-GraphQL-Apollo-Client-Django-Graphene
 category: ["django"]
 tag: ["django", "graphql", "graphene", "apollo"]
+thumb: 2018-08-28_thumb.png
+slug: The Graphene is the pain.
 ---
 
 # File upload with GraphQL Apollo client & Django + Graphene
 
-by Moondaddi on 2018-08-28
+by moondaddi on 2018-08-28
 
 ---
 

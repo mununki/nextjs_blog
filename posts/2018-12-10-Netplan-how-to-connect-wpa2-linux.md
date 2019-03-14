@@ -4,6 +4,8 @@ createdAt: 2018-12-10
 filename: 2018-12-10-Netplan-how-to-connect-wpa2-linux
 category: ["devlogs"]
 tag: ["netplan", "linux", "wireless"]
+thumb: 2018-12-10_thumb.png
+slug: Hard to remember #3
 ---
 
 # [Linux] How to connect to wireless WPA2 with Netplan

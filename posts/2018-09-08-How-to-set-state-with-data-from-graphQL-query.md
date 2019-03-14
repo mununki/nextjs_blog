@@ -4,11 +4,13 @@ createdAt: 2018-09-08
 filename: 2018-09-08-How-to-set-state-with-data-from-graphQL-query
 category: ["react"]
 tag: ["react", "apollo", "graphQL"]
+thumb: 2018-09-08_thumb.png
+slug: Prefill the data before component rendered
 ---
 
 # How to set state with data from apollo grapqhQL query
 
-by Moondaddi on 2018-09-08
+by moondaddi on 2018-09-08
 
 ---
 

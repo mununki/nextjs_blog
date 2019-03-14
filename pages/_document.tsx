@@ -4,11 +4,17 @@ import Document, {
   NextDocumentContext,
   NextScript
 } from "next/document";
+import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: NextDocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    const sheet = new ServerStyleSheet();
+    const page = ctx.renderPage(App => props =>
+      sheet.collectStyles(<App {...props} />)
+    );
+    const styleTags = sheet.getStyleElement();
+    return { ...initialProps, ...page, styleTags };
   }
   render() {
     return (
@@ -28,7 +34,7 @@ export default class MyDocument extends Document {
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="Build my dreams with codes" />
-          <meta name="theme-color" content="black" />
+          <meta name="theme-color" content="#222f3e" />
         </Head>
         <body>
           <Main />

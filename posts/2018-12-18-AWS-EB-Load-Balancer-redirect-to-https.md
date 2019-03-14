@@ -4,6 +4,8 @@ createdAt: 2018-12-18
 filename: 2018-12-18-AWS-EB-Load-Balancer-redirect-to-https
 category: ["backend"]
 tag: ["aws", "eb", "elastic", "beanstalk", "redirect", "https"]
+thumb: 2018-12-18_thumb.jpg
+slug: Sweet beanstalk
 ---
 
 # AWS Elastic Beanstalk makes redirect to HTTPS
