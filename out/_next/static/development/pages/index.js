@@ -1464,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "aws"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0.3rem;\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
@@ -1825,7 +1825,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "node"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .content {\n          display: flex;\n          flex-direction: column;\n        }\n        #content-description {\n          display: flex;\n        }\n        #content-left {\n          display: flex;\n          align-items: flex-end;\n          padding: 1rem;\n        }\n        .img-box {\n          width: 400px;\n          margin: 0 auto;\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n        @media screen and (max-width: 576px) {\n          #content-description {\n            flex-direction: column;\n          }\n          .img-box {\n            width: 50%;\n            margin: 0 auto;\n          }\n        }\n      "));
+  }, "\n        .content {\n          display: flex;\n          flex-direction: column;\n        }\n        #content-description {\n          display: flex;\n        }\n        #content-left {\n          display: flex;\n          align-items: flex-end;\n          padding: 1rem;\n        }\n        .img-box {\n          width: 400px;\n          margin: 0 auto;\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0.3rem;\n        }\n        @media screen and (max-width: 576px) {\n          #content-description {\n            flex-direction: column;\n          }\n          .img-box {\n            width: 50%;\n            margin: 0 auto;\n          }\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
