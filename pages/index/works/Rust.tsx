@@ -72,6 +72,7 @@ export default () => {
         .stack {
           display: flex;
           flex-direction: columns;
+          flex-wrap: wrap;
         }
         .stack img {
           width: 50px;
