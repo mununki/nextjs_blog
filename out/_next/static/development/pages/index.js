@@ -1342,7 +1342,7 @@ var WorkIndexSM = function WorkIndexSM(props) {
     className: "about-skillset-subtitle"
   }, "Rust"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-description"
-  }, "I am an enthusiastic learner. I really enjoy to challenge new languages and build a something new with it. I started learning the Rust which is very powerful low level system language. And I built a several projects with it. I'm very enjoying to make a utilities to improve a process or automation."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, "I am an enthusiastic learner. I really enjoy to challenge new languages and build a something new with it. I started learning the Rust which is very powerful low level system language. And I built a several projects with it. I'm very enjoying to make an utilities to improve a process or automation."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "about-hireme"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section-container"
@@ -1464,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "aws"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
@@ -1542,7 +1542,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "typescript"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 0 0 1rem;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 0 0 1rem;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
@@ -1825,7 +1825,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "node"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .content {\n          display: flex;\n          flex-direction: column;\n        }\n        #content-description {\n          display: flex;\n        }\n        #content-left {\n          display: flex;\n          align-items: flex-end;\n          padding: 1rem;\n        }\n        .img-box {\n          width: 400px;\n          margin: 0 auto;\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n        @media screen and (max-width: 576px) {\n          #content-description {\n            flex-direction: column;\n          }\n          .img-box {\n            width: 50%;\n            margin: 0 auto;\n          }\n        }\n      "));
+  }, "\n        .content {\n          display: flex;\n          flex-direction: column;\n        }\n        #content-description {\n          display: flex;\n        }\n        #content-left {\n          display: flex;\n          align-items: flex-end;\n          padding: 1rem;\n        }\n        .img-box {\n          width: 400px;\n          margin: 0 auto;\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n        @media screen and (max-width: 576px) {\n          #content-description {\n            flex-direction: column;\n          }\n          .img-box {\n            width: 50%;\n            margin: 0 auto;\n          }\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
@@ -1900,7 +1900,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "docker"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
