@@ -3,7 +3,6 @@ const images = require("remark-images");
 const emoji = require("remark-emoji");
 const highlight = require("remark-highlight.js");
 const exportPathMap = require("./export.config");
-const withSass = require("@zeit/next-sass");
 
 const withMDX = require("next-mdx-frontmatter")({
   extension: /\.(md|mdx)?$/,
@@ -13,11 +12,9 @@ const withMDX = require("next-mdx-frontmatter")({
 });
 
 module.exports = withTypescript(
-  withSass(
-    withMDX({
-      exportPathMap: () => {
-        return exportPathMap;
-      }
-    })
-  )
+  withMDX({
+    exportPathMap: () => {
+      return exportPathMap;
+    }
+  })
 );

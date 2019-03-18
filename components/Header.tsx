@@ -11,11 +11,11 @@ export default () => {
           </div>
           <div id="header-body">
             <div id="menu">
+              <div id="header-blog">
+                <a href="/blog">Blog</a>
+              </div>
               <div id="header-tag">
                 <a href="/tag">Tags</a>
-              </div>
-              <div id="header-about">
-                <a href="/about">About</a>
               </div>
             </div>
           </div>
@@ -24,8 +24,6 @@ export default () => {
       <style jsx>
         {`
           #header {
-            background-color: var(--background-color);
-            color: white;
           }
           .header-container {
             position: relative;
@@ -39,7 +37,6 @@ export default () => {
             font-weight: bold;
           }
           #header-title a {
-            color: white;
             text-decoration: none;
           }
           #header-body {
@@ -53,15 +50,14 @@ export default () => {
             display: inline-block;
             font-size: 0.9rem;
           }
+          #menu #header-blog {
+            display: inline-block;
+            margin: auto 1rem;
+          }
           #menu #header-tag {
             display: inline-block;
             margin: auto 1rem;
           }
-          #menu #header-about {
-            display: inline-block;
-            margin: auto 1rem;
-          }
-
           @media (max-width: 576px) {
             #header-title {
               margin: 1rem auto 0 auto;

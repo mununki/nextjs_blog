@@ -2,9 +2,9 @@ const postList = require("../posts/postList");
 
 const exportPathMap = {
   "/": { page: "/" },
-  "/tag": { page: "/tag" },
+  "/blog": { page: "/blog" },
   "/post": { page: "/post" },
-  "/about": { page: "/about" }
+  "/tag": { page: "/tag" }
 };
 
 const getUniqueTags = () => {

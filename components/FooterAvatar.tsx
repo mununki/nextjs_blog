@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 export default () => {
@@ -18,16 +17,13 @@ export default () => {
             />
             <div id="profile">
               <div id="name">
-                <a href="/about">moondaddi</a>
+                <a href="/">moondaddi</a>
               </div>
               <div>My dreams with Codes</div>
             </div>
             <div id="menu">
               <div id="header-tag">
                 <a href="/tag">Tags</a>
-              </div>
-              <div id="header-about">
-                <a href="/about">About</a>
               </div>
             </div>
           </div>
@@ -88,11 +84,6 @@ export default () => {
             display: inline-block;
             margin: auto 1rem;
           }
-          #menu #header-about {
-            display: inline-block;
-            margin: auto 1rem;
-          }
-
           @media (max-width: 576px) {
             #menu {
               display: block;

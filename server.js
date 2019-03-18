@@ -26,8 +26,8 @@ app
       app.render(req, res, actualPage, queryParams);
     });
 
-    server.get("/about", (req, res) => {
-      app.render(req, res, "/about");
+    server.get("/blog", (req, res) => {
+      app.render(req, res, "/blog");
     });
 
     server.get("/", (req, res) => {

@@ -18,11 +18,11 @@ export default () => {
             <div id="job">Full Stack developer</div>
           </div>
           <div id="menu">
-            <div id="header-tag">
-              <a href="/tag">Blog</a>
+            <div id="header-blog">
+              <a href="/blog">Blog</a>
             </div>
             <div id="header-about">
-              <a href="/about">woonki.moon@gmail.com</a>
+              <a href="mailto:woonki.moon@gmail.com">woonki.moon@gmail.com</a>
             </div>
           </div>
         </div>
@@ -69,11 +69,11 @@ export default () => {
             display: inline-block;
             position: absolute;
             right: 0;
-            font-family: $font-serif;
+            font-family: var(--text-serif);
             font-size: 0.9rem;
             margin-top: 1rem;
           }
-          #menu #header-tag {
+          #menu #header-blog {
             display: inline-block;
             margin: auto 1rem;
           }

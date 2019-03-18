@@ -1,7 +1,6 @@
 import Footer from "../../components/Footer";
 import HeaderAvatar from "../../components/HeaderAvatar";
 import PostCard from "../../components/PostCard";
-import "../../style/index.scss";
 import { IPost } from "../../types";
 
 interface IProps {

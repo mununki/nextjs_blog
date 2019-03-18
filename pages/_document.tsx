@@ -4,17 +4,11 @@ import Document, {
   NextDocumentContext,
   NextScript
 } from "next/document";
-import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: NextDocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
-    const sheet = new ServerStyleSheet();
-    const page = ctx.renderPage(App => props =>
-      sheet.collectStyles(<App {...props} />)
-    );
-    const styleTags = sheet.getStyleElement();
-    return { ...initialProps, ...page, styleTags };
+    return { ...initialProps };
   }
   render() {
     return (
