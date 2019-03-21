@@ -48,17 +48,37 @@ export default () => {
               </div>
             </div>
           </div>
+          <div className="sub-title">Github</div>
+          <div className="sub-body">
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mattdamon108/RateLink-Mobile_v2"
+                  target="_blank"
+                >
+                  Source code
+                </a>{" "}
+                : React Native | GraphQL
+              </li>
+            </ul>
+          </div>
           <div className="sub-title">Stack</div>
           <div className="stack">
             <img
               src="/static/images/works/stack_img/reactnative.jpg"
               alt="reactnative"
+              width="50px"
             />
             <img
               src="/static/images/works/stack_img/graphql.png"
               alt="graphql"
+              width="50px"
             />
-            <img src="/static/images/works/stack_img/node.png" alt="node" />
+            <img
+              src="/static/images/works/stack_img/node.png"
+              alt="node"
+              width="50px"
+            />
           </div>
         </div>
       </div>
@@ -92,7 +112,7 @@ export default () => {
         .stack img {
           width: 50px;
           height: 50px;
-          margin: 0 0.5rem;
+          margin: 0.3rem;
         }
         @media screen and (max-width: 576px) {
           #content-description {

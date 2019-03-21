@@ -46,6 +46,29 @@ export default () => {
             their following `teller` user's data. User also can update their
             avatar and manage followers with user-friendly interface.
           </div>
+          <div className="sub-title">Github</div>
+          <div className="sub-body">
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/mattdamon108/RateLink-Frontend"
+                  target="_blank"
+                >
+                  Frontend
+                </a>{" "}
+                : React | Next.js | GraphQL
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mattdamon108/RateLink-Backend_v2"
+                  target="_blank"
+                >
+                  Backend
+                </a>{" "}
+                : Node | Django | Prisma | Postgres | AWS lambda
+              </li>
+            </ul>
+          </div>
           <div className="sub-title">Stack</div>
           <div className="stack">
             <img src="/static/images/works/stack_img/react.png" alt="react" />

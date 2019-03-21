@@ -16,7 +16,7 @@ export default () => {
             >
               <iframe
                 src="https://streamable.com/s/32a7a/bpiaja"
-                frameborder="0"
+                frameBorder="0"
                 width="100%"
                 height="100%"
                 allowFullScreen
@@ -44,23 +44,45 @@ export default () => {
             admin page is designed to show the entire picture of marketing and
             inventory.
           </div>
+          <div className="sub-title">Github</div>
+          <div className="sub-body">
+            <ul>
+              <li>Frontend : React | GraphQL</li>
+              <li>Backend : Django | Postgres | AWS Elastic Beanstalk</li>
+            </ul>
+          </div>
           <div className="sub-title">Stack</div>
           <div className="stack">
-            <img src="/static/images/works/stack_img/react.png" alt="react" />
-            <img src="/static/images/works/stack_img/django.png" alt="django" />
+            <img
+              src="/static/images/works/stack_img/react.png"
+              alt="react"
+              width="50px"
+            />
+            <img
+              src="/static/images/works/stack_img/django.png"
+              alt="django"
+              width="50px"
+            />
             <img
               src="/static/images/works/stack_img/graphql.png"
               alt="graphql"
+              width="50px"
             />
             <img
               src="/static/images/works/stack_img/graphene.png"
               alt="graphene"
+              width="50px"
             />
             <img
               src="/static/images/works/stack_img/postgres.png"
               alt="postgres"
+              width="50px"
             />
-            <img src="/static/images/works/stack_img/aws.jpg" alt="aws" />
+            <img
+              src="/static/images/works/stack_img/aws.jpg"
+              alt="aws"
+              width="50px"
+            />
           </div>
         </div>
       </div>

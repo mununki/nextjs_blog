@@ -43,7 +43,10 @@ export default () => {
           <div className="sub-title">Stack</div>
           <div className="stack">
             <img src="/static/images/works/stack_img/react.png" alt="react" />
-            <img src="/static/images/works/stack_img/js.jpeg" alt="js" />
+            <img
+              src="../../../static/images/works/stack_img/js.jpeg"
+              alt="js"
+            />
             <img src="/static/images/works/stack_img/ts.jpg" alt="typescript" />
           </div>
         </div>

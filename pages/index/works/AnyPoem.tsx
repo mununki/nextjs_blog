@@ -14,7 +14,29 @@ export default () => {
             poet, and Any-Poem suggests poems for each individual users who
             might like.
           </div>
-          <div className="sub-body" />
+          <div className="sub-title">Github</div>
+          <div className="sub-body">
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/Type-Any/Any-Poem/tree/master/frontend"
+                  target="_blank"
+                >
+                  Frontend
+                </a>{" "}
+                : React | Next.js | GraphQL
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Type-Any/Any-Poem/tree/master/backend"
+                  target="_blank"
+                >
+                  Backend
+                </a>{" "}
+                : Node | Postgres | GraphQL | Docker | AWS lambda
+              </li>
+            </ul>
+          </div>
           <div className="sub-title">Stack</div>
           <div className="stack">
             <img src="/static/images/works/stack_img/react.png" alt="react" />
@@ -51,7 +73,7 @@ export default () => {
         .stack img {
           width: 50px;
           height: 50px;
-          margin: 0 0.5rem;
+          margin: 0.3rem;
         }
       `}</style>
     </>
