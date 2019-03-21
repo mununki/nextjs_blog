@@ -1436,8 +1436,16 @@ __webpack_require__.r(__webpack_exports__);
   }, "description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "(Currently developing as a team)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Any-Poem is the web service which users can write their poems anytime and share it with others. Users can give a `like` to poem or poet, and Any-Poem suggests poems for each individual users who might like."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-title"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/Type-Any/Any-Poem/tree/master/frontend",
+    target: "_blank"
+  }, "Frontend"), " ", ": React | Next.js | GraphQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/Type-Any/Any-Poem/tree/master/backend",
+    target: "_blank"
+  }, "Backend"), " ", ": Node | Postgres | GraphQL | Docker | AWS lambda"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
   }, "Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "stack"
@@ -1535,7 +1543,7 @@ __webpack_require__.r(__webpack_exports__);
     src: "/static/images/works/stack_img/react.png",
     alt: "react"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/works/stack_img/js.jpeg",
+    src: "../../../static/images/works/stack_img/js.jpeg",
     alt: "js"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/ts.jpg",
@@ -1594,7 +1602,7 @@ __webpack_require__.r(__webpack_exports__);
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     src: "https://streamable.com/s/32a7a/bpiaja",
-    frameborder: "0",
+    frameBorder: "0",
     width: "100%",
     height: "100%",
     allowFullScreen: true,
@@ -1614,26 +1622,36 @@ __webpack_require__.r(__webpack_exports__);
     className: "sub-body"
   }, "The admin page features managing the instruments on sale, checking the orders from customers, presenting the data of visualization. The admin page is designed to show the entire picture of marketing and inventory."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Frontend : React | GraphQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Backend : Django | Postgres | AWS Elastic Beanstalk"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-title"
   }, "Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "stack"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/react.png",
-    alt: "react"
+    alt: "react",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/django.png",
-    alt: "django"
+    alt: "django",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/graphql.png",
-    alt: "graphql"
+    alt: "graphql",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/graphene.png",
-    alt: "graphene"
+    alt: "graphene",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/postgres.png",
-    alt: "postgres"
+    alt: "postgres",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/aws.jpg",
-    alt: "aws"
+    alt: "aws",
+    width: "50px"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
   }, "\n        .container {\n        }\n        .img-box {\n          padding: 1rem;\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0.3rem;\n        }\n      "));
@@ -1707,6 +1725,16 @@ __webpack_require__.r(__webpack_exports__);
   }, "RateLink is the shipping Freight management system. User can sign up and make their account and save their shipping freight data and search instantly by from/to location, shipping liners, container types, period. All data is saved safely in Amazon cloud service. It has a following/follower model. So, user can share their data if user allow to show them."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
   }, "Data visualization system will enhance your decision making more effectively. User can have a beautiful chart with their rate and their following `teller` user's data. User also can update their avatar and manage followers with user-friendly interface."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-title"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/mattdamon108/RateLink-Frontend",
+    target: "_blank"
+  }, "Frontend"), " ", ": React | Next.js | GraphQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/mattdamon108/RateLink-Backend_v2",
+    target: "_blank"
+  }, "Backend"), " ", ": Node | Django | Prisma | Postgres | AWS lambda"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
   }, "Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "stack"
@@ -1812,17 +1840,27 @@ __webpack_require__.r(__webpack_exports__);
     className: "sub-body"
   }, "RateLink mobile brings all features as same as RateLink web page has.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
+  }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/mattdamon108/RateLink-Mobile_v2",
+    target: "_blank"
+  }, "Source code"), " ", ": React Native | GraphQL"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-title"
   }, "Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "stack"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/reactnative.jpg",
-    alt: "reactnative"
+    alt: "reactnative",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/graphql.png",
-    alt: "graphql"
+    alt: "graphql",
+    width: "50px"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/images/works/stack_img/node.png",
-    alt: "node"
+    alt: "node",
+    width: "50px"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
   }, "\n        .content {\n          display: flex;\n          flex-direction: column;\n        }\n        #content-description {\n          display: flex;\n        }\n        #content-left {\n          display: flex;\n          align-items: flex-end;\n          padding: 1rem;\n        }\n        .img-box {\n          width: 400px;\n          margin: 0 auto;\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0.3rem;\n        }\n        @media screen and (max-width: 576px) {\n          #content-description {\n            flex-direction: column;\n          }\n          .img-box {\n            width: 50%;\n            margin: 0 auto;\n          }\n        }\n      "));
