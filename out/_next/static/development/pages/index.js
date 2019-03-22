@@ -1440,10 +1440,10 @@ __webpack_require__.r(__webpack_exports__);
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/Type-Any/Any-Poem/tree/master/frontend",
+    href: "https://github.com/Type-Any/Any-Poem/tree/develop/frontend",
     target: "_blank"
   }, "Frontend"), " ", ": React | Next.js | GraphQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/Type-Any/Any-Poem/tree/master/backend",
+    href: "https://github.com/Type-Any/Any-Poem/tree/develop/backend",
     target: "_blank"
   }, "Backend"), " ", ": Node | Postgres | GraphQL | Docker | AWS lambda"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
@@ -1912,12 +1912,13 @@ __webpack_require__.r(__webpack_exports__);
     className: "sub-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body-title"
-  }, "rust_graphql_api_boilerplate", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/mattdamon108/rust_graphql_api_boilerplate",
-    target: "_blank"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-github"
-  }))), "This is a GraphQL API boilerplate built with Rust. This api features user sign up, sign in, change password, change profile. Also, Json Web Token authentication is implemented."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "rust_graphql_api_boilerplate", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    src: "https://ghbtns.com/github-btn.html?user=mattdamon108&repo=rust_graphql_api_boilerplate&type=star&count=true",
+    frameborder: "0",
+    scrolling: "0",
+    width: "170px",
+    height: "20px"
+  })), "This is a GraphQL API boilerplate built with Rust. This api features user sign up, sign in, change password, change profile. Also, Json Web Token authentication is implemented."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body-title"
@@ -1938,7 +1939,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "docker"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n          display: flex;\n          align-items: center;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title iframe {\n          padding-left: 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
