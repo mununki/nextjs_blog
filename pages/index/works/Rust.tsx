@@ -10,12 +10,13 @@ export default () => {
           <div className="sub-body">
             <div className="sub-body-title">
               rust_graphql_api_boilerplate
-              <a
-                href="https://github.com/mattdamon108/rust_graphql_api_boilerplate"
-                target="_blank"
-              >
-                <i className="fab fa-github" />
-              </a>
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=mattdamon108&repo=rust_graphql_api_boilerplate&type=star&count=true"
+                frameborder="0"
+                scrolling="0"
+                width="170px"
+                height="20px"
+              />
             </div>
             This is a GraphQL API boilerplate built with Rust. This api features
             user sign up, sign in, change password, change profile. Also, Json
@@ -60,10 +61,15 @@ export default () => {
           font-size: 1.2rem;
           font-weight: bold;
           margin: 0 0 0.5rem 0;
+          display: flex;
+          align-items: center;
         }
         .sub-body-title i {
           font-weight: normal;
           margin: 0 1rem;
+        }
+        .sub-body-title iframe {
+          padding-left: 1rem;
         }
         .sub-body-title span {
           position: relative;
