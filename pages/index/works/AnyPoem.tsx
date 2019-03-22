@@ -19,7 +19,7 @@ export default () => {
             <ul>
               <li>
                 <a
-                  href="https://github.com/Type-Any/Any-Poem/tree/master/frontend"
+                  href="https://github.com/Type-Any/Any-Poem/tree/develop/frontend"
                   target="_blank"
                 >
                   Frontend
@@ -28,7 +28,7 @@ export default () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/Type-Any/Any-Poem/tree/master/backend"
+                  href="https://github.com/Type-Any/Any-Poem/tree/develop/backend"
                   target="_blank"
                 >
                   Backend
