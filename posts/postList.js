@@ -54,6 +54,15 @@ const postList = [
 	slug: "A late start, but a Big step forward"
 },
 {
+	title: "How to warm your lambda function properly",
+	createdAt: "2019-03-23",
+	filename: "2019-03-23-how-to-warm-lambda-function",
+	category: ["backend"],
+	tag: ["aws", "lambda"],
+	thumb: "2019-03-23_thumb.jpg",
+	slug: "Keep your lambda warm always"
+},
+{
 	title: "How to set state with data from apollo grapqhQL query",
 	createdAt: "2018-09-08",
 	filename: "2018-09-08-How-to-set-state-with-data-from-graphQL-query",
