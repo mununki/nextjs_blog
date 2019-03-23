@@ -87,8 +87,8 @@ functions:
 
 ```
 
-Since node8.10 in lambda runtime, `async/await` is available. I've made a request function warming and it returns a Promise. Then handler.warmer can call the warming function and it makes await till both frontend and backend app are running and respond to the request.
+Since node8.10 in lambda runtime, `async/await` is available. I've made a request function `warming` and it returns a `Promise`. Then `handler.warmer` can call the warming function and it makes `await` till both frontend and backend app are running and respond to the request.
 
 ## Conclusion
 
-In the case of invoking a lambda function, you can use AWS Cloudwatch event for it. It means your lambda function takes an event in lambda runtime and run the function with it and return context or callback. But you have a web app on lambda function which doesn't depend on normal events, you need to send an HTTP request to your web app on lambda. It is not much help to send a JSON data to your apps to keep warm.
+In the case of invoking a lambda function, you can use AWS Cloudwatch event for it. It means your lambda function takes an event in lambda runtime and run the function with it and return context or callback. But in case that you have a web app on lambda function which doesn't depend on normal events, you need to send an HTTP request to your web app on lambda. It is not much help to send a JSON data to your apps to keep warm.
