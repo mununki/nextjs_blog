@@ -2,6 +2,8 @@ import App, { Container, NextAppContext } from "next/app";
 import Head from "next/head";
 import React from "react";
 
+const isServer = typeof window === "undefined";
+
 class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }: NextAppContext) {
     let pageProps = {};
@@ -10,6 +12,9 @@ class MyApp extends App {
       pageProps = await Component.getInitialProps(ctx);
     }
 
+    // window.dataLayer = window.dataLayer || []; function gtag(){" "}
+    // {dataLayer.push(arguments)}
+    // gtag("js", new Date()); gtag("config", "UA-136784454-1");
     return { pageProps };
   }
 

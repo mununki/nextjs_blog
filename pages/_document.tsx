@@ -8,8 +8,23 @@ import Document, {
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: NextDocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    const prod = process.env.NODE_ENV === "production";
+    return { ...initialProps, prod };
   }
+
+  _setGoogleAnalytics = () => {
+    return {
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "${process.env.GA_USERID}");
+			`
+    };
+  };
+
   render() {
     return (
       <html lang="en">
@@ -97,6 +112,17 @@ export default class MyDocument extends Document {
             integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
             crossOrigin="anonymous"
           />
+          {this.props.prod && (
+            <>
+              <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id="${
+                  process.env.GA_USERID
+                }"`}
+              />
+              <script dangerouslySetInnerHTML={this._setGoogleAnalytics()} />
+            </>
+          )}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="Build my dreams with codes" />
           <meta name="theme-color" content="#222f3e" />
