@@ -31,6 +31,11 @@ export default () => {
               />
             </div>
           </div>
+          <div>
+            <a href="https://www.rate-link.com" target="_blank">
+              www.rate-link.com
+            </a>
+          </div>
           <div className="sub-title">description</div>
           <div className="sub-body">
             RateLink is the shipping Freight management system. User can sign up
