@@ -1718,7 +1718,10 @@ __webpack_require__.r(__webpack_exports__);
       top: "0px",
       overflow: "hidden"
     }
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.rate-link.com",
+    target: "_blank"
+  }, "www.rate-link.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
   }, "description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
