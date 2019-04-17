@@ -1593,28 +1593,14 @@ __webpack_require__.r(__webpack_exports__);
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "img-box"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      width: "100%",
-      height: "0px",
-      position: "relative",
-      paddingBottom: "63.750%"
-    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    src: "https://streamable.com/s/32a7a/bpiaja",
-    frameBorder: "0",
-    width: "100%",
-    height: "100%",
-    allowFullScreen: true,
-    style: {
-      width: "100%",
-      height: "100%",
-      position: "absolute",
-      left: "0px",
-      top: "0px",
-      overflow: "hidden"
-    }
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/H1JKLwmHkOU?controls=0",
+    frameborder: "0",
+    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+    allowfullscreen: true
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
   }, "description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
@@ -1697,28 +1683,14 @@ __webpack_require__.r(__webpack_exports__);
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "img-box"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      width: "100%",
-      height: "0px",
-      position: "relative",
-      paddingBottom: "55.625%"
-    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    src: "https://streamable.com/s/ompp5/qloeva",
-    frameBorder: "0",
-    width: "100%",
-    height: "100%",
-    allowFullScreen: true,
-    style: {
-      width: "100%",
-      height: "100%",
-      position: "absolute",
-      left: "0px",
-      top: "0px",
-      overflow: "hidden"
-    }
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/fQyz0B_y-yE?controls=0",
+    frameborder: "0",
+    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+    allowfullscreen: true
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.rate-link.com",
     target: "_blank"
   }, "www.rate-link.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1812,28 +1784,14 @@ __webpack_require__.r(__webpack_exports__);
     id: "content-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "img-box"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      width: "100%",
-      height: "0px",
-      position: "relative",
-      paddingBottom: "214.286%"
-    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    src: "https://streamable.com/s/3yhx5/etoqou",
-    frameBorder: "0",
-    width: "100%",
-    height: "100%",
-    allowFullScreen: true,
-    style: {
-      width: "100%",
-      height: "100%",
-      position: "absolute",
-      left: "0px",
-      top: "0px",
-      overflow: "hidden"
-    }
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/eIiCmgHF1AU?controls=0",
+    frameborder: "0",
+    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+    allowfullscreen: true
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "content-left"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
