@@ -21,6 +21,7 @@
   },
   "scripts": {
     "dev": "node server.js",
+    "dev-static": "node static.server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "export": "next export",
