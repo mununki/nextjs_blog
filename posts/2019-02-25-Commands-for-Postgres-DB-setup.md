@@ -28,6 +28,12 @@ postgres=# CREATE DATABASE [db_name];
 postgres=# CREATE USER [myuser] WITH ENCRYPTED PASSWORD '[password]';
 ```
 
+## Alter database owner
+
+```shell
+postgres=# ALTER DATABASE [db_name] OWNER TO [myuser];
+```
+
 ## Grant the privileges
 
 ```shell
