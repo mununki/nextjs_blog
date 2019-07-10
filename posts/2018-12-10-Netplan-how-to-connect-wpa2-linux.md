@@ -20,6 +20,12 @@ Netplan is the utility for easily configuring networking on a linux system. Ubun
 
 ## How to connect
 
+### Check the network interface
+
+```shell
+$ ifconfig -a
+```
+
 ### Configure \*.yaml
 
 Make new file with any name \*.yaml in `/etc/netplan`

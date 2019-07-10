@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import HeaderAbout from "../../components/HeaderAbout";
 import AnyPoem from "./works/AnyPoem";
+import Go from "./works/Go";
 import JSlib from "./works/JSlib";
 import Lodem from "./works/Lodem";
 import RateLink from "./works/RateLink";
@@ -14,7 +15,8 @@ const workList = [
   { id: 3, name: "lodem", alias: "Lodem" },
   { id: 4, name: "anypoem", alias: "Any-Poem" },
   { id: 5, name: "jslib", alias: "JS Library" },
-  { id: 6, name: "rust", alias: "Rust" }
+  { id: 6, name: "rust", alias: "Rust" },
+  { id: 7, name: "go", alias: "Go" }
 ];
 
 const WorkIndexSM = (props: { name: string; setName: (v: string) => void }) => {
@@ -24,7 +26,7 @@ const WorkIndexSM = (props: { name: string; setName: (v: string) => void }) => {
       ? null
       : workList.filter(w => w.id === currentWork[0].id - 1);
   const nextWork =
-    currentWork[0].id + 1 > 6
+    currentWork[0].id + 1 > 7
       ? null
       : workList.filter(w => w.id === currentWork[0].id + 1);
   return (
@@ -76,17 +78,17 @@ const WorkIndexSM = (props: { name: string; setName: (v: string) => void }) => {
   );
 };
 
-export default () => {
-  const useWorks = (value: string) => {
-    const [name, setWork] = useState(value);
+const useWorks = (value: string) => {
+  const [name, setWork] = useState(value);
 
-    const onClick = (v: string) => {
-      setWork(v);
-    };
-
-    return { name, onClick };
+  const onClick = (v: string) => {
+    setWork(v);
   };
 
+  return { name, onClick };
+};
+
+export default () => {
   const works = useWorks("ratelink");
 
   return (
@@ -151,6 +153,12 @@ export default () => {
                 >
                   Rust projects
                 </div>
+                <div
+                  onClick={() => works.onClick("go")}
+                  className={works.name === "go" ? "selected" : undefined}
+                >
+                  Go projects
+                </div>
               </div>
               <div className="about-work-index-sm">
                 <WorkIndexSM name={works.name} setName={works.onClick} />
@@ -162,6 +170,7 @@ export default () => {
                 {works.name === "anypoem" ? <AnyPoem /> : null}
                 {works.name === "jslib" ? <JSlib /> : null}
                 {works.name === "rust" ? <Rust /> : null}
+                {works.name === "go" ? <Go /> : null}
               </div>
             </div>
           </div>
@@ -181,7 +190,9 @@ export default () => {
                   and context. I'm focusing to improve the performance and
                   better experience for users. Not only SPA, I am fully aware of
                   how important SEO is, I built a couple of SSR web app projects
-                  with Next.js.
+                  with Next.js. Also, I'm very experienced with bundling assets
+                  using webpack and transpiling modern Javascript code(ES6) with
+                  babel.
                 </div>
                 <div className="about-skillset-subtitle">GraphQL</div>
                 <div className="about-skillset-description">
@@ -199,6 +210,12 @@ export default () => {
                   am very experienced with Node.js and Django to build a backend
                   api or server. I know how to deploy it on AWS with docker or
                   serverless.
+                </div>
+                <div className="about-skillset-subtitle">Go</div>
+                <div className="about-skillset-description">
+                  I'm confident with building a backend application with Go. I'm
+                  specially experienced with GraphQL backend with Go. And, I'm
+                  enjoying to build helper tools for development by myself.
                 </div>
                 <div className="about-skillset-subtitle">DevOps</div>
                 <div className="about-skillset-description">

@@ -5,40 +5,55 @@ export default () => {
     <>
       <div className="container">
         <div className="content">
-          <div className="sub-title">Rust projects</div>
+          <div className="sub-title">Go projects</div>
           <div className="sub-body">
             <div className="sub-body-title">
-              rust_graphql_api_boilerplate
+              go-graphql-api-boilerplate
               <iframe
-                src="https://ghbtns.com/github-btn.html?user=mattdamon108&repo=rust_graphql_api_boilerplate&type=star&count=true"
+                src="https://ghbtns.com/github-btn.html?user=mattdamon108&repo=go-graphql-api-boilerplate&type=star&count=true"
                 frameborder="0"
                 scrolling="0"
                 width="170px"
                 height="20px"
               />
             </div>
-            This is a GraphQL API boilerplate built with Rust. This api features
-            user sign up, sign in, change password, change profile. Also, Json
-            Web Token authentication is implemented.
+            This is a GraphQL API boilerplate built with Go. This API has
+            features `user sign up`, `sign in`, `change password`, `change
+            profile`. Also, JSON web token authentication is implemented.
           </div>
           <div className="sub-body">
             <div className="sub-body-title">
-              rust_front_matter_parser
-              <a
-                href="https://github.com/mattdamon108/rust_front_matter_parser"
-                target="_blank"
-              >
-                <i className="fab fa-github" />
-              </a>
+              gql-merge
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=mattdamon108&repo=gqlmerge&type=star&count=true"
+                frameborder="0"
+                scrolling="0"
+                width="170px"
+                height="20px"
+              />
             </div>
-            This is a front matter in markdown file(*.md, *.mdx) parser built
-            with Rust. The front matter is the metadata of markdown content. It
-            stays on top of markdown content and contains the metadata of
-            itself.
+            This is a GraphQL schema helper tool to merge and stitch modularized
+            GraphQL schema files(*.graphql, *.gql) into one schema file. It has
+            a feature to customize an indent size.
+          </div>
+          <div className="sub-body">
+            <div className="sub-body-title">
+              gw
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=mattdamon108&repo=gw&type=star&count=true"
+                frameborder="0"
+                scrolling="0"
+                width="170px"
+                height="20px"
+              />
+            </div>
+            This is a command wrapper to monitor any changes in target file
+            system. If it detect any file system changes, then GW will re-run a
+            command.
           </div>
           <div className="sub-title">Stack</div>
           <div className="stack">
-            <img src="/static/images/works/stack_img/rust.png" alt="rust" />
+            <img src="/static/images/works/stack_img/go.png" alt="go" />
             <img src="/static/images/works/stack_img/docker.png" alt="docker" />
           </div>
         </div>
