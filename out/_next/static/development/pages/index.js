@@ -338,12 +338,12 @@ process.umask = function() { return 0; };
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_efbb6627f5f0ec42c070 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_0f247e9cceb355cd81a4 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_efbb6627f5f0ec42c070 */ "dll-reference dll_efbb6627f5f0ec42c070"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0f247e9cceb355cd81a4 */ "dll-reference dll_0f247e9cceb355cd81a4"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -1138,11 +1138,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Footer */ "./components/Footer.tsx");
 /* harmony import */ var _components_HeaderAbout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/HeaderAbout */ "./components/HeaderAbout.tsx");
 /* harmony import */ var _works_AnyPoem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./works/AnyPoem */ "./pages/index/works/AnyPoem.tsx");
-/* harmony import */ var _works_JSlib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./works/JSlib */ "./pages/index/works/JSlib.tsx");
-/* harmony import */ var _works_Lodem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./works/Lodem */ "./pages/index/works/Lodem.tsx");
-/* harmony import */ var _works_RateLink__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./works/RateLink */ "./pages/index/works/RateLink.tsx");
-/* harmony import */ var _works_RateLinkMobile__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./works/RateLinkMobile */ "./pages/index/works/RateLinkMobile.tsx");
-/* harmony import */ var _works_Rust__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./works/Rust */ "./pages/index/works/Rust.tsx");
+/* harmony import */ var _works_Go__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./works/Go */ "./pages/index/works/Go.tsx");
+/* harmony import */ var _works_JSlib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./works/JSlib */ "./pages/index/works/JSlib.tsx");
+/* harmony import */ var _works_Lodem__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./works/Lodem */ "./pages/index/works/Lodem.tsx");
+/* harmony import */ var _works_RateLink__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./works/RateLink */ "./pages/index/works/RateLink.tsx");
+/* harmony import */ var _works_RateLinkMobile__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./works/RateLinkMobile */ "./pages/index/works/RateLinkMobile.tsx");
+/* harmony import */ var _works_Rust__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./works/Rust */ "./pages/index/works/Rust.tsx");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -1150,6 +1151,7 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -1184,6 +1186,10 @@ var workList = [{
   id: 6,
   name: "rust",
   alias: "Rust"
+}, {
+  id: 7,
+  name: "go",
+  alias: "Go"
 }];
 
 var WorkIndexSM = function WorkIndexSM(props) {
@@ -1193,7 +1199,7 @@ var WorkIndexSM = function WorkIndexSM(props) {
   var previousWork = currentWork[0].id - 1 < 1 ? null : workList.filter(function (w) {
     return w.id === currentWork[0].id - 1;
   });
-  var nextWork = currentWork[0].id + 1 > 6 ? null : workList.filter(function (w) {
+  var nextWork = currentWork[0].id + 1 > 7 ? null : workList.filter(function (w) {
     return w.id === currentWork[0].id + 1;
   });
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1219,23 +1225,23 @@ var WorkIndexSM = function WorkIndexSM(props) {
   }, "\n          .container {\n            display: flex;\n          }\n          .current {\n            flex: 1;\n            text-align: center;\n            padding: 0.5rem;\n          }\n          .index {\n            flex: 1;\n            text-align: center;\n            cursor: pointer;\n            color: var(--text-link-color);\n            text-decoration: underline;\n            padding: 0.5rem;\n          }\n        "));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var useWorks = function useWorks(value) {
-    var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(value),
-        _useState2 = _slicedToArray(_useState, 2),
-        name = _useState2[0],
-        setWork = _useState2[1];
+var useWorks = function useWorks(value) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(value),
+      _useState2 = _slicedToArray(_useState, 2),
+      name = _useState2[0],
+      setWork = _useState2[1];
 
-    var onClick = function onClick(v) {
-      setWork(v);
-    };
-
-    return {
-      name: name,
-      onClick: onClick
-    };
+  var onClick = function onClick(v) {
+    setWork(v);
   };
 
+  return {
+    name: name,
+    onClick: onClick
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
   var works = useWorks("ratelink");
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "about-container"
@@ -1291,14 +1297,19 @@ var WorkIndexSM = function WorkIndexSM(props) {
       return works.onClick("rust");
     },
     className: works.name === "rust" ? "selected" : undefined
-  }, "Rust projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Rust projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    onClick: function onClick() {
+      return works.onClick("go");
+    },
+    className: works.name === "go" ? "selected" : undefined
+  }, "Go projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-work-index-sm"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(WorkIndexSM, {
     name: works.name,
     setName: works.onClick
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-work-content"
-  }, works.name === "ratelink" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_RateLink__WEBPACK_IMPORTED_MODULE_6__["default"], null) : null, works.name === "ratelinkmobile" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_RateLinkMobile__WEBPACK_IMPORTED_MODULE_7__["default"], null) : null, works.name === "lodem" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_Lodem__WEBPACK_IMPORTED_MODULE_5__["default"], null) : null, works.name === "anypoem" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_AnyPoem__WEBPACK_IMPORTED_MODULE_3__["default"], null) : null, works.name === "jslib" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_JSlib__WEBPACK_IMPORTED_MODULE_4__["default"], null) : null, works.name === "rust" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_Rust__WEBPACK_IMPORTED_MODULE_8__["default"], null) : null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }, works.name === "ratelink" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_RateLink__WEBPACK_IMPORTED_MODULE_7__["default"], null) : null, works.name === "ratelinkmobile" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_RateLinkMobile__WEBPACK_IMPORTED_MODULE_8__["default"], null) : null, works.name === "lodem" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_Lodem__WEBPACK_IMPORTED_MODULE_6__["default"], null) : null, works.name === "anypoem" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_AnyPoem__WEBPACK_IMPORTED_MODULE_3__["default"], null) : null, works.name === "jslib" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_JSlib__WEBPACK_IMPORTED_MODULE_5__["default"], null) : null, works.name === "rust" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_Rust__WEBPACK_IMPORTED_MODULE_9__["default"], null) : null, works.name === "go" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_works_Go__WEBPACK_IMPORTED_MODULE_4__["default"], null) : null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "about-skillset"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section-container"
@@ -1314,7 +1325,7 @@ var WorkIndexSM = function WorkIndexSM(props) {
     className: "about-skillset-subtitle"
   }, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-description"
-  }, "I am fully confident to build frontend web app with React. I deeply understand how React works with state, lifecycle, hooks and context. I'm focusing to improve the performance and better experience for users. Not only SPA, I am fully aware of how important SEO is, I built a couple of SSR web app projects with Next.js."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "I am fully confident to build frontend web app with React. I deeply understand how React works with state, lifecycle, hooks and context. I'm focusing to improve the performance and better experience for users. Not only SPA, I am fully aware of how important SEO is, I built a couple of SSR web app projects with Next.js. Also, I'm very experienced with bundling assets using webpack and transpiling modern Javascript code(ES6) with babel."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-subtitle"
   }, "GraphQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-description"
@@ -1323,6 +1334,10 @@ var WorkIndexSM = function WorkIndexSM(props) {
   }, "Node.js and Django"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-description"
   }, "I fully understand how http requet/response works with headers, cors, authorization, and json web authentication. I am very experienced with Node.js and Django to build a backend api or server. I know how to deploy it on AWS with docker or serverless."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about-skillset-subtitle"
+  }, "Go"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about-skillset-description"
+  }, "I'm confident with building a backend application with Go. I'm specially experienced with GraphQL backend with Go. And, I'm enjoying to build helper tools for development by myself."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-subtitle"
   }, "DevOps"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-skillset-description"
@@ -1496,6 +1511,91 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./pages/index/works/Go.tsx":
+/*!**********************************!*\
+  !*** ./pages/index/works/Go.tsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-title"
+  }, "Go projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body-title"
+  }, "go-graphql-api-boilerplate", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    src: "https://ghbtns.com/github-btn.html?user=mattdamon108&repo=go-graphql-api-boilerplate&type=star&count=true",
+    frameborder: "0",
+    scrolling: "0",
+    width: "170px",
+    height: "20px"
+  })), "This is a GraphQL API boilerplate built with Go. This API has features `user sign up`, `sign in`, `change password`, `change profile`. Also, JSON web token authentication is implemented."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body-title"
+  }, "gql-merge", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    src: "https://ghbtns.com/github-btn.html?user=mattdamon108&repo=gqlmerge&type=star&count=true",
+    frameborder: "0",
+    scrolling: "0",
+    width: "170px",
+    height: "20px"
+  })), "This is a GraphQL schema helper tool to merge and stitch modularized GraphQL schema files(*.graphql, *.gql) into one schema file. It has a feature to customize an indent size."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-body-title"
+  }, "gw", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    src: "https://ghbtns.com/github-btn.html?user=mattdamon108&repo=gw&type=star&count=true",
+    frameborder: "0",
+    scrolling: "0",
+    width: "170px",
+    height: "20px"
+  })), "This is a command wrapper to monitor any changes in target file system. If it detect any file system changes, then GW will re-run a command."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sub-title"
+  }, "Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "stack"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/works/stack_img/go.png",
+    alt: "go"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/works/stack_img/docker.png",
+    alt: "docker"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    jsx: true
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n          display: flex;\n          flex-wrap: wrap;\n          align-items: center;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title iframe {\n          padding-left: 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+});
+    (function (Component, route) {
+      if(!Component) return
+      if (false) {}
+      module.hot.accept()
+      Component.__route = route
+
+      if (module.hot.status() === 'idle') return
+
+      var components = next.router.components
+      for (var r in components) {
+        if (!components.hasOwnProperty(r)) continue
+
+        if (components[r].Component.__route === route) {
+          next.router.update(r, Component)
+        }
+      }
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/index/works/Go")
+  
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
 /***/ "./pages/index/works/JSlib.tsx":
 /*!*************************************!*\
   !*** ./pages/index/works/JSlib.tsx ***!
@@ -1593,14 +1693,28 @@ __webpack_require__.r(__webpack_exports__);
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "img-box"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: "100%",
+      height: "0px",
+      position: "relative",
+      paddingBottom: "63.750%"
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/H1JKLwmHkOU?controls=0",
-    frameborder: "0",
-    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-    allowfullscreen: true
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    src: "https://streamable.com/s/32a7a/bpiaja",
+    frameBorder: "0",
+    width: "100%",
+    height: "100%",
+    allowFullScreen: true,
+    style: {
+      width: "100%",
+      height: "100%",
+      position: "absolute",
+      left: "0px",
+      top: "0px",
+      overflow: "hidden"
+    }
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
   }, "description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-body"
@@ -1683,14 +1797,28 @@ __webpack_require__.r(__webpack_exports__);
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "img-box"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: "100%",
+      height: "0px",
+      position: "relative",
+      paddingBottom: "55.625%"
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/fQyz0B_y-yE?controls=0",
-    frameborder: "0",
-    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-    allowfullscreen: true
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    src: "https://streamable.com/s/ompp5/qloeva",
+    frameBorder: "0",
+    width: "100%",
+    height: "100%",
+    allowFullScreen: true,
+    style: {
+      width: "100%",
+      height: "100%",
+      position: "absolute",
+      left: "0px",
+      top: "0px",
+      overflow: "hidden"
+    }
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.rate-link.com",
     target: "_blank"
   }, "www.rate-link.com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1784,14 +1912,28 @@ __webpack_require__.r(__webpack_exports__);
     id: "content-description"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "img-box"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: "100%",
+      height: "0px",
+      position: "relative",
+      paddingBottom: "214.286%"
+    }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/eIiCmgHF1AU?controls=0",
-    frameborder: "0",
-    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-    allowfullscreen: true
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    src: "https://streamable.com/s/3yhx5/etoqou",
+    frameBorder: "0",
+    width: "100%",
+    height: "100%",
+    allowFullScreen: true,
+    style: {
+      width: "100%",
+      height: "100%",
+      position: "absolute",
+      left: "0px",
+      top: "0px",
+      overflow: "hidden"
+    }
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "content-left"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
@@ -1864,8 +2006,6 @@ __webpack_require__.r(__webpack_exports__);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "image-box"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-title"
@@ -1900,7 +2040,7 @@ __webpack_require__.r(__webpack_exports__);
     alt: "docker"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     jsx: true
-  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n          display: flex;\n          align-items: center;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title iframe {\n          padding-left: 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
+  }, "\n        .container {\n        }\n        #image-box {\n        }\n        .sub-title {\n          font-size: 1.2rem;\n          color: grey;\n          margin: 1rem 0;\n        }\n        .sub-body {\n          margin: 0 0 1.5rem 0;\n        }\n        .sub-body .sub-body-title {\n          font-size: 1.2rem;\n          font-weight: bold;\n          margin: 0 0 0.5rem 0;\n          display: flex;\n          flex-wrap: wrap;\n          align-items: center;\n        }\n        .sub-body-title i {\n          font-weight: normal;\n          margin: 0 1rem;\n        }\n        .sub-body-title iframe {\n          padding-left: 1rem;\n        }\n        .sub-body-title span {\n          position: relative;\n          top: 3px;\n        }\n        .stack {\n          display: flex;\n          flex-direction: columns;\n          flex-wrap: wrap;\n        }\n        .stack img {\n          width: 50px;\n          height: 50px;\n          margin: 0 0.5rem;\n        }\n      "));
 });
     (function (Component, route) {
       if(!Component) return
@@ -1938,14 +2078,14 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ "dll-reference dll_efbb6627f5f0ec42c070":
+/***/ "dll-reference dll_0f247e9cceb355cd81a4":
 /*!*******************************************!*\
-  !*** external "dll_efbb6627f5f0ec42c070" ***!
+  !*** external "dll_0f247e9cceb355cd81a4" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_efbb6627f5f0ec42c070;
+module.exports = dll_0f247e9cceb355cd81a4;
 
 /***/ })
 
