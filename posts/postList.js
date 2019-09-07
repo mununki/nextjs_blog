@@ -54,6 +54,15 @@ const postList = [
 	slug: "A late start, but a Big step forward"
 },
 {
+	title: "How to make a NuGet package for class library",
+	createdAt: "2019-09-07",
+	filename: "2019-09-07-how-to-make-nuget-package",
+	category: ["backend", "dotnetcore", ".net", "core"],
+	tag: ["microsoft", "dotnetcore"],
+	thumb: "2019-09-07_thumb.jpg",
+	slug: "Make a NuGet package with dotnet CLI"
+},
+{
 	title: "How to warm your lambda function properly",
 	createdAt: "2019-03-23",
 	filename: "2019-03-23-how-to-warm-lambda-function",
