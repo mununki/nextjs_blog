@@ -8,7 +8,7 @@
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.0.1",
     "dayjs": "^1.8.10",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "next": "^7.0.3",
     "next-mdx-frontmatter": "^0.0.2",
     "node-sass": "^4.11.0",
